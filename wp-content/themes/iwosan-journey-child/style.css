@@ -78,3 +78,79 @@ Text Domain: iwosan-journey-child
 	margin-top: 8px;
 	text-align: center;
 }
+
+.ij-eyebrow {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.06em;
+	color: #4DAEAF;
+	text-transform: uppercase;
+	margin: 0 0 8px;
+}
+
+.ij-podcast-host { display: flex; align-items: center; gap: 16px; margin: 20px 0; }
+.ij-podcast-host img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
+.ij-podcast-host-name { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 15px; color: #1C3A2A; }
+.ij-podcast-host-role { font-size: 13px; color: #8B5E3C; }
+
+.ij-quote {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C3A2A;
+	border-left: 3px solid #C9A052;
+	padding-left: 20px;
+	margin: 24px 0;
+}
+
+.ij-platform-btns { display: flex; gap: 12px; flex-wrap: wrap; margin: 20px 0; }
+.ij-platform-btn {
+	border: 1px solid #8B5E3C;
+	color: #8B5E3C;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 10px 18px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.ij-episode-list { margin: 24px 0; border-top: 1px solid #E5E0D5; }
+.ij-episode-item {
+	display: flex;
+	gap: 18px;
+	align-items: baseline;
+	padding: 16px 0;
+	border-bottom: 1px solid #E5E0D5;
+}
+.ij-ep-num { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 20px; color: #C9A052; width: 30px; flex-shrink: 0; }
+.ij-ep-title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 15px; color: #1C3A2A; margin-bottom: 2px; }
+.ij-ep-meta { font-size: 13px; color: #8B5E3C; }
+
+.ij-journal-teasers { display: flex; flex-wrap: wrap; gap: 20px; margin: 24px 0; }
+.ij-journal-teaser {
+	flex: 1;
+	min-width: 200px;
+	background: #FAF8F4;
+	border-radius: 8px;
+	padding: 20px;
+}
+.ij-journal-teaser h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #1C3A2A;
+	margin: 0 0 8px;
+}
+.ij-journal-teaser p { font-size: 13px; color: #8B5E3C; margin: 0; }
+
+.ij-newsletter-cta {
+	background: #F3E9DA;
+	padding: 40px 32px;
+	text-align: center;
+	max-width: 760px;
+	margin: 0 auto 56px;
+	border-radius: 8px;
+}
+.ij-newsletter-cta h2 { margin-top: 0; }
