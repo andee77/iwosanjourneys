@@ -53,9 +53,10 @@ Text Domain: iwosan-journey-child
 .ij-section em { color: #8B5E3C; }
 
 .ij-inline-photo { margin: 8px 0 32px; text-align: center; }
-.ij-inline-photo img {
-	max-width: 320px;
-	width: 100%;
+.ij-section .ij-inline-photo img {
+	max-width: 80px !important;
+	width: 80px !important;
+	height: auto !important;
 	border-radius: 8px;
 	display: block;
 	margin: 0 auto;
