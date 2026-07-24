@@ -8,4 +8,10 @@ function iwosan_journey_child_enqueue_styles() {
 		array( 'kadence-parent-style' ),
 		wp_get_theme()->get( 'Version' )
 	);
+	wp_enqueue_style(
+		'iwosan-journey-fonts',
+		'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap',
+		array(),
+		null
+	);
 }
