@@ -21,7 +21,7 @@ get_header();
 
 	<h2>The gap I couldn't unsee</h2>
 	<figure class="ij-inline-photo float-left">
-		<img src="http://iwosanjourney.com/wp-content/uploads/2026/07/Gemini_Generated_Image_n3jltan3jltan3jl.png" alt="Andrea Peaten-Headen, Founder and Chief Visionary of Iwosan Journey's">
+		<img src="https://iwosanjourney.com/wp-content/uploads/2026/07/andrea-photo-resized.jpg" alt="Andrea Peaten-Headen, Founder and Chief Visionary of Iwosan Journey's">
 		<figcaption>Andrea Peaten-Headen, Founder &amp; Chief Visionary</figcaption>
 	</figure>
 	<p>For nearly 20 years, I've worked in public health — training immunization ambassadors, coordinating national health conferences, sitting inside the systems that are supposed to catch people when they're most vulnerable. Somewhere along the way, I noticed something the U.S. healthcare system quietly leaves out: the kind of dedicated, high-quality postpartum care centers that new mothers in other countries take for granted simply don't exist here.</p>
@@ -33,7 +33,7 @@ get_header();
 	<p>Sitting at my grandmother's kitchen table one day, it clicked: menopause was never just a woman's experience. It reaches into a partner's life, a family's rhythm, a career, a sense of self — for everyone involved.</p>
 
 	<h2>From crisis to calling</h2>
-	<figure class="ij-inline-photo float-right">
+	<figure class="ij-inline-photo float-right size-small">
 		<img src="http://iwosanjourney.com/wp-content/uploads/2026/07/Co-Founder-LAH.png" alt="LaDon A. Headen Jr., Co-Founder of Iwosan Journey's">
 		<figcaption>LaDon A. Headen Jr., Co-Founder</figcaption>
 	</figure>

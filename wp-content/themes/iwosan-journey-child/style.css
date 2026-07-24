@@ -54,6 +54,7 @@ Text Domain: iwosan-journey-child
 .ij-section em { color: #8B5E3C; }
 
 .ij-inline-photo { width: 2.5in; }
+.ij-inline-photo.size-small { width: 2in; }
 .ij-inline-photo.float-left { float: left; margin: 4px 28px 20px 0; }
 .ij-inline-photo.float-right { float: right; margin: 4px 0 20px 28px; }
 .ij-section .ij-inline-photo img {
@@ -63,6 +64,11 @@ Text Domain: iwosan-journey-child
 	object-fit: cover !important;
 	border-radius: 8px;
 	display: block;
+}
+.ij-section .ij-inline-photo.size-small img {
+	width: 2in !important;
+	height: 3.2in !important;
+	max-width: 2in !important;
 }
 .ij-inline-photo figcaption {
 	font-family: 'Montserrat', sans-serif;
