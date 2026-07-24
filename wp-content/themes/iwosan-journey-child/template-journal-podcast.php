@@ -4,12 +4,14 @@
  * Description: Custom coded Journal & Podcast page for Iwosan Journey's
  */
 
+$episode_thumb = 'https://iwosanjourney.com/wp-content/uploads/2026/07/Still_That_Woman-Podcast-Icon-scaled.png';
+
 get_header();
 ?>
 
-<section class="ij-page-banner">
-	<h1>Journal &amp; Podcast</h1>
-</section>
+<div class="ij-image-banner">
+	<img src="https://iwosanjourney.com/wp-content/uploads/2026/07/IL-Logo-Banner-scaled.png" alt="Iwosan Journey's — Guiding you back to you">
+</div>
 
 <svg class="ij-path-divider" viewBox="0 0 1080 40" preserveAspectRatio="none" aria-hidden="true">
 	<path d="M0 20 Q 270 0, 540 20 T 1080 20" fill="none" stroke="#C9A052" stroke-width="1.5"/>
@@ -35,40 +37,45 @@ get_header();
 	<div class="ij-quote">"You're not crazy. You're not alone… and you are Still That Woman."</div>
 
 	<div class="ij-episode-list">
-		<div class="ij-episode-item">
-			<div class="ij-ep-num">01</div>
-			<div>
+		<div class="ij-episode-row">
+			<div class="ij-episode-thumb"><img src="<?php echo esc_url( $episode_thumb ); ?>" alt="Still That Woman"></div>
+			<div class="ij-episode-info">
 				<div class="ij-ep-title">Why No One Told Us About Perimenopause</div>
 				<div class="ij-ep-meta">42 min · The Beginning</div>
 			</div>
+			<div class="ij-episode-play"><span>&#9654;</span></div>
 		</div>
-		<div class="ij-episode-item">
-			<div class="ij-ep-num">02</div>
-			<div>
+		<div class="ij-episode-row">
+			<div class="ij-episode-thumb"><img src="<?php echo esc_url( $episode_thumb ); ?>" alt="Still That Woman"></div>
+			<div class="ij-episode-info">
 				<div class="ij-ep-title">A Husband's Honest Take: LaDon's Story</div>
 				<div class="ij-ep-meta">38 min · Partners in Transition</div>
 			</div>
+			<div class="ij-episode-play"><span>&#9654;</span></div>
 		</div>
-		<div class="ij-episode-item">
-			<div class="ij-ep-num">03</div>
-			<div>
+		<div class="ij-episode-row">
+			<div class="ij-episode-thumb"><img src="<?php echo esc_url( $episode_thumb ); ?>" alt="Still That Woman"></div>
+			<div class="ij-episode-info">
 				<div class="ij-ep-title">Medical Gaslighting Is Real — Here's What to Do</div>
 				<div class="ij-ep-meta">51 min · Self-Advocacy</div>
 			</div>
+			<div class="ij-episode-play"><span>&#9654;</span></div>
 		</div>
-		<div class="ij-episode-item">
-			<div class="ij-ep-num">04</div>
-			<div>
+		<div class="ij-episode-row">
+			<div class="ij-episode-thumb"><img src="<?php echo esc_url( $episode_thumb ); ?>" alt="Still That Woman"></div>
+			<div class="ij-episode-info">
 				<div class="ij-ep-title">Is Medical Travel Right for You?</div>
 				<div class="ij-ep-meta">44 min · Global Health</div>
 			</div>
+			<div class="ij-episode-play"><span>&#9654;</span></div>
 		</div>
-		<div class="ij-episode-item">
-			<div class="ij-ep-num">05</div>
-			<div>
+		<div class="ij-episode-row">
+			<div class="ij-episode-thumb"><img src="<?php echo esc_url( $episode_thumb ); ?>" alt="Still That Woman"></div>
+			<div class="ij-episode-info">
 				<div class="ij-ep-title">Men's Health: The Conversation We're Not Having</div>
 				<div class="ij-ep-meta">47 min · Men's Vitality</div>
 			</div>
+			<div class="ij-episode-play"><span>&#9654;</span></div>
 		</div>
 	</div>
 
