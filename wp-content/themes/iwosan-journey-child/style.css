@@ -91,6 +91,16 @@ Text Domain: iwosan-journey-child
 	margin: 0 0 8px;
 }
 
+.ij-eyebrow-journal {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	letter-spacing: 0.02em;
+	color: #4DAEAF;
+	text-transform: uppercase;
+	margin: 56px 0 8px;
+}
+
 .ij-podcast-host { display: flex; align-items: center; gap: 16px; margin: 20px 0; }
 .ij-section .ij-podcast-host img {
 	width: 64px !important;

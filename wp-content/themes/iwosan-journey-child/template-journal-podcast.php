@@ -84,7 +84,7 @@ get_header();
 		<a href="#" class="ij-platform-btn">Listen on Spotify</a>
 	</div>
 
-	<div class="ij-eyebrow">The Journal</div>
+	<div class="ij-eyebrow-journal">The Journal</div>
 	<h2>Reflections &amp; resources</h2>
 	<p>Written pieces are on the way, covering the same ground the podcast does — one topic at a time.</p>
 
