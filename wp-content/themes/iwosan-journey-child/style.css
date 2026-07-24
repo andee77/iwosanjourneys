@@ -51,3 +51,20 @@ Text Domain: iwosan-journey-child
 .ij-section li { font-size: 15px; line-height: 1.75; color: #3D3D3A; margin-bottom: 10px; }
 .ij-section a { color: #8B5E3C; font-weight: 700; text-decoration: none; }
 .ij-section em { color: #8B5E3C; }
+
+.ij-inline-photo { margin: 8px 0 32px; text-align: center; }
+.ij-inline-photo img {
+	max-width: 320px;
+	width: 100%;
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+}
+.ij-inline-photo figcaption {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #8B5E3C;
+	margin-top: 10px;
+	letter-spacing: 0.02em;
+}
