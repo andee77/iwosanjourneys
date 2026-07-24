@@ -44,28 +44,31 @@ Text Domain: iwosan-journey-child
 	font-size: 22px;
 	color: #1C3A2A;
 	margin: 40px 0 16px;
+	clear: both;
 }
 .ij-section h2:first-child { margin-top: 0; }
 .ij-section p { font-size: 15px; line-height: 1.75; color: #3D3D3A; margin: 0 0 18px; }
-.ij-section ul { margin: 0 0 18px; padding-left: 20px; }
+.ij-section ul { margin: 0 0 18px; padding-left: 20px; clear: both; }
 .ij-section li { font-size: 15px; line-height: 1.75; color: #3D3D3A; margin-bottom: 10px; }
 .ij-section a { color: #8B5E3C; font-weight: 700; text-decoration: none; }
 .ij-section em { color: #8B5E3C; }
 
-.ij-inline-photo { margin: 8px 0 32px; text-align: center; }
+.ij-inline-photo { width: 2.5in; }
+.ij-inline-photo.float-left { float: left; margin: 4px 28px 20px 0; }
+.ij-inline-photo.float-right { float: right; margin: 4px 0 20px 28px; }
 .ij-section .ij-inline-photo img {
-	max-width: 80px !important;
-	width: 80px !important;
-	height: auto !important;
+	width: 2.5in !important;
+	height: 4in !important;
+	max-width: 2.5in !important;
+	object-fit: cover !important;
 	border-radius: 8px;
 	display: block;
-	margin: 0 auto;
 }
 .ij-inline-photo figcaption {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	color: #8B5E3C;
-	margin-top: 10px;
-	letter-spacing: 0.02em;
+	margin-top: 8px;
+	text-align: center;
 }

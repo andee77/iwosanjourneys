@@ -19,12 +19,11 @@ get_header();
 
 	<p>Every brand has an origin story. Ours started at two very different tables — a hospital conference room, and my grandmother's kitchen table — and ended in the same place: the realization that people navigating major health transitions deserve a safety net that simply didn't exist.</p>
 
-	<figure class="ij-inline-photo">
+	<h2>The gap I couldn't unsee</h2>
+	<figure class="ij-inline-photo float-left">
 		<img src="http://iwosanjourney.com/wp-content/uploads/2026/07/Gemini_Generated_Image_n3jltan3jltan3jl.png" alt="Andrea Peaten-Headen, Founder and Chief Visionary of Iwosan Journey's">
 		<figcaption>Andrea Peaten-Headen, Founder &amp; Chief Visionary</figcaption>
 	</figure>
-
-	<h2>The gap I couldn't unsee</h2>
 	<p>For nearly 20 years, I've worked in public health — training immunization ambassadors, coordinating national health conferences, sitting inside the systems that are supposed to catch people when they're most vulnerable. Somewhere along the way, I noticed something the U.S. healthcare system quietly leaves out: the kind of dedicated, high-quality postpartum care centers that new mothers in other countries take for granted simply don't exist here.</p>
 	<p>That observation sent me down a rabbit hole into medical tourism — and what I found was a massive, overlooked gap. Countless people want to travel abroad for premium, more affordable care. What they don't have is the knowledge, the logistics, or the safety net to do it with confidence.</p>
 
@@ -34,13 +33,11 @@ get_header();
 	<p>Sitting at my grandmother's kitchen table one day, it clicked: menopause was never just a woman's experience. It reaches into a partner's life, a family's rhythm, a career, a sense of self — for everyone involved.</p>
 
 	<h2>From crisis to calling</h2>
-	<p>That shared struggle didn't just change our relationship. It became the foundation of a business partnership.</p>
-
-	<figure class="ij-inline-photo">
+	<figure class="ij-inline-photo float-right">
 		<img src="http://iwosanjourney.com/wp-content/uploads/2026/07/Co-Founder-LAH.png" alt="LaDon A. Headen Jr., Co-Founder of Iwosan Journey's">
 		<figcaption>LaDon A. Headen Jr., Co-Founder</figcaption>
 	</figure>
-
+	<p>That shared struggle didn't just change our relationship. It became the foundation of a business partnership.</p>
 	<p>Today, LaDon serves as Co-Founder — the essential "voice of the partner" in everything we build, and the future face of our upcoming Men's Health division. What we went through together is exactly why Iwosan Journey's exists: to be the non-clinical intermediary and safety net that lets people facing major health transitions not just survive them, but navigate them with dignity, clarity, and a real plan.</p>
 
 	<h2>What that looks like today</h2>
