@@ -200,25 +200,51 @@ Text Domain: iwosan-journey-child
 .ij-newsletter-cta h2 { margin-top: 0; }
 
 .ij-custom-footer {
-	max-width: 1080px;
-	margin: 0 auto;
-	padding: 24px 32px;
+	background: #0A1F44;
+	max-width: none;
+	margin: 0;
+	padding: 32px 48px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	gap: 12px;
+	gap: 20px;
 }
-.ij-custom-footer-copyright {
-	font-family: 'Lato', sans-serif;
-	font-size: 13px;
-	color: #8B5E3C;
-}
-.ij-custom-footer-nav { display: flex; gap: 20px; flex-wrap: wrap; }
-.ij-custom-footer-nav a {
+.ij-footer-brand-name {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 12px;
-	color: #1C3A2A;
+	font-style: italic;
+	font-size: 20px;
+	color: #C9A052;
+}
+.ij-footer-brand-tagline {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: #D9CDBB;
+	margin-top: 4px;
+}
+.ij-footer-nav { display: flex; gap: 20px; flex-wrap: wrap; }
+.ij-footer-nav a {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: #FAF8F4;
 	text-decoration: none;
+}
+.ij-footer-meta { text-align: right; }
+.ij-footer-copyright {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #D9CDBB;
+}
+.ij-footer-domain {
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 11px;
+	letter-spacing: 0.04em;
+	color: #8B98B8;
+	margin-top: 4px;
+	text-transform: uppercase;
+}
+@media (max-width: 640px) {
+	.ij-custom-footer { flex-direction: column; align-items: flex-start; text-align: left; }
+	.ij-footer-meta { text-align: left; }
 }
