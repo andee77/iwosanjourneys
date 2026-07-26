@@ -66,12 +66,14 @@ get_header();
 	text-decoration: none;
 	letter-spacing: 0.02em;
 }
-.ij-story-photo {
-	width: 280px; height: 220px; flex-shrink: 0;
-	background: #EDE6D6;
-	border-radius: 8px;
-	display: flex; align-items: center; justify-content: center;
-	color: #8B5E3C; font-size: 13px;
+img.ij-story-photo {
+	width: 280px !important;
+	height: 220px !important;
+	max-width: 280px !important;
+	flex-shrink: 0;
+	object-fit: cover !important;
+	border-radius: 8px !important;
+	display: block;
 }
 
 .ij-pillars { background: #4DAEAF; padding: 64px 32px; }
@@ -181,7 +183,7 @@ get_header();
 				<p>It started at two tables — a hospital conference room, and a grandmother's kitchen table. Both led to the same realization: people navigating major health transitions deserve a safety net that didn't exist yet. Iwosan Journey's was born from that gap, and built to close it.</p>
 				<a href="/our-story/">Read our story →</a>
 			</div>
-			<div class="ij-story-photo">Photo</div>
+			<img class="ij-story-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/07/20231016_092056-scaled.jpg" alt="Andrea Peaten-Headen, Founder of Iwosan Journey's">
 		</div>
 	</section>
 
