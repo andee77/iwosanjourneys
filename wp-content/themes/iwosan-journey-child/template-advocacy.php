@@ -78,12 +78,12 @@ get_header();
 
 	<h2>Further reading</h2>
 	<ul>
-		<li>Empowering Patients: How Self-Advocacy Improves Health Outcomes in Serious Illness — Center to Advance Palliative Care</li>
-		<li>My Health, My Voice: Why Self-Advocacy Is Important — CURE Today</li>
-		<li>Disparities in Migraine &amp; Pain Care: Self-Advocacy Tips for Patients of Color — Cheryl McJoy, Katy Oakley, and Fabiola Palomo, National Headache Foundation</li>
+		<li><a href="https://www.capc.org/events/case-reviews/empowering-patients-how-self-advocacy-improves-health-outcomes-in-serious-illness/" target="_blank" rel="noopener">Empowering Patients: How Self-Advocacy Improves Health Outcomes in Serious Illness</a> — Center to Advance Palliative Care</li>
+		<li><a href="https://www.curetoday.com/view/my-health-my-voice-why-self-advocacy-is-important" target="_blank" rel="noopener">My Health, My Voice: Why Self-Advocacy Is Important</a> — CURE Today</li>
+		<li><a href="https://headaches.org/blog/self-advocacy-tips-for-patients-of-color/" target="_blank" rel="noopener">Disparities in Migraine &amp; Pain Care: Self-Advocacy Tips for Patients of Color</a> — Cheryl McJoy, Katy Oakley, and Fabiola Palomo, National Headache Foundation</li>
 		<li>Self-Advocacy: What Every Black Woman Needs to Know — Robin D. Stone</li>
 		<li>Coaching Patients to Advocate for Themselves Can Offset Effects of Doctors' Racial Bias — Michigan Medicine Health Lab</li>
-		<li>Self-Advocacy in Healthcare and Why It Matters — UC LEND Blog</li>
+		<li><a href="https://uc-lend.med.ucla.edu/blog/blog-post-7-self-advocacy-in-healthcare-and-why-it" target="_blank" rel="noopener">Self-Advocacy in Healthcare and Why It Matters</a> — UC LEND Blog</li>
 	</ul>
 
 	<h2>References</h2>
