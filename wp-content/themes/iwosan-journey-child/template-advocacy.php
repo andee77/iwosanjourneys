@@ -21,18 +21,6 @@ get_header();
 
 	<p>If you've ever left an appointment feeling brushed off — your pain minimized, your concerns filed under "stress," a test you asked for never ordered — you already know why this page exists. That gap between what you're feeling and what gets taken seriously is real, and for women of color especially, it's wider and older than any single bad appointment.</p>
 
-	<h2>Why this hits different for women of color</h2>
-	<p>Walking into a clinical room and being understood shouldn't take extra work. But bias doesn't check itself at the door, and the intersection of race and gender means a lot of women get told their pain is nothing, their symptoms are just stress, their labs "look fine" — even when nothing about how they feel is fine.</p>
-	<p>Learning to advocate for yourself isn't optional here. It's protection.</p>
-
-	<p>What it actually gets you:</p>
-	<ul>
-		<li>It pushes back on the story that something's wrong with you, not the system.</li>
-		<li>It protects your energy — boundaries aren't rude, they're survival.</li>
-		<li>At work, it's the difference between being paid fairly and quietly absorbing more than your share.</li>
-		<li>In a doctor's office, it's the difference between being managed and actually being treated.</li>
-	</ul>
-
 	<h2>Four ways to make yourself heard</h2>
 
 	<p><strong>1. Get specific about your body.</strong><br>
@@ -50,6 +38,18 @@ get_header();
 
 	<p><strong>4. Don't take the first no as final — especially in big systems.</strong><br>
 	Female veterans and veterans of color often hit extra resistance navigating complex systems like the VA. If you're trying to get into something specialized — a Headache Center of Excellence, for example — persistence matters. A no today doesn't have to be the answer.</p>
+
+	<h2>Why this hits different for women of color</h2>
+	<p>Walking into a clinical room and being understood shouldn't take extra work. But bias doesn't check itself at the door, and the intersection of race and gender means a lot of women get told their pain is nothing, their symptoms are just stress, their labs "look fine" — even when nothing about how they feel is fine.</p>
+	<p>Learning to advocate for yourself isn't optional here. It's protection.</p>
+
+	<p>What it actually gets you:</p>
+	<ul>
+		<li>It pushes back on the story that something's wrong with you, not the system.</li>
+		<li>It protects your energy — boundaries aren't rude, they're survival.</li>
+		<li>At work, it's the difference between being paid fairly and quietly absorbing more than your share.</li>
+		<li>In a doctor's office, it's the difference between being managed and actually being treated.</li>
+	</ul>
 
 	<h2>It doesn't stop with you</h2>
 	<p>Here's the part people miss: advocating for yourself isn't selfish. Research backs this up — when patients are coached to advocate for themselves, it actually helps counteract implicit bias in the providers treating them.</p>
