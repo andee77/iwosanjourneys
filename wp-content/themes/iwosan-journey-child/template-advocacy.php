@@ -81,20 +81,9 @@ get_header();
 		<li><a href="https://www.capc.org/events/case-reviews/empowering-patients-how-self-advocacy-improves-health-outcomes-in-serious-illness/" target="_blank" rel="noopener">Empowering Patients: How Self-Advocacy Improves Health Outcomes in Serious Illness</a> — Center to Advance Palliative Care</li>
 		<li><a href="https://www.curetoday.com/view/my-health-my-voice-why-self-advocacy-is-important" target="_blank" rel="noopener">My Health, My Voice: Why Self-Advocacy Is Important</a> — CURE Today</li>
 		<li><a href="https://headaches.org/blog/self-advocacy-tips-for-patients-of-color/" target="_blank" rel="noopener">Disparities in Migraine &amp; Pain Care: Self-Advocacy Tips for Patients of Color</a> — Cheryl McJoy, Katy Oakley, and Fabiola Palomo, National Headache Foundation</li>
-		<li>Self-Advocacy: What Every Black Woman Needs to Know — Robin D. Stone</li>
-		<li>Coaching Patients to Advocate for Themselves Can Offset Effects of Doctors' Racial Bias — Michigan Medicine Health Lab</li>
+		<li><a href="https://www.robinstone.com/blog/2023/1/11/self-advocacy-what-every-black-woman-needs-to-know" target="_blank" rel="noopener">Self-Advocacy: What Every Black Woman Needs to Know</a> — Robin D. Stone</li>
+		<li><a href="https://www.michiganmedicine.org/health-lab/coaching-patients-advocate-themselves-can-offset-effects-doctors-racial-bias" target="_blank" rel="noopener">Coaching Patients to Advocate for Themselves Can Offset Effects of Doctors' Racial Bias</a> — Michigan Medicine Health Lab</li>
 		<li><a href="https://uc-lend.med.ucla.edu/blog/blog-post-7-self-advocacy-in-healthcare-and-why-it" target="_blank" rel="noopener">Self-Advocacy in Healthcare and Why It Matters</a> — UC LEND Blog</li>
-	</ul>
-
-	<h2>References</h2>
-	<ul>
-		<li>American Medical Association. Patient Rights. ama-assn.org/delivering-care/ethics/patient-rights</li>
-		<li>Northwest Primary Care. How to Advocate for Yourself at the Doctor. nwpc.com/how-to-advocate-for-yourself-at-the-doctor</li>
-		<li>Simply Well. Speak for Yourself: Self-Advocacy in Healthcare. simplywellblog.org/2020/03/09/speak-for-yourself-self-advocacy-in-health-care</li>
-		<li>National Center for Biotechnology Information. Intersectional Health Equity and Self-Advocacy. PMC8414023</li>
-		<li>Harvard Health Publishing. Health Disparities and Headache Treatment. Rizzoli, P. (2022).</li>
-		<li>Journal of Neurosurgery. Racial and Ethnic Disparities in Discharge to Rehabilitation Following Traumatic Brain Injury. Meagher, A. D., et al. (2015).</li>
-		<li>Health Services Research. Discrimination in the United States: Experiences of Latinos. Findling, M. G., et al. (2019).</li>
 	</ul>
 
 </div>
