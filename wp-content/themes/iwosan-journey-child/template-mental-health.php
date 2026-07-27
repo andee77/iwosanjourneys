@@ -43,6 +43,27 @@ get_header();
 
 	<p><strong>The Action Step:</strong> Healing requires moving your nervous system from "survival mode" back to "repair mode." This involves setting ruthless boundaries, auditing your energy, and seeking collaborative psychiatric or therapeutic care when your biology needs a reset.</p>
 
+	<h2>The everyday basics</h2>
+	<p>Repair mode starts small. A few of the basics that move the needle most:</p>
+
+	<ul>
+		<li><strong>Move daily</strong> — even 30 minutes of walking, broken up however it fits, lifts mood and lowers stress.</li>
+		<li><strong>Eat, hydrate, and watch the caffeine/alcohol</strong> — both can quietly worsen mood and sleep.</li>
+		<li><strong>Protect sleep</strong> — a consistent schedule, and less blue light before bed.</li>
+		<li><strong>Build in real rest</strong> — meditation, breathing work, music, time outside — whatever actually relaxes you, on a schedule.</li>
+		<li><strong>Guard your energy</strong> — decide what matters today, let the rest wait, and get comfortable saying no.</li>
+		<li><strong>Stay connected</strong> — the people in your corner are part of the treatment plan, not a nice-to-have.</li>
+	</ul>
+
+	<p>None of this is one-size-fits-all — expect some trial and error. <a href="https://www.nih.gov/health-information/your-healthiest-self-wellness-toolkits" target="_blank" rel="noopener">More on healthy practices for mind and body &rarr;</a></p>
+
+	<h2>When it's time for more support</h2>
+	<p>If any of these have lasted two weeks or more, it's worth talking to someone: trouble sleeping, changes in appetite or weight, struggling to get out of bed, trouble concentrating, losing interest in things you used to enjoy, falling behind on basic tasks, or a constant undercurrent of irritability and restlessness.</p>
+
+	<p>A primary care provider is a normal, low-barrier place to start — they can refer you to a psychologist, psychiatrist, or clinical social worker from there. <a href="https://www.nimh.nih.gov/health/publications/tips-for-talking-with-your-health-care-provider" target="_blank" rel="noopener">Tips for talking with your provider &rarr;</a></p>
+
+	<p>More resources: <a href="https://www.nimh.nih.gov/health/find-help" target="_blank" rel="noopener">NIMH: getting help</a> &middot; <a href="https://www.samhsa.gov/find-support" target="_blank" rel="noopener">SAMHSA: finding support</a></p>
+
 	<h2>Keep going</h2>
 
 	<div class="ij-journal-teasers" style="clear: both;">
