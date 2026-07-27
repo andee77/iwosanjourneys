@@ -19,16 +19,20 @@ get_header();
 
 	<h2 style="margin-top: 0;">Regulating the System</h2>
 
+	<div class="ij-mood-photo-small float-left">
+		<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/person_distressed_bw_double_exposure-scaled-resized.jpg" alt="Person experiencing stress, symbolizing the mind-body connection">
+	</div>
+
 	<p>There's a dangerous myth that mental health and physical health are two separate systems. The reality is that your mind and your body are communicating constantly through your nervous system and your hormones.</p>
 
 	<p>When you experience chronic stress, anxiety, or burnout, your body is continuously flooded with cortisol and adrenaline. Over time, this "fight or flight" loop stops being a mindset and becomes a highly destructive physiological state. You cannot simply "think" your way out of a taxed nervous system.</p>
 
-	<div class="ij-mood-photo">
-		<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/person_distressed_bw_double_exposure-scaled-resized.jpg" alt="Person experiencing stress, symbolizing the mind-body connection">
-	</div>
-
-	<h2>The Physical Signs of Chronic Burnout</h2>
+	<h2 style="clear: both;">The Physical Signs of Chronic Burnout</h2>
 	<p>Mental exhaustion rarely stays in the mind. It manifests physically, often mimicking other illnesses.</p>
+
+	<div class="ij-mood-photo-small float-right">
+		<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/man_sitting_against_wall_patterned_shirt-scaled-resized.jpg" alt="Man sitting against a wall, reflecting on burnout and mental exhaustion">
+	</div>
 
 	<ul>
 		<li><strong>Sleep Disruption</strong> — an inability to fall asleep, or waking up at 3:00 AM with a racing heart and unable to settle back down.</li>
@@ -37,11 +41,7 @@ get_header();
 		<li><strong>Cognitive Blunting</strong> — severe brain fog, memory lapses, and the inability to focus on simple tasks.</li>
 	</ul>
 
-	<p><strong>The Action Step:</strong> Healing requires moving your nervous system from "survival mode" back to "repair mode." This involves setting ruthless boundaries, auditing your energy, and seeking collaborative psychiatric or therapeutic care when your biology needs a reset.</p>
-
-	<div class="ij-mood-photo">
-		<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/man_sitting_against_wall_patterned_shirt-scaled-resized.jpg" alt="Man sitting against a wall, reflecting on burnout and mental exhaustion">
-	</div>
+	<p style="clear: both;"><strong>The Action Step:</strong> Healing requires moving your nervous system from "survival mode" back to "repair mode." This involves setting ruthless boundaries, auditing your energy, and seeking collaborative psychiatric or therapeutic care when your biology needs a reset.</p>
 
 	<h2>The everyday basics</h2>
 	<p>Repair mode starts small. A few of the basics that move the needle most:</p>

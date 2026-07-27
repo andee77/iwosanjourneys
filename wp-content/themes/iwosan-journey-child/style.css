@@ -285,3 +285,14 @@ Text Domain: iwosan-journey-child
 	border-radius: 8px;
 	display: block;
 }
+
+.ij-mood-photo-small { width: 320px; }
+.ij-mood-photo-small.float-left { float: left; margin: 4px 24px 16px 0; }
+.ij-mood-photo-small.float-right { float: right; margin: 4px 0 16px 24px; }
+.ij-mood-photo-small img {
+	width: 320px !important;
+	height: 160px !important;
+	object-fit: cover !important;
+	border-radius: 8px;
+	display: block;
+}
