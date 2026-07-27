@@ -276,3 +276,12 @@ Text Domain: iwosan-journey-child
 	border: 1.5px solid #8B5E3C;
 	border-radius: 3px;
 }
+
+.ij-mood-photo { margin: 28px auto; max-width: 640px; }
+.ij-mood-photo img {
+	width: 100% !important;
+	height: 320px !important;
+	object-fit: cover !important;
+	border-radius: 8px;
+	display: block;
+}
