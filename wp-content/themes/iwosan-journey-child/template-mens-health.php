@@ -66,6 +66,8 @@ get_header();
 	<p><strong>4. Knowing the Numbers</strong><br>
 	High blood pressure and high cholesterol are known as "silent damage" because they don't hurt until a crisis occurs. If a rushed provider says "you're too young to worry about that," our Pocket Scripts (Form 10) give you the exact words: "I'm establishing my baseline today. I'd like the metabolic panel ordered, please."</p>
 
+	<?php echo do_shortcode( '[iwosan_quietsignals_assessment]' ); ?>
+
 	<div class="ij-download-cta">
 		<p><strong>Take the power back, as a team.</strong><br>The full Patient Power Pack includes the Baseline Trackers, the Partner Companion Guide, and our advocacy scripts — everything above, in your hands.</p>
 		<a href="#" class="ij-btn-gold">Get the Patient Power Pack (coming soon)</a>
