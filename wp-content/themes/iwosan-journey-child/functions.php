@@ -66,7 +66,15 @@ function iwosan_wellness_assessments_enqueue() {
     $has_shortcode = has_shortcode( $post->post_content, 'iwosan_quietsignals_assessment' )
         || has_shortcode( $post->post_content, 'iwosan_ptsd_assessment' );
 
-    if ( ! $has_shortcode ) {
+    // Some pages hardcode the shortcode into their template file via do_shortcode()
+    // rather than typing it into the block editor, so it never appears in post_content.
+    $known_templates = array(
+        'template-mens-health.php',
+    );
+    $current_template = get_page_template_slug( $post->ID );
+    $has_hardcoded_template = in_array( $current_template, $known_templates, true );
+
+    if ( ! $has_shortcode && ! $has_hardcoded_template ) {
         return;
     }
 
