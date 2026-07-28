@@ -57,6 +57,8 @@ get_header();
 
 	<p>None of this is one-size-fits-all — expect some trial and error. <a href="https://www.nih.gov/health-information/your-healthiest-self-wellness-toolkits" target="_blank" rel="noopener">More on healthy practices for mind and body &rarr;</a></p>
 
+	<?php echo do_shortcode( '[iwosan_ptsd_assessment]' ); ?>
+
 	<h2>When it's time for more support</h2>
 	<p>If any of these have lasted two weeks or more, it's worth talking to someone: trouble sleeping, changes in appetite or weight, struggling to get out of bed, trouble concentrating, losing interest in things you used to enjoy, falling behind on basic tasks, or a constant undercurrent of irritability and restlessness.</p>
 

@@ -70,6 +70,7 @@ function iwosan_wellness_assessments_enqueue() {
     // rather than typing it into the block editor, so it never appears in post_content.
     $known_templates = array(
         'template-mens-health.php',
+        'template-mental-health.php',
     );
     $current_template = get_page_template_slug( $post->ID );
     $has_hardcoded_template = in_array( $current_template, $known_templates, true );
