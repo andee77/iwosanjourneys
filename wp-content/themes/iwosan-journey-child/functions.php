@@ -45,10 +45,10 @@ function iwosan_custom_footer() {
 }
 
 /**
- * Wellness Self-Assessments — Under the Hood + PTSD Screening
+ * Wellness Self-Assessments — The Quiet Signals + PTSD Screening
  *
  * Usage:
- *   [iwosan_underhood_assessment]  -- Men's Health page, as a NEW third section, placed
+ *   [iwosan_quietsignals_assessment]  -- Men's Health page, as a NEW third section, placed
  *                                     after the existing physical Check-Engine checklist
  *                                     and the partner-facing Co-Pilot guide (neither of
  *                                     which this code touches).
@@ -63,7 +63,7 @@ function iwosan_wellness_assessments_enqueue() {
     if ( ! is_a( $post, 'WP_Post' ) ) {
         return;
     }
-    $has_shortcode = has_shortcode( $post->post_content, 'iwosan_underhood_assessment' )
+    $has_shortcode = has_shortcode( $post->post_content, 'iwosan_quietsignals_assessment' )
         || has_shortcode( $post->post_content, 'iwosan_ptsd_assessment' );
 
     if ( ! $has_shortcode ) {
@@ -87,10 +87,10 @@ function iwosan_wellness_assessments_enqueue() {
 }
 add_action( 'wp_enqueue_scripts', 'iwosan_wellness_assessments_enqueue' );
 
-function iwosan_underhood_assessment_shortcode() {
-    return '<div id="iwosan-underhood-mount" class="iwosan-assessment"></div>';
+function iwosan_quietsignals_assessment_shortcode() {
+    return '<div id="iwosan-quietsignals-mount" class="iwosan-assessment"></div>';
 }
-add_shortcode( 'iwosan_underhood_assessment', 'iwosan_underhood_assessment_shortcode' );
+add_shortcode( 'iwosan_quietsignals_assessment', 'iwosan_quietsignals_assessment_shortcode' );
 
 function iwosan_ptsd_assessment_shortcode() {
     return '<div id="iwosan-ptsd-mount" class="iwosan-assessment"></div>';

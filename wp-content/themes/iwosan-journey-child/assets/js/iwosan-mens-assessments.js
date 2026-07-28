@@ -1,13 +1,13 @@
 /**
  * Iwosan Journey's — Wellness Self-Assessments
- * "Under the Hood" (PHQ-9 + GAD-7, mood & anxiety) — lives on the Men's Health page,
+ * "The Quiet Signals" (PHQ-9 + GAD-7, mood & anxiety) — lives on the Men's Health page,
  *   as a third section alongside the existing physical Check-Engine checklist and the
  *   partner-facing Co-Pilot guide (both untouched, unrelated to this file).
  * PTSD Screening (PC-PTSD-5) — lives on the Mental Health page, standalone.
  *
  * Enqueue this file only on pages that use it.
  * Mount points expected in page markup:
- *   #iwosan-underhood-mount   (Men's Health page)
+ *   #iwosan-quietsignals-mount   (Men's Health page)
  *   #iwosan-ptsd-mount        (Mental Health page)
  * Each mount renders independently — they do not share state, and a page only needs
  * to include whichever mount(s) are relevant to it.
@@ -148,9 +148,9 @@
     }
   }
 
-  /* ---------------- "Under the Hood" Assessment (Men's Health, PHQ-9 + GAD-7) ---------------- */
+  /* ---------------- "The Quiet Signals" Assessment (Men's Health, PHQ-9 + GAD-7) ---------------- */
 
-  function mountUnderHood(root) {
+  function mountQuietSignals(root) {
     let step = 'intro';
     let qIndex = 0;
     let answers = { phq9: [], gad7: [] };
@@ -179,17 +179,17 @@
 
     function renderIntro() {
       root.innerHTML = `
-        <span class="instrument-tag tag-underhood">Mood &amp; Anxiety Check</span>
-        <h2>Under the Hood</h2>
+        <span class="instrument-tag tag-quietsignals">Mood &amp; Anxiety Check</span>
+        <h2>The Quiet Signals</h2>
         <p>The Check-Engine checklist above covers what you can feel physically. This one looks at what's
         running underneath — mood and anxiety, the parts of the engine that don't always throw an obvious
         warning light. 16 short questions, about 3 minutes.</p>
-        <button class="start-btn" id="uh-start">Start the assessment</button>
+        <button class="start-btn" id="qs-start">Start the assessment</button>
         <div class="disclaimer">Uses the PHQ-9 and GAD-7, standard clinical screening tools. This is a self-check,
         not a diagnosis — your results are something to bring to a conversation with a doctor, not a replacement
         for one.</div>
       `;
-      root.querySelector('#uh-start').addEventListener('click', start);
+      root.querySelector('#qs-start').addEventListener('click', start);
     }
 
     function renderQuestion() {
@@ -209,12 +209,12 @@
         <div class="options">
           ${scale4.map((o, idx) => `<button class="opt-btn" data-val="${idx}">${o}</button>`).join('')}
         </div>
-        <div class="back-link" id="uh-back">← Back</div>
+        <div class="back-link" id="qs-back">← Back</div>
       `;
       root.querySelectorAll('.opt-btn').forEach(btn => {
         btn.addEventListener('click', () => answer(parseInt(btn.dataset.val, 10)));
       });
-      root.querySelector('#uh-back').addEventListener('click', back);
+      root.querySelector('#qs-back').addEventListener('click', back);
     }
 
     function renderResult() {
@@ -253,7 +253,7 @@
 
         <div class="cta-block">
           <p>Bring these numbers to your next appointment — they help your doctor know where to start. Want a copy to take with you?</p>
-          <button class="primary-btn" id="uh-email">Email me my results</button>
+          <button class="primary-btn" id="qs-email">Email me my results</button>
         </div>
 
         <a class="outbound-link" href="https://deconstructingstigma.org/screenings" target="_blank" rel="noopener">
@@ -264,10 +264,10 @@
           PHQ-9 and GAD-7: Pfizer Inc. Reproduced under the free-use terms published at phqscreeners.com.
           Screening only — not a diagnostic instrument.
         </div>
-        <div class="back-link" id="uh-retake" style="margin-top:14px;">↻ Retake</div>
+        <div class="back-link" id="qs-retake" style="margin-top:14px;">↻ Retake</div>
       `;
 
-      root.querySelector('#uh-email').addEventListener('click', () => {
+      root.querySelector('#qs-email').addEventListener('click', () => {
         promptForEmail(email => {
           submitToConvertKit(email, {
             phq9_score: phqScore,
@@ -281,7 +281,7 @@
           });
         });
       });
-      root.querySelector('#uh-retake').addEventListener('click', () => { step = 'intro'; render(); });
+      root.querySelector('#qs-retake').addEventListener('click', () => { step = 'intro'; render(); });
     }
 
     function render() {
@@ -426,8 +426,8 @@
 
   /* ---------------- Init on DOM ready ---------------- */
   document.addEventListener('DOMContentLoaded', function () {
-    const underHoodMount = document.getElementById('iwosan-underhood-mount');
-    if (underHoodMount) mountUnderHood(underHoodMount);
+    const quietSignalsMount = document.getElementById('iwosan-quietsignals-mount');
+    if (quietSignalsMount) mountQuietSignals(quietSignalsMount);
 
     const ptsdMount = document.getElementById('iwosan-ptsd-mount');
     if (ptsdMount) mountPTSD(ptsdMount);
