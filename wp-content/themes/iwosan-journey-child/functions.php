@@ -43,3 +43,53 @@ function iwosan_custom_footer() {
 	</div>
 	<?php
 }
+
+/**
+ * Men's Health Assessments — Check-Engine + Co-Pilot
+ *
+ * Usage on the Men's Health page (Custom HTML block or page content):
+ *   [iwosan_checkengine_assessment]   -- place near the top, under the check-engine-light hero copy
+ *   [iwosan_copilot_assessment]       -- place lower, next to the Form 7 (Vitality Baseline) download
+ *
+ * Assets only load on pages where at least one shortcode is present — no impact
+ * on other pages' load time.
+ */
+
+function iwosan_mens_assessments_enqueue() {
+    global $post;
+    if ( ! is_a( $post, 'WP_Post' ) ) {
+        return;
+    }
+    $has_shortcode = has_shortcode( $post->post_content, 'iwosan_checkengine_assessment' )
+        || has_shortcode( $post->post_content, 'iwosan_copilot_assessment' );
+
+    if ( ! $has_shortcode ) {
+        return;
+    }
+
+    wp_enqueue_style(
+        'iwosan-mens-assessments',
+        get_stylesheet_directory_uri() . '/assets/css/iwosan-mens-assessments.css',
+        array(),
+        '1.0.0'
+    );
+
+    wp_enqueue_script(
+        'iwosan-mens-assessments',
+        get_stylesheet_directory_uri() . '/assets/js/iwosan-mens-assessments.js',
+        array(),
+        '1.0.0',
+        true // load in footer
+    );
+}
+add_action( 'wp_enqueue_scripts', 'iwosan_mens_assessments_enqueue' );
+
+function iwosan_checkengine_assessment_shortcode() {
+    return '<div id="iwosan-checkengine-mount" class="iwosan-assessment"></div>';
+}
+add_shortcode( 'iwosan_checkengine_assessment', 'iwosan_checkengine_assessment_shortcode' );
+
+function iwosan_copilot_assessment_shortcode() {
+    return '<div id="iwosan-copilot-mount" class="iwosan-assessment"></div>';
+}
+add_shortcode( 'iwosan_copilot_assessment', 'iwosan_copilot_assessment_shortcode' );
