@@ -90,6 +90,7 @@
   border-radius: 9px;
   border: 1.5px solid #E1DCCF;
   background: #FCFBF8;
+  color: var(--navy);
   font-family: 'Lato', sans-serif;
   font-size: 14.5px;
   cursor: pointer;
