@@ -277,6 +277,29 @@ Text Domain: iwosan-journey-child
 	border-radius: 3px;
 }
 
+.ij-checklist li { cursor: pointer; }
+.ij-checklist li:focus-visible { outline: 2px solid #4DAEAF; outline-offset: 2px; }
+.ij-checklist li.is-checked { color: #1C3A2A; }
+.ij-checklist li.is-checked:before { background: #8B5E3C; }
+.ij-checklist li.is-checked:after {
+	content: "";
+	position: absolute;
+	left: 4px;
+	top: 17px;
+	width: 6px;
+	height: 10px;
+	border: solid #FAF8F4;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+.ij-cta-highlight { transition: background-color .3s ease, border-color .3s ease; }
+.ij-cta-highlight.is-active {
+	background: #FBEFE0;
+	border-left: 3px solid #C9A052;
+	padding: 14px 16px;
+	border-radius: 6px;
+}
+
 .ij-mood-photo { margin: 28px auto; max-width: 640px; }
 .ij-mood-photo img {
 	width: 100% !important;

@@ -30,7 +30,7 @@ get_header();
 	<h2>The Check-Engine Assessment</h2>
 	<p><em>For the man, or the partner observing him.</em> If two or more of these sound familiar, it's time to schedule a baseline check.</p>
 
-	<ul class="ij-checklist">
+	<ul class="ij-checklist" id="checkengine-checklist">
 		<li><strong>The Energy Drop</strong> — a severe afternoon crash, or a sense that it takes far more effort to get through a normal workday than it did a few years ago.</li>
 		<li><strong>The Sleep Factor</strong> — loud, chronic snoring, waking up gasping for air, or feeling exhausted even after 8 hours of sleep.</li>
 		<li><strong>The Performance Shift</strong> — changes in sexual stamina, libido, or the ability to maintain an erection (often an early sign of blood flow issues, not just "getting older").</li>
@@ -38,19 +38,19 @@ get_header();
 		<li><strong>The Blind Spot</strong> — it's been more than 2 years since a full metabolic, cholesterol, and testosterone panel.</li>
 	</ul>
 
-	<p>Two or more checked? Your body is asking for a reset. Our Men's Health &amp; Vitality Baseline (Form 7) — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
+	<p id="checkengine-cta">Two or more checked? Your body is asking for a reset. Our Men's Health &amp; Vitality Baseline (Form 7) — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
 
 	<h2>The Co-Pilot Assessment</h2>
 	<p><em>For the partner.</em> How to support him without nagging or triggering defensiveness.</p>
 
-	<ul class="ij-checklist">
+	<ul class="ij-checklist" id="copilot-checklist">
 		<li><strong>The Approach</strong> — health conversations tend to happen during stressful moments, rather than at a calm, neutral time.</li>
 		<li><strong>The Translation</strong> — his low energy or drop in libido has started to feel like personal rejection, rather than a possible medical or hormonal issue.</li>
 		<li><strong>The Action Plan</strong> — he avoids the doctor because he doesn't know what to ask, or feels embarrassed about symptoms.</li>
 		<li><strong>The Support Role</strong> — when he does have an appointment, you're not sure how to help him prepare or advocate for himself in the room.</li>
 	</ul>
 
-	<p>If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our Pre-Appointment Planner (Form 3) is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
+	<p id="copilot-cta">If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our Pre-Appointment Planner (Form 3) is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
 
 	<h2>The Big Four: What's Actually Happening Under the Hood</h2>
 

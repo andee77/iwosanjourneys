@@ -433,3 +433,48 @@
     if (ptsdMount) mountPTSD(ptsdMount);
   });
 })();
+
+(function () {
+  'use strict';
+  document.addEventListener('DOMContentLoaded', function () {
+    const configs = [
+      { listId: 'checkengine-checklist', ctaId: 'checkengine-cta', threshold: 2 },
+      { listId: 'copilot-checklist', ctaId: 'copilot-cta', threshold: 2 }
+    ];
+
+    configs.forEach(cfg => {
+      const list = document.getElementById(cfg.listId);
+      const cta = document.getElementById(cfg.ctaId);
+      if (!list || !cta) return;
+
+      cta.classList.add('ij-cta-highlight');
+      const items = list.querySelectorAll('li');
+
+      function updateCta() {
+        const checkedCount = list.querySelectorAll('li.is-checked').length;
+        cta.classList.toggle('is-active', checkedCount >= cfg.threshold);
+      }
+
+      items.forEach(item => {
+        item.setAttribute('role', 'checkbox');
+        item.setAttribute('aria-checked', 'false');
+        item.setAttribute('tabindex', '0');
+
+        function toggle() {
+          const nowChecked = !item.classList.contains('is-checked');
+          item.classList.toggle('is-checked', nowChecked);
+          item.setAttribute('aria-checked', String(nowChecked));
+          updateCta();
+        }
+
+        item.addEventListener('click', toggle);
+        item.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggle();
+          }
+        });
+      });
+    });
+  });
+})();
