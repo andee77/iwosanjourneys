@@ -50,8 +50,8 @@
   border-radius: 20px;
   margin-bottom: 14px;
 }
-.tag-checkengine { background: #FBEFE0; color: var(--brown); }
-.tag-copilot { background: #E4F4F4; color: #2A6D6E; }
+.tag-underhood { background: #FBEFE0; color: var(--brown); }
+.tag-ptsd { background: #E4F4F4; color: #2A6D6E; }
 
 .start-btn, .primary-btn {
   display: inline-block;

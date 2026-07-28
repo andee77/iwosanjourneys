@@ -45,51 +45,54 @@ function iwosan_custom_footer() {
 }
 
 /**
- * Men's Health Assessments — Check-Engine + Co-Pilot
+ * Wellness Self-Assessments — Under the Hood + PTSD Screening
  *
- * Usage on the Men's Health page (Custom HTML block or page content):
- *   [iwosan_checkengine_assessment]   -- place near the top, under the check-engine-light hero copy
- *   [iwosan_copilot_assessment]       -- place lower, next to the Form 7 (Vitality Baseline) download
+ * Usage:
+ *   [iwosan_underhood_assessment]  -- Men's Health page, as a NEW third section, placed
+ *                                     after the existing physical Check-Engine checklist
+ *                                     and the partner-facing Co-Pilot guide (neither of
+ *                                     which this code touches).
+ *   [iwosan_ptsd_assessment]       -- Mental Health page, standalone section.
  *
  * Assets only load on pages where at least one shortcode is present — no impact
  * on other pages' load time.
  */
 
-function iwosan_mens_assessments_enqueue() {
+function iwosan_wellness_assessments_enqueue() {
     global $post;
     if ( ! is_a( $post, 'WP_Post' ) ) {
         return;
     }
-    $has_shortcode = has_shortcode( $post->post_content, 'iwosan_checkengine_assessment' )
-        || has_shortcode( $post->post_content, 'iwosan_copilot_assessment' );
+    $has_shortcode = has_shortcode( $post->post_content, 'iwosan_underhood_assessment' )
+        || has_shortcode( $post->post_content, 'iwosan_ptsd_assessment' );
 
     if ( ! $has_shortcode ) {
         return;
     }
 
     wp_enqueue_style(
-        'iwosan-mens-assessments',
+        'iwosan-wellness-assessments',
         get_stylesheet_directory_uri() . '/assets/css/iwosan-mens-assessments.css',
         array(),
-        '1.0.0'
+        '1.1.0'
     );
 
     wp_enqueue_script(
-        'iwosan-mens-assessments',
+        'iwosan-wellness-assessments',
         get_stylesheet_directory_uri() . '/assets/js/iwosan-mens-assessments.js',
         array(),
-        '1.0.0',
+        '1.1.0',
         true // load in footer
     );
 }
-add_action( 'wp_enqueue_scripts', 'iwosan_mens_assessments_enqueue' );
+add_action( 'wp_enqueue_scripts', 'iwosan_wellness_assessments_enqueue' );
 
-function iwosan_checkengine_assessment_shortcode() {
-    return '<div id="iwosan-checkengine-mount" class="iwosan-assessment"></div>';
+function iwosan_underhood_assessment_shortcode() {
+    return '<div id="iwosan-underhood-mount" class="iwosan-assessment"></div>';
 }
-add_shortcode( 'iwosan_checkengine_assessment', 'iwosan_checkengine_assessment_shortcode' );
+add_shortcode( 'iwosan_underhood_assessment', 'iwosan_underhood_assessment_shortcode' );
 
-function iwosan_copilot_assessment_shortcode() {
-    return '<div id="iwosan-copilot-mount" class="iwosan-assessment"></div>';
+function iwosan_ptsd_assessment_shortcode() {
+    return '<div id="iwosan-ptsd-mount" class="iwosan-assessment"></div>';
 }
-add_shortcode( 'iwosan_copilot_assessment', 'iwosan_copilot_assessment_shortcode' );
+add_shortcode( 'iwosan_ptsd_assessment', 'iwosan_ptsd_assessment_shortcode' );
