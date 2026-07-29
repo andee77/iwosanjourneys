@@ -15,6 +15,137 @@ get_header();
 	<path d="M0 20 Q 270 0, 540 20 T 1080 20" fill="none" stroke="#C9A052" stroke-width="1.5"/>
 </svg>
 
+<!-- ============================================
+     Men's Health — two entry cards
+     ============================================ -->
+<style>
+.iwj-mh-cards-wrap{
+	font-family:'Lato',sans-serif;
+	max-width:1100px;
+	margin:0 auto;
+	padding:2rem 6% 3rem;
+}
+.iwj-mh-cards-grid{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	gap:1.75rem;
+}
+.iwj-mh-card{
+	position:relative;
+	border-radius:6px;
+	overflow:hidden;
+	min-height:340px;
+	display:flex;
+	align-items:flex-end;
+	text-decoration:none;
+	isolation:isolate;
+}
+.iwj-mh-card img{
+	position:absolute;
+	inset:0;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	z-index:-2;
+	transition:transform .5s ease;
+}
+.iwj-mh-card:hover img{
+	transform:scale(1.04);
+}
+.iwj-mh-card.iwj-mh-card-graffiti img{
+	object-position:center 42%;
+}
+.iwj-mh-card::before{
+	content:'';
+	position:absolute;
+	inset:0;
+	background:linear-gradient(180deg, rgba(10,31,68,0) 30%, rgba(10,31,68,.88) 100%);
+	z-index:-1;
+}
+.iwj-mh-card-body{
+	padding:1.75rem 1.75rem 2rem;
+	color:#FAF8F4;
+	width:100%;
+}
+.iwj-mh-card-label{
+	font-family:'Montserrat',sans-serif;
+	font-weight:700;
+	font-size:.68rem;
+	letter-spacing:.14em;
+	text-transform:uppercase;
+	color:#C9A052;
+	margin-bottom:.6rem;
+}
+.iwj-mh-card-title{
+	font-family:'Montserrat',sans-serif;
+	font-weight:700;
+	font-size:1.5rem;
+	line-height:1.2;
+	margin-bottom:.6rem;
+}
+.iwj-mh-card-desc{
+	font-size:.9rem;
+	font-weight:300;
+	line-height:1.55;
+	color:#F1EFE8;
+	max-width:34ch;
+}
+.iwj-mh-card-cta{
+	display:inline-flex;
+	align-items:center;
+	gap:.4rem;
+	margin-top:1rem;
+	font-family:'Montserrat',sans-serif;
+	font-weight:600;
+	font-size:.8rem;
+	color:#FAF8F4;
+	letter-spacing:.03em;
+}
+.iwj-mh-card-cta::after{
+	content:'\2192';
+	transition:transform .2s ease;
+}
+.iwj-mh-card:hover .iwj-mh-card-cta::after{
+	transform:translateX(4px);
+}
+@media(max-width:760px){
+	.iwj-mh-cards-grid{grid-template-columns:1fr}
+	.iwj-mh-card{min-height:280px}
+}
+</style>
+
+<div class="iwj-mh-cards-wrap">
+	<div class="iwj-mh-cards-grid">
+
+		<a class="iwj-mh-card iwj-mh-card-graffiti" href="/mens-health/making-the-plan/">
+			<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/are_you_ok_graffiti_city_night-scaled.jpg" alt="">
+			<div class="iwj-mh-card-body">
+				<div class="iwj-mh-card-label">For Him</div>
+				<div class="iwj-mh-card-title">Making the Plan</div>
+				<p class="iwj-mh-card-desc">
+					Check your engine, see what's really at stake, and build the exact
+					agenda to bring into your next appointment — three tools, ten minutes, zero guesswork.
+				</p>
+				<div class="iwj-mh-card-cta">Start here</div>
+			</div>
+		</a>
+
+		<a class="iwj-mh-card" href="/mens-health/the-pit-crew/">
+			<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/couple_embracing_rooftop.jpg" alt="">
+			<div class="iwj-mh-card-body">
+				<div class="iwj-mh-card-label">For Partners</div>
+				<div class="iwj-mh-card-title">The Pit Crew</div>
+				<p class="iwj-mh-card-desc">
+					You noticed the warning signs first. Here's how to open the
+					conversation, support him, and help him advocate for himself — without the ambush.
+				</p>
+				<div class="iwj-mh-card-cta">Go to Pit Crew</div>
+			</div>
+		</a>
+
+	</div>
+</div>
+
 <div class="ij-section">
 
 	<h2 style="margin-top: 0;">Men's Health &amp; Vitality: The Maintenance Blueprint</h2>
@@ -50,7 +181,7 @@ get_header();
 		<li><strong>The Support Role</strong> — when he does have an appointment, you're not sure how to help him prepare or advocate for himself in the room.</li>
 	</ul>
 
-	<p id="copilot-cta">If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our Pre-Appointment Planner (Form 3) is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
+	<p id="copilot-cta">If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our <a href="/mens-health/the-pit-crew/">Pre-Appointment Planner (Form 3)</a> is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
 
 	<h2>The Big Four: What's Actually Happening Under the Hood</h2>
 
