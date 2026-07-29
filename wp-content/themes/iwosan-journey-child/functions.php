@@ -34,6 +34,7 @@ function iwosan_custom_footer() {
 				<a href="<?php echo esc_url( home_url( '/privacy-policy/' ) ); ?>">Privacy Policy</a>
 				<a href="<?php echo esc_url( home_url( '/medical-disclaimer/' ) ); ?>">Medical Disclaimer</a>
 				<a href="<?php echo esc_url( home_url( '/vendor-agreement/' ) ); ?>">Vendor Agreement</a>
+				<a href="<?php echo esc_url( home_url( '/references/' ) ); ?>">References</a>
 			</nav>
 			<div class="ij-footer-meta">
 				<div class="ij-footer-copyright">&copy; <?php echo esc_html( date( 'Y' ) ); ?> JourneyWell Global LLC. All rights reserved.</div>
