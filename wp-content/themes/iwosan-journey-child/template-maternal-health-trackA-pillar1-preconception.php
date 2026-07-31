@@ -384,7 +384,7 @@ get_header();
   </div>
 
   <!-- IMAGE BREAK 2 -->
-  <img class="iwj-p1a-break-img" src="https://iwosanjourney.com/wp-content/uploads/2026/07/couple-with-sgram-pic-white-scaled.jpg" alt="A couple looking at a sonogram image together">
+  <img class="iwj-p1a-break-img" src="https://iwosanjourney.com/wp-content/uploads/2026/07/pregnant-couple-scaled.jpg" alt="A couple announcing their pregnancy with a 'baby coming soon' sign">
 
   <!-- SECTION 3: WHAT TO TELL & ASK YOUR DOCTOR -->
   <div class="iwj-p1a-section">

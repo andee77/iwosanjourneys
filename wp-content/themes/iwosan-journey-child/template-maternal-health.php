@@ -317,7 +317,7 @@ get_header();
       </div>
     </div>
 
-    <div class="iwj-mh-slide" style="background-image: url('https://iwosanjourney.com/wp-content/uploads/2026/07/dad-at-appointment-scaled.jpg');">
+    <div class="iwj-mh-slide" style="background-image: url('https://iwosanjourney.com/wp-content/uploads/2026/07/all-hands-on-belly-scaled.jpg');">
       <div class="iwj-mh-slide-overlay">
         <div class="iwj-mh-slide-content">
           <div class="iwj-mh-eyebrow">Maternal Health</div>
@@ -327,7 +327,7 @@ get_header();
       </div>
     </div>
 
-    <div class="iwj-mh-slide" style="background-image: url('https://iwosanjourney.com/wp-content/uploads/2026/07/pregnant-wife.png');">
+    <div class="iwj-mh-slide" style="background-image: url('https://iwosanjourney.com/wp-content/uploads/2026/07/dad-with-babys-feet.jpg');">
       <div class="iwj-mh-slide-overlay">
         <div class="iwj-mh-slide-content">
           <div class="iwj-mh-eyebrow">Maternal Health</div>
