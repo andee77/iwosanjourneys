@@ -37,6 +37,22 @@ get_header();
   .iwj-le-page * { box-sizing: border-box; }
   .iwj-le-page h1, .iwj-le-page h2, .iwj-le-page h3, .iwj-le-page h4 { font-family: var(--font-heading); font-weight: 600; color: var(--primary-navy); }
 
+  /* WordPress core converts the pin/plane/laptop emoji below into
+     <img class="emoji"> (s.w.org twemoji SVGs). This theme's own CSS wins
+     the cascade over WP's default 1em sizing, so they render at native
+     size (300px+) instead of inline with the text. Force it back. */
+  .iwj-le-page img.emoji {
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .05em 0 .1em !important;
+    vertical-align: -0.1em !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    padding: 0 !important;
+    display: inline !important;
+  }
+
   .iwj-le-masthead {
     background-color: var(--primary-navy);
     padding: 20px 40px;
