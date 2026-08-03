@@ -10,7 +10,7 @@ function iwosan_journey_child_enqueue_styles() {
 	);
 	wp_enqueue_style(
 		'iwosan-journey-fonts',
-		'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&family=JetBrains+Mono:wght@500&display=swap',
+		'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Lato:wght@400;700&family=JetBrains+Mono:wght@500&display=swap',
 		array(),
 		null
 	);
