@@ -17,8 +17,9 @@ get_header();
 
 <!-- ============================================
      ABOUT JWG — JourneyWell Global
-     "Join the Founding Members Waitlist" button is a placeholder (JS alert),
-     not yet wired to a form/list.
+     Newsletter form posts to a shared MenoWell Kit/ConvertKit form
+     (confirmed decision, not a placeholder) via a no-cors fetch, since
+     Kit's browser endpoint never reports real HTTP failures back to JS.
      ============================================ -->
 <style>
   .iwj-ajwg-page {
@@ -126,8 +127,26 @@ get_header();
   .iwj-ajwg-final-cta { max-width: 700px; margin: 0 auto; padding: 90px 20px; text-align: center; }
   .iwj-ajwg-final-cta h2 { font-size: 2rem; margin-bottom: 16px; }
   .iwj-ajwg-final-cta p { font-size: 1.05rem; margin-bottom: 30px; }
-  .iwj-ajwg-placeholder-flag { max-width: 480px; margin: 20px auto 0; font-size: 0.75rem; color: var(--earth-brown); background: rgba(139,94,60,0.08); border: 1px dashed var(--earth-brown); border-radius: 6px; padding: 10px 14px; }
 
+  .iwj-ajwg-newsletter-form { display: flex; gap: 12px; max-width: 460px; margin: 0 auto; }
+  .iwj-ajwg-newsletter-form input {
+    flex: 1; padding: 15px 16px; border-radius: 6px; border: 1px solid var(--border-light);
+    font-family: var(--font-body); font-size: 1rem; background: var(--white); color: var(--text-main);
+  }
+  .iwj-ajwg-newsletter-form .iwj-ajwg-btn { white-space: nowrap; }
+  .iwj-ajwg-newsletter-status { min-height: 1.4em; font-size: 0.9rem; color: var(--accent-gold); margin-top: 14px; }
+
+  .iwj-ajwg-substack-row {
+    margin-top: 40px; padding-top: 30px; border-top: 1px solid var(--border-light);
+    display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap;
+  }
+  .iwj-ajwg-substack-row span { font-size: 0.95rem; color: var(--text-muted); }
+  .iwj-ajwg-btn-outline { background: transparent; color: var(--primary-navy); border: 2px solid var(--primary-navy); }
+  .iwj-ajwg-btn-outline:hover { background: var(--white); }
+
+  @media (max-width: 480px) {
+    .iwj-ajwg-newsletter-form { flex-direction: column; }
+  }
   @media (max-width: 900px) {
     .iwj-ajwg-hero h1 { font-size: 2.1rem; }
     .iwj-ajwg-pillars-grid { grid-template-columns: 1fr; }
@@ -326,13 +345,61 @@ get_header();
     </div>
   </section>
 
-  <section class="iwj-ajwg-final-cta">
-    <h2>Be First to Experience JourneyWell Global</h2>
-    <p>Our full booking portal, course library, and community forum officially launch in Fall 2026. Join our waitlist today to secure first access, founding member pricing, and exclusive updates.</p>
-    <a href="#" class="iwj-ajwg-btn iwj-ajwg-btn-primary" onclick="event.preventDefault(); alert('Placeholder only — waitlist form is not yet connected.');">Join the Founding Members Waitlist</a>
-    <div class="iwj-ajwg-placeholder-flag">&#9888; Placeholder button &mdash; needs to be wired to the actual waitlist mechanism (form + email list) before this page goes live.</div>
+  <section class="iwj-ajwg-final-cta" id="newsletter">
+    <h2>Stay Close to the Journey</h2>
+    <p>Get updates on new tools, live events, and everything coming next from JourneyWell Global &mdash; straight to your inbox.</p>
+
+    <form id="jwg-newsletter-form" class="iwj-ajwg-newsletter-form">
+      <input type="email" id="jwg-newsletter-email" placeholder="you@email.com" aria-label="Email address" required>
+      <button type="submit" class="iwj-ajwg-btn iwj-ajwg-btn-primary">Subscribe for Updates</button>
+    </form>
+    <p id="jwg-newsletter-status" class="iwj-ajwg-newsletter-status" role="status" aria-live="polite"></p>
+
+    <div class="iwj-ajwg-substack-row">
+      <span>Prefer long-form reads?</span>
+      <a href="https://iwosanjourneys.substack.com/" target="_blank" rel="noopener" class="iwj-ajwg-btn iwj-ajwg-btn-outline">Read Us on Substack</a>
+    </div>
   </section>
 
 </div>
+
+<script>
+(function () {
+  var form = document.getElementById('jwg-newsletter-form');
+  var statusEl = document.getElementById('jwg-newsletter-status');
+  var FORM_ID = '9372376'; // Shared MenoWell Kit form — confirmed decision, not a placeholder
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = document.getElementById('jwg-newsletter-email').value.trim();
+    if (!email) return;
+
+    statusEl.textContent = 'Submitting…';
+
+    var controller = new AbortController();
+    var timeout = setTimeout(function () { controller.abort(); }, 8000);
+
+    // Kit/ConvertKit's browser endpoint responds via opaque no-cors — it will
+    // never report a real HTTP failure back to JS. We therefore treat "the
+    // request didn't throw or time out" as success, and only surface a real
+    // failure on network error or timeout. This mirrors the same workaround
+    // already used on the Mental Health / MenoWell email captures.
+    fetch('https://app.kit.com/forms/' + FORM_ID + '/subscriptions', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: 'email_address=' + encodeURIComponent(email),
+      signal: controller.signal
+    }).then(function () {
+      clearTimeout(timeout);
+      statusEl.textContent = "You're in — check your inbox to confirm.";
+      form.reset();
+    }).catch(function () {
+      clearTimeout(timeout);
+      statusEl.textContent = 'Something went wrong — please try again in a moment.';
+    });
+  });
+})();
+</script>
 
 <?php get_footer(); ?>
