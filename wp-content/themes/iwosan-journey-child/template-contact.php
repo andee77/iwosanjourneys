@@ -111,39 +111,42 @@ get_header();
      default markup/classes so the embedded form matches the page's
      navy/gold/teal Montserrat+Lato system instead of WPForms' generic look.
      ============================================ */
-  .iwj-contact-form-section .wpforms-container { margin: 0; }
-  .iwj-contact-form-section .wpforms-field { margin-bottom: 20px; padding: 0; }
+  .iwj-contact-form-section .wpforms-container { margin: 0 !important; }
+  .iwj-contact-form-section .wpforms-field { margin-bottom: 20px !important; padding: 0 !important; }
   .iwj-contact-form-section .wpforms-field-label {
-    display: block; font-family: var(--font-heading); font-size: 0.9rem; font-weight: 600;
-    margin-bottom: 8px; color: var(--primary-navy);
+    display: block !important; font-family: var(--font-heading) !important; font-size: 0.9rem !important;
+    font-weight: 600 !important; margin-bottom: 8px !important; color: var(--primary-navy) !important;
   }
-  .iwj-contact-form-section .wpforms-required-label { color: var(--accent-teal); }
-  .iwj-contact-form-section input[type=text].wpforms-field-large,
-  .iwj-contact-form-section input[type=email].wpforms-field-large,
-  .iwj-contact-form-section select.wpforms-field-large,
-  .iwj-contact-form-section textarea.wpforms-field-large,
-  .iwj-contact-form-section .wpforms-field-select-style-classic select {
-    width: 100%; padding: 12px 15px; border: 1px solid var(--border-light); border-radius: 6px;
-    font-family: var(--font-body); font-size: 1rem; transition: border-color 0.2s, box-shadow 0.2s;
-    background: var(--white); color: var(--text-main);
+  .iwj-contact-form-section .wpforms-required-label { color: var(--accent-teal) !important; }
+  .iwj-contact-form-section input[type=text],
+  .iwj-contact-form-section input[type=email],
+  .iwj-contact-form-section select,
+  .iwj-contact-form-section textarea {
+    width: 100% !important; padding: 12px 15px !important; border: 1px solid var(--border-light) !important;
+    border-radius: 6px !important; font-family: var(--font-body) !important; font-size: 1rem !important;
+    transition: border-color 0.2s, box-shadow 0.2s; background: var(--white) !important; color: var(--text-main) !important;
+    max-width: none !important;
   }
-  .iwj-contact-form-section input[type=text].wpforms-field-large:focus,
-  .iwj-contact-form-section input[type=email].wpforms-field-large:focus,
-  .iwj-contact-form-section select.wpforms-field-large:focus,
-  .iwj-contact-form-section textarea.wpforms-field-large:focus {
-    outline: none; border-color: var(--accent-teal); box-shadow: 0 0 0 3px rgba(77, 174, 175, 0.1);
+  .iwj-contact-form-section input[type=text]:focus,
+  .iwj-contact-form-section input[type=email]:focus,
+  .iwj-contact-form-section select:focus,
+  .iwj-contact-form-section textarea:focus {
+    outline: none !important; border-color: var(--accent-teal) !important; box-shadow: 0 0 0 3px rgba(77, 174, 175, 0.1) !important;
   }
-  .iwj-contact-form-section textarea.wpforms-field-large { min-height: 120px; resize: vertical; }
-  .iwj-contact-form-section .wpforms-submit-container { margin-top: 0; }
+  .iwj-contact-form-section textarea { min-height: 120px !important; resize: vertical !important; }
+  .iwj-contact-form-section .wpforms-field-name .wpforms-field-row { display: flex !important; gap: 15px !important; }
+  .iwj-contact-form-section .wpforms-field-name-first,
+  .iwj-contact-form-section .wpforms-field-name-last { flex: 1 !important; }
+  .iwj-contact-form-section .wpforms-submit-container { margin-top: 0 !important; }
   .iwj-contact-form-section button.wpforms-submit {
-    width: 100%; padding: 15px; background-color: var(--primary-navy); color: var(--white);
-    border: none; border-radius: 6px; font-family: var(--font-heading); font-size: 1.1rem;
-    font-weight: 600; cursor: pointer; transition: background-color 0.2s;
+    width: 100% !important; padding: 15px !important; background-color: var(--primary-navy) !important; color: var(--white) !important;
+    border: none !important; border-radius: 6px !important; font-family: var(--font-heading) !important; font-size: 1.1rem !important;
+    font-weight: 600 !important; cursor: pointer; transition: background-color 0.2s;
   }
-  .iwj-contact-form-section button.wpforms-submit:hover { background-color: var(--primary-green); }
+  .iwj-contact-form-section button.wpforms-submit:hover { background-color: var(--primary-green) !important; }
   .iwj-contact-form-section .wpforms-error-container,
   .iwj-contact-form-section label.wpforms-error {
-    color: #B91C1C; font-size: 0.85rem; margin-top: 6px; font-weight: 400;
+    color: #B91C1C !important; font-size: 0.85rem !important; margin-top: 6px !important; font-weight: 400 !important;
   }
 
   .iwj-contact-community-callout {
