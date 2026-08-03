@@ -170,7 +170,7 @@ get_header();
     </div>
 
     <div class="iwj-mt-teaser-banner">
-      <span class="iwj-mt-coming-soon-badge">All of This, Live by End of 2027</span>
+      <span class="iwj-mt-coming-soon-badge">Launching by End of 2027</span>
       <h2>The Future of Global Care</h2>
       <p>A new standard of health sovereignty is on the horizon. Please stay tuned for exclusive updates on the official launch of <strong>Iwosan Medical</strong> &mdash; your premier portal for global medical travel and curated recovery, arriving in full before the end of 2027.</p>
     </div>
