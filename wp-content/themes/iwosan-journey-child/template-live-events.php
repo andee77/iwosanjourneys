@@ -26,6 +26,7 @@ get_header();
     --text-main: #0A1F44;
     --text-muted: #4A5568;
     --border-light: #E2E8F0;
+    --earth-brown: #8B5E3C;
     --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Lato', sans-serif;
     background-color: var(--bg-cream);
@@ -112,6 +113,11 @@ get_header();
   .iwj-le-btn-outline { background-color: transparent; color: var(--primary-navy); border: 2px solid var(--primary-navy); }
   .iwj-le-btn-outline:hover { background-color: var(--bg-cream); }
 
+  .iwj-le-placeholder-flag {
+    margin-top: 12px; font-size: 0.75rem; color: var(--earth-brown); background: rgba(139,94,60,0.08);
+    border: 1px dashed var(--earth-brown); border-radius: 6px; padding: 10px 14px;
+  }
+
   .iwj-le-community-banner {
     background-color: var(--primary-green); color: var(--bg-cream); border-radius: 16px; padding: 60px 40px;
     display: flex; align-items: center; gap: 40px; margin-top: 40px; box-shadow: 0 20px 40px rgba(28, 58, 42, 0.15);
@@ -172,7 +178,8 @@ get_header();
             <li><span>&#10003;</span> Live Patient Power Pack walkthroughs.</li>
             <li><span>&#10003;</span> Interactive "Interview Your Doctor" role-play.</li>
           </ul>
-          <a href="#" class="iwj-le-btn iwj-le-btn-primary">Join the Waitlist</a>
+          <a href="#" class="iwj-le-btn iwj-le-btn-primary" onclick="event.preventDefault(); alert('Placeholder only — the waitlist form is not yet connected.');">Join the Waitlist</a>
+          <div class="iwj-le-placeholder-flag">&#9888; Placeholder &mdash; needs a waitlist form/list connected before this goes live.</div>
         </div>
       </div>
 
@@ -190,7 +197,8 @@ get_header();
             <li><span>&#10003;</span> Profound rest and burnout recovery focus.</li>
             <li><span>&#10003;</span> Safe, judgment-free peer connection.</li>
           </ul>
-          <a href="#" class="iwj-le-btn iwj-le-btn-outline">Explore Destinations</a>
+          <a href="#" class="iwj-le-btn iwj-le-btn-outline" onclick="event.preventDefault(); alert('Placeholder only — destinations page/booking flow is not yet built.');">Explore Destinations</a>
+          <div class="iwj-le-placeholder-flag">&#9888; Placeholder &mdash; needs an actual destinations page or booking flow before this goes live.</div>
         </div>
       </div>
 
@@ -208,7 +216,8 @@ get_header();
             <li><span>&#10003;</span> Masterclasses on recognizing medical gaslighting.</li>
             <li><span>&#10003;</span> Deep-dive modules into Medical Travel Prep.</li>
           </ul>
-          <a href="#" class="iwj-le-btn iwj-le-btn-outline">View Course Library</a>
+          <a href="#" class="iwj-le-btn iwj-le-btn-outline" onclick="event.preventDefault(); alert('Placeholder only — the JWG Academy course library does not exist yet.');">View Course Library</a>
+          <div class="iwj-le-placeholder-flag">&#9888; Placeholder &mdash; needs the course library built (JWG Academy doesn't exist yet).</div>
         </div>
       </div>
 
@@ -230,7 +239,8 @@ get_header();
           <li><strong>1-Day Community Retreats:</strong> Local healing experiences without the cost or travel barrier.</li>
           <li><strong>Sliding-Scale Admission:</strong> Community programming funded through JWG partnerships.</li>
         </ul>
-        <a href="#" class="iwj-le-btn iwj-le-btn-primary" style="background-color: var(--accent-gold); color: var(--primary-navy); margin-top: 20px;">Sponsor a Community Event</a>
+        <a href="#" class="iwj-le-btn iwj-le-btn-primary" style="background-color: var(--accent-gold); color: var(--primary-navy); margin-top: 20px;" onclick="event.preventDefault(); alert('Placeholder only — the sponsorship form is not yet connected.');">Sponsor a Community Event</a>
+        <div class="iwj-le-placeholder-flag" style="margin-top: 12px; text-align: left;">&#9888; Placeholder &mdash; needs a sponsorship form/contact flow before this goes live.</div>
       </div>
     </div>
 
