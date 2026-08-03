@@ -106,3 +106,33 @@ function iwosan_ptsd_assessment_shortcode() {
     return '<div id="iwosan-ptsd-mount" class="iwosan-assessment"></div>';
 }
 add_shortcode( 'iwosan_ptsd_assessment', 'iwosan_ptsd_assessment_shortcode' );
+
+/**
+ * MenoWell-branded pages use their own font pairing (Playfair Display + Lato)
+ * as a deliberate "you're entering MenoWell" visual signal, distinct from the
+ * rest of the site's Montserrat/Lato pairing. Loaded only on pages assigned
+ * one of the templates below, so it has no effect on load time elsewhere.
+ */
+function iwosan_menowell_fonts_enqueue() {
+	global $post;
+	if ( ! is_a( $post, 'WP_Post' ) ) {
+		return;
+	}
+
+	$known_templates = array(
+		'template-menopause.php',
+	);
+	$current_template = get_page_template_slug( $post->ID );
+
+	if ( ! in_array( $current_template, $known_templates, true ) ) {
+		return;
+	}
+
+	wp_enqueue_style(
+		'iwosan-menowell-fonts',
+		'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap',
+		array(),
+		null
+	);
+}
+add_action( 'wp_enqueue_scripts', 'iwosan_menowell_fonts_enqueue' );
