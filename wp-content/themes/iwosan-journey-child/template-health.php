@@ -33,7 +33,7 @@ get_header();
 		</div>
 		<div class="ij-journal-teaser">
 			<h3>Maternal Health</h3>
-			<p>Complete maternal health support, launching in our next phase.</p>
+			<p>We build advocates, not passive patients. Choose your track — The Maternal Continuum, or the WOC Advocacy Sanctuary — each with a full library of tools to protect your growing family.</p>
 			<p style="margin-top: 10px;"><a href="/maternal-health/">Learn more &rarr;</a></p>
 		</div>
 		<div class="ij-journal-teaser">
