@@ -74,6 +74,11 @@ get_header();
 			<p>Practical scripts and appointment prep so every visit is productive, not another dead end.</p>
 			<p style="margin-top: 10px;"><a href="/getting-prepared/">Learn more &rarr;</a></p>
 		</div>
+		<div class="ij-journal-teaser">
+			<h3>Advocating for Your Child</h3>
+			<p>Your child can't always speak up for themselves. Here's how to be their voice.</p>
+			<p style="margin-top: 10px;"><a href="/advocating-for-your-child/">Learn more &rarr;</a></p>
+		</div>
 	</div>
 
 	<h2>Further reading</h2>
