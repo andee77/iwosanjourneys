@@ -17,8 +17,8 @@ get_header();
 
 <!-- ============================================
      PATIENT POWER PACK — SELF-ADVOCACY CORE SCRIPTS
-     Landing page; email capture is a placeholder (JS alert), not yet wired
-     to Kit/ConvertKit — list decision (shared MenoWell vs. dedicated Iwosan) pending.
+     Landing page; all 3 PDFs now link directly (email capture removed —
+     simple direct-download approach chosen over Kit/ConvertKit automation).
      ============================================ -->
 <style>
   .iwj-cs-page {
@@ -51,6 +51,7 @@ get_header();
   .iwj-cs-btn { display: inline-block; padding: 16px 30px; border-radius: 6px; font-family: var(--font-heading); font-weight: 700; text-decoration: none; border: none; cursor: pointer; transition: background 0.2s, transform 0.15s; font-size: 1rem; }
   .iwj-cs-btn-primary { background-color: var(--primary-green); color: var(--white); }
   .iwj-cs-btn-primary:hover { background-color: var(--primary-navy); transform: translateY(-1px); }
+  .iwj-cs-btn-card { font-size: 0.85rem; padding: 12px 22px; margin-top: 18px; }
 
   .iwj-cs-brain-card { background: var(--primary-navy); border-radius: 12px; padding: 30px 28px; box-shadow: 0 20px 45px rgba(10,31,68,0.18); transform: rotate(-1deg); }
   .iwj-cs-brain-card .iwj-cs-tag { font-family: var(--font-heading); font-size: 0.7rem; font-weight: 700; letter-spacing: 1.5px; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 18px; display: block; }
@@ -72,15 +73,8 @@ get_header();
   .iwj-cs-feature h3 { font-size: 1.1rem; margin-bottom: 12px; }
   .iwj-cs-feature p { font-size: 0.95rem; color: var(--text-muted); }
 
-  .iwj-cs-capture-section { max-width: 640px; margin: 0 auto; padding: 80px 20px; text-align: center; }
-  .iwj-cs-capture-section h2 { font-size: 1.9rem; margin-bottom: 14px; }
-  .iwj-cs-capture-section p { color: var(--text-muted); margin-bottom: 30px; font-size: 1.05rem; }
-  .iwj-cs-capture-form { display: flex; gap: 12px; max-width: 460px; margin: 0 auto; }
-  .iwj-cs-capture-form input { flex: 1; padding: 15px 16px; border-radius: 6px; border: 1px solid var(--border-light); font-family: var(--font-body); font-size: 1rem; background: var(--white); }
-  .iwj-cs-capture-form .iwj-cs-btn { white-space: nowrap; }
-  .iwj-cs-capture-note { font-size: 0.78rem; color: var(--text-muted); margin-top: 16px; }
-  .iwj-cs-placeholder-flag { max-width: 460px; margin: 18px auto 0; font-size: 0.75rem; color: var(--earth-brown); background: rgba(139,94,60,0.08); border: 1px dashed var(--earth-brown); border-radius: 6px; padding: 10px 14px; }
-  .iwj-cs-disclaimer-note { font-size: 0.8rem; color: var(--text-muted); margin-top: 24px; }
+  .iwj-cs-disclaimer-wrap { max-width: 640px; margin: 40px auto 70px; text-align: center; padding: 0 20px; }
+  .iwj-cs-disclaimer-note { font-size: 0.8rem; color: var(--text-muted); }
   .iwj-cs-disclaimer-note a { color: var(--primary-green); }
 
   @media (max-width: 860px) {
@@ -88,7 +82,6 @@ get_header();
     .iwj-cs-hero h1 { font-size: 2rem; }
     .iwj-cs-brain-card { transform: none; }
     .iwj-cs-features-grid { grid-template-columns: 1fr; }
-    .iwj-cs-capture-form { flex-direction: column; }
   }
   @media (prefers-reduced-motion: reduce) {
     .iwj-cs-btn { transition: none; }
@@ -122,46 +115,33 @@ get_header();
     <p>The Self-Advocacy Core Scripts are your pocket-sized armor. Designed for patients, partners, and doulas, these frameworks teach you exactly how to slow down the medical machine and protect your bodily autonomy.</p>
   </section>
 
-  <section class="iwj-cs-features-section">
+  <section class="iwj-cs-features-section" id="iwj-cs-download">
     <div class="iwj-cs-features-inner">
       <h2>Inside the Toolkit (PDF Download)</h2>
       <div class="iwj-cs-features-grid">
         <div class="iwj-cs-feature">
           <h3>The &ldquo;Document the Refusal&rdquo; Strategy</h3>
           <p>The #1 anti-bias phrase that forces dismissive doctors to order the tests you requested by leveraging medical liability.</p>
+          <a href="https://iwosanjourney.com/wp-content/uploads/2026/09/Document_the_Refusal_Tear-Sheet_1.pdf" target="_blank" rel="noopener" class="iwj-cs-btn iwj-cs-btn-primary iwj-cs-btn-card">Download PDF</a>
         </div>
         <div class="iwj-cs-feature">
           <h3>The B.R.A.I.N. Consent Card</h3>
           <p>The 5 questions you must ask before agreeing to any sudden intervention or procedure.</p>
+          <a href="https://iwosanjourney.com/wp-content/uploads/2026/09/BRAIN_Consent_Pocket_Card.pdf" target="_blank" rel="noopener" class="iwj-cs-btn iwj-cs-btn-primary iwj-cs-btn-card">Download PDF</a>
         </div>
         <div class="iwj-cs-feature">
           <h3>The Room Guardian Roster</h3>
           <p>Exactly how your partner or support person can block the bed, enforce the 10-minute privacy rule, and escalate to the hospital's Chain of Command if you are in danger.</p>
+          <a href="https://iwosanjourney.com/wp-content/uploads/2026/09/Room_Guardian_Roster.pdf" target="_blank" rel="noopener" class="iwj-cs-btn iwj-cs-btn-primary iwj-cs-btn-card">Download PDF</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="iwj-cs-capture-section" id="iwj-cs-download">
-    <h2>Get your pocket-sized armor.</h2>
-    <p>Enter your email and the full PDF toolkit lands in your inbox &mdash; print-ready, no login required.</p>
-    <!-- PLACEHOLDER: form is not yet wired to Kit/ConvertKit or a PDF delivery mechanism.
-         Pending decision: shared MenoWell list vs. dedicated Iwosan Journey's list. -->
-    <form class="iwj-cs-capture-form" onsubmit="event.preventDefault(); iwjCsShowMsg();">
-      <input type="email" placeholder="you@email.com" aria-label="Email address" required>
-      <button type="submit" class="iwj-cs-btn iwj-cs-btn-primary">Send Me the PDF</button>
-    </form>
-    <p class="iwj-cs-capture-note">We'll also send the 3-part "Print it, use it, tell us how it went" follow-up series.</p>
-    <div class="iwj-cs-placeholder-flag">&#9888; Placeholder form &mdash; not yet connected to an email service or PDF delivery. Functional once the Core Scripts PDF is designed and the list decision (Kit/ConvertKit shared vs. dedicated) is made.</div>
+  <div class="iwj-cs-disclaimer-wrap">
     <p class="iwj-cs-disclaimer-note">These scripts support conversations with your provider &mdash; they do not replace professional medical advice. See our <a href="/medical-disclaimer/">Medical Disclaimer</a>.</p>
-  </section>
+  </div>
 
 </div>
-
-<script>
-function iwjCsShowMsg(){
-  alert('Placeholder only — email capture is not yet connected.');
-}
-</script>
 
 <?php get_footer(); ?>
