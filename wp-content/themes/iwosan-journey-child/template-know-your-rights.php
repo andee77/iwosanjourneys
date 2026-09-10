@@ -17,11 +17,11 @@ get_header();
 
 <div class="ij-section">
 
-	<img src="https://iwosanjourney.com/wp-content/uploads/2026/09/kyr-photo-cropped.jpg" alt="A man in a business suit listening attentively in a meeting" style="float: left; width: 260px; height: 323px; object-fit: cover; border-radius: 8px; margin: 4px 24px 16px 0;">
-
 	<p>You don't have to know medical jargon to be taken seriously in a doctor's office. You just have to know what you're actually entitled to — and most people never get told.</p>
 
-	<h2 style="clear: both;">What you're entitled to, every visit</h2>
+	<img src="https://iwosanjourney.com/wp-content/uploads/2026/09/kyr-photo-cropped.jpg" alt="A man in a business suit listening attentively in a meeting" style="float: left; width: 260px; height: 323px; object-fit: cover; border-radius: 8px; margin: 4px 24px 16px 0;">
+
+	<h2>What you're entitled to, every visit</h2>
 
 	<p><strong>The full picture, in plain language.</strong><br>
 	You have the right to a clear explanation of your diagnosis, your options, and the risks and benefits of each — not a rushed summary. If something doesn't make sense, you're allowed to ask again until it does.</p>
