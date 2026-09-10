@@ -53,7 +53,9 @@ get_header();
   .iwj-ag-section-title { font-size: 1.6rem; margin-bottom: 8px; text-align: left; }
   .iwj-ag-section-note { text-align: left; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 28px; max-width: 640px; }
   .iwj-ag-section-photo { float: left; width: 260px; height: 347px; object-fit: cover; border-radius: 10px; margin: 0 28px 20px 0; }
-  .iwj-ag-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; clear: both; }
+  .iwj-ag-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+  .iwj-ag-grid-top { grid-template-columns: repeat(3, 1fr); margin-bottom: 22px; }
+  .iwj-ag-grid-bottom { clear: both; }
 
   .iwj-ag-card { padding: 24px 22px; border-radius: 10px; background: var(--bg-cream); border-top: 4px solid var(--primary-green); display: flex; flex-direction: column; }
   .iwj-ag-card h3 { font-size: 1rem; margin-bottom: 8px; }
@@ -68,10 +70,10 @@ get_header();
   .iwj-ag-disclaimer-note a { color: var(--primary-green); }
 
   @media (max-width: 980px) {
-    .iwj-ag-grid { grid-template-columns: repeat(2, 1fr); }
+    .iwj-ag-grid, .iwj-ag-grid-top { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 560px) {
-    .iwj-ag-grid { grid-template-columns: 1fr; }
+    .iwj-ag-grid, .iwj-ag-grid-top { grid-template-columns: 1fr; }
     .iwj-ag-hero h1 { font-size: 1.7rem; }
   }
 </style>
@@ -90,7 +92,7 @@ get_header();
     <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/health-topic-section-photo-resized.jpg" alt="By Health Topic section photo">
     <h2 class="iwj-ag-section-title">By Health Topic</h2>
     <p class="iwj-ag-section-note">Scripts and questions built around a specific condition or concern.</p>
-    <div class="iwj-ag-grid">
+    <div class="iwj-ag-grid iwj-ag-grid-top">
       <div class="iwj-ag-card">
         <h3>Menopause &amp; Perimenopause</h3>
         <p>You are the expert on your body. Use this to guide your care.</p>
@@ -106,6 +108,8 @@ get_header();
         <p>Your mind and body are one system.</p>
         <a href="https://iwosanjourney.com/wp-content/uploads/2026/09/Mental_Health_Advocacy_Sheet.pdf" target="_blank" rel="noopener" class="iwj-ag-btn">Download PDF</a>
       </div>
+    </div>
+    <div class="iwj-ag-grid iwj-ag-grid-bottom">
       <div class="iwj-ag-card">
         <h3>Female Health</h3>
         <p>Your pain is data, not drama.</p>
@@ -133,7 +137,7 @@ get_header();
     <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/life-stage-section-photo-resized.jpg" alt="By Life Stage section photo">
     <h2 class="iwj-ag-section-title">By Life Stage</h2>
     <p class="iwj-ag-section-note">Advocacy looks different at every age &mdash; these are built for exactly where you are.</p>
-    <div class="iwj-ag-grid">
+    <div class="iwj-ag-grid iwj-ag-grid-top">
       <div class="iwj-ag-card">
         <h3>Children's Health</h3>
         <p>Advocating for the patient who can't yet advocate for themselves.</p>
@@ -149,6 +153,8 @@ get_header();
         <p>You're not too young for this.</p>
         <a href="https://iwosanjourney.com/wp-content/uploads/2026/09/Young_Adults_Advocacy_Sheet.pdf" target="_blank" rel="noopener" class="iwj-ag-btn">Download PDF</a>
       </div>
+    </div>
+    <div class="iwj-ag-grid iwj-ag-grid-bottom">
       <div class="iwj-ag-card">
         <h3>Adults</h3>
         <p>Your health can't wait for a slower season.</p>
