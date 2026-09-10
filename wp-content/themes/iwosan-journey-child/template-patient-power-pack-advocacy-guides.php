@@ -89,7 +89,7 @@ get_header();
   <section class="iwj-ag-section iwj-ag-topic">
     <h2 class="iwj-ag-section-title">By Health Topic</h2>
     <p class="iwj-ag-section-note">Scripts and questions built around a specific condition or concern.</p>
-    <img class="iwj-ag-section-photo" src="https://placehold.co/1100x480/1C3A2A/FAF8F4?text=By+Health+Topic" alt="Placeholder — By Health Topic section photo">
+    <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/health-topic-section-photo-resized.jpg" alt="By Health Topic section photo">
     <div class="iwj-ag-grid">
       <div class="iwj-ag-card">
         <h3>Menopause &amp; Perimenopause</h3>
@@ -132,7 +132,7 @@ get_header();
   <section class="iwj-ag-section iwj-ag-lifestage">
     <h2 class="iwj-ag-section-title">By Life Stage</h2>
     <p class="iwj-ag-section-note">Advocacy looks different at every age &mdash; these are built for exactly where you are.</p>
-    <img class="iwj-ag-section-photo" src="https://placehold.co/1100x480/4DAEAF/0A1F44?text=By+Life+Stage" alt="Placeholder — By Life Stage section photo">
+    <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/life-stage-section-photo-resized.jpg" alt="By Life Stage section photo">
     <div class="iwj-ag-grid">
       <div class="iwj-ag-card">
         <h3>Children's Health</h3>
