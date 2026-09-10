@@ -113,9 +113,28 @@ get_header();
   .iwj-le-btn-outline { background-color: transparent; color: var(--primary-navy); border: 2px solid var(--primary-navy); }
   .iwj-le-btn-outline:hover { background-color: var(--bg-cream); }
 
-  .iwj-le-placeholder-flag {
-    margin-top: 12px; font-size: 0.75rem; color: var(--earth-brown); background: rgba(139,94,60,0.08);
-    border: 1px dashed var(--earth-brown); border-radius: 6px; padding: 10px 14px;
+  .iwj-le-stamp-wrap { text-align: center; width: 100%; }
+  .iwj-le-stamp {
+    display: inline-block;
+    border: 3px solid var(--earth-brown);
+    border-radius: 8px;
+    padding: 10px 24px;
+    transform: rotate(-6deg);
+    color: var(--earth-brown);
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    position: relative;
+  }
+  .iwj-le-stamp::before {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border: 1px solid var(--earth-brown);
+    border-radius: 6px;
   }
 
   .iwj-le-community-banner {
@@ -178,8 +197,7 @@ get_header();
             <li><span>&#10003;</span> Live Patient Power Pack walkthroughs.</li>
             <li><span>&#10003;</span> Interactive "Interview Your Doctor" role-play.</li>
           </ul>
-          <a href="#" class="iwj-le-btn iwj-le-btn-primary" onclick="event.preventDefault(); alert('Placeholder only — the waitlist form is not yet connected.');">Join the Waitlist</a>
-          <div class="iwj-le-placeholder-flag">&#9888; Placeholder &mdash; needs a waitlist form/list connected before this goes live.</div>
+          <script async data-uid="89c420b6e9" src="https://menowell.kit.com/89c420b6e9/index.js"></script>
         </div>
       </div>
 
@@ -197,8 +215,7 @@ get_header();
             <li><span>&#10003;</span> Profound rest and burnout recovery focus.</li>
             <li><span>&#10003;</span> Safe, judgment-free peer connection.</li>
           </ul>
-          <a href="#" class="iwj-le-btn iwj-le-btn-outline" onclick="event.preventDefault(); alert('Placeholder only — destinations page/booking flow is not yet built.');">Explore Destinations</a>
-          <div class="iwj-le-placeholder-flag">&#9888; Placeholder &mdash; needs an actual destinations page or booking flow before this goes live.</div>
+          <div class="iwj-le-stamp-wrap"><span class="iwj-le-stamp">Coming Soon</span></div>
         </div>
       </div>
 
@@ -216,8 +233,7 @@ get_header();
             <li><span>&#10003;</span> Masterclasses on recognizing medical gaslighting.</li>
             <li><span>&#10003;</span> Deep-dive modules into Medical Travel Prep.</li>
           </ul>
-          <a href="#" class="iwj-le-btn iwj-le-btn-outline" onclick="event.preventDefault(); alert('Placeholder only — the JWG Academy course library does not exist yet.');">View Course Library</a>
-          <div class="iwj-le-placeholder-flag">&#9888; Placeholder &mdash; needs the course library built (JWG Academy doesn't exist yet).</div>
+          <div class="iwj-le-stamp-wrap"><span class="iwj-le-stamp">Coming Soon</span></div>
         </div>
       </div>
 
@@ -239,8 +255,7 @@ get_header();
           <li><strong>1-Day Community Retreats:</strong> Local healing experiences without the cost or travel barrier.</li>
           <li><strong>Sliding-Scale Admission:</strong> Community programming funded through JWG partnerships.</li>
         </ul>
-        <a href="#" class="iwj-le-btn iwj-le-btn-primary" style="background-color: var(--accent-gold); color: var(--primary-navy); margin-top: 20px;" onclick="event.preventDefault(); alert('Placeholder only — the sponsorship form is not yet connected.');">Sponsor a Community Event</a>
-        <div class="iwj-le-placeholder-flag" style="margin-top: 12px; text-align: left;">&#9888; Placeholder &mdash; needs a sponsorship form/contact flow before this goes live.</div>
+        <div class="iwj-le-stamp-wrap" style="margin-top: 20px;"><span class="iwj-le-stamp">Coming Soon</span></div>
       </div>
     </div>
 
