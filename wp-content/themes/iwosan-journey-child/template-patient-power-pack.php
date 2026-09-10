@@ -57,6 +57,7 @@ get_header();
   .iwj-ppp-tool-card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(10, 31, 68, 0.1); }
   .iwj-ppp-tool-card:nth-child(2) { border-top-color: var(--accent-teal); }
   .iwj-ppp-tool-card:nth-child(3) { border-top-color: var(--accent-gold); }
+  .iwj-ppp-tool-card:nth-child(4) { border-top-color: var(--earth-brown, #8B5E3C); }
 
   .iwj-ppp-tool-image { height: 200px; background-size: cover; background-position: center; position: relative; }
   .iwj-ppp-tool-image-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 15px 20px; background: linear-gradient(to top, rgba(10,31,68,0.9), transparent); }
@@ -134,6 +135,21 @@ get_header();
           <li><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>End-of-month clinical review rollups</li>
         </ul>
         <a href="/patient-power-pack/90-day-journal/" class="iwj-ppp-btn iwj-ppp-btn-primary">See the 90-Day Journal</a>
+      </div>
+    </div>
+
+    <div class="iwj-ppp-tool-card">
+      <div class="iwj-ppp-tool-image" style="background-image: url('https://placehold.co/800x600/8B5E3C/FAF8F4?text=Advocacy+Guides');">
+        <div class="iwj-ppp-tool-image-overlay"><span class="iwj-ppp-tool-tag">The Advocacy Guides</span></div>
+      </div>
+      <div class="iwj-ppp-tool-content">
+        <h3>Advocacy Guides by Topic &amp; Life Stage</h3>
+        <p>Twelve print-ready sheets, organized so you always have the right script for the room you're walking into &mdash; whatever the condition, whatever your age.</p>
+        <ul class="iwj-ppp-tool-features">
+          <li><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>7 sheets by health topic</li>
+          <li><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>5 sheets by life stage</li>
+        </ul>
+        <a href="/patient-power-pack/advocacy-guides/" class="iwj-ppp-btn iwj-ppp-btn-primary">See the Advocacy Guides</a>
       </div>
     </div>
   </section>
