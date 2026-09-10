@@ -21,6 +21,8 @@ get_header();
 
 	<p>If you've ever left an appointment feeling brushed off — your pain minimized, your concerns filed under "stress," a test you asked for never ordered — you already know why this page exists. That gap between what you're feeling and what gets taken seriously is real, and for women of color especially, it's wider and older than any single bad appointment.</p>
 
+	<img src="https://iwosanjourney.com/wp-content/uploads/2026/09/advocacy-photo-cropped.jpg" alt="A father and his teenage son having a serious, attentive conversation" style="width: 100%; max-width: 700px; height: auto; border-radius: 8px; display: block; margin: 30px auto;">
+
 	<h2>Four ways to make yourself heard</h2>
 
 	<p><strong>1. Get specific about your body.</strong><br>
