@@ -137,6 +137,18 @@ get_header();
     border-radius: 6px;
   }
 
+  .iwj-le-featured-card {
+    background: var(--white); border-radius: 12px; overflow: hidden; box-shadow: 0 15px 35px rgba(10, 31, 68, 0.06);
+    border: 1px solid var(--border-light); display: flex; margin-bottom: 40px;
+  }
+  .iwj-le-featured-image { flex: 0 0 42%; background-size: cover; background-position: center; position: relative; min-height: 320px; }
+  .iwj-le-featured-content { flex: 1; padding: 40px; display: flex; flex-direction: column; justify-content: center; }
+  .iwj-le-featured-content h3 { font-size: 1.9rem; margin-bottom: 12px; line-height: 1.15; }
+  @media (max-width: 760px) {
+    .iwj-le-featured-card { flex-direction: column; }
+    .iwj-le-featured-image { min-height: 220px; }
+  }
+
   .iwj-le-community-banner {
     background-color: var(--primary-green); color: var(--bg-cream); border-radius: 16px; padding: 60px 40px;
     display: flex; align-items: center; gap: 40px; margin-top: 40px; box-shadow: 0 20px 40px rgba(28, 58, 42, 0.15);
@@ -181,25 +193,25 @@ get_header();
       <p>Whether you need to learn how to advocate in the doctor's office, or you simply need a passport and a week of profound rest, we have a space curated for you.</p>
     </div>
 
-    <div class="iwj-le-events-grid">
-
-      <!-- EVENT 1: Summits -->
-      <div class="iwj-le-event-card">
-        <div class="iwj-le-event-image" style="background-image: url('https://iwosanjourney.com/wp-content/uploads/2026/08/BLK-Women-talking.avif');">
-          <div class="iwj-le-event-badge">Early 2027</div>
-        </div>
-        <div class="iwj-le-event-content">
-          <div class="iwj-le-event-location">&#128205; Cleveland, OH &amp; Virtual</div>
-          <h3>The &ldquo;Meeting Me&rdquo; Live Summits</h3>
-          <p>High-energy, educational mini-conferences where our digital community comes together face-to-face. Learn directly from specialists and build a lasting local support system.</p>
-          <ul class="iwj-le-feature-list">
-            <li><span>&#10003;</span> Expert Panels on hormone health &amp; mental wellness.</li>
-            <li><span>&#10003;</span> Live Patient Power Pack walkthroughs.</li>
-            <li><span>&#10003;</span> Interactive "Interview Your Doctor" role-play.</li>
-          </ul>
-          <script async data-uid="89c420b6e9" src="https://menowell.kit.com/89c420b6e9/index.js"></script>
-        </div>
+    <!-- FEATURED: Meeting Me Live Summits (horizontal, above the grid) -->
+    <div class="iwj-le-featured-card">
+      <div class="iwj-le-featured-image" style="background-image: url('https://iwosanjourney.com/wp-content/uploads/2026/08/BLK-Women-talking.avif');">
+        <div class="iwj-le-event-badge">Early 2027</div>
       </div>
+      <div class="iwj-le-featured-content">
+        <div class="iwj-le-event-location">&#128205; Cleveland, OH &amp; Virtual</div>
+        <h3>The &ldquo;Meeting Me&rdquo; Live Summits</h3>
+        <p>High-energy, educational mini-conferences where our digital community comes together face-to-face. Learn directly from specialists and build a lasting local support system.</p>
+        <ul class="iwj-le-feature-list">
+          <li><span>&#10003;</span> Expert Panels on hormone health &amp; mental wellness.</li>
+          <li><span>&#10003;</span> Live Patient Power Pack walkthroughs.</li>
+          <li><span>&#10003;</span> Interactive "Interview Your Doctor" role-play.</li>
+        </ul>
+        <script async data-uid="89c420b6e9" src="https://menowell.kit.com/89c420b6e9/index.js"></script>
+      </div>
+    </div>
+
+    <div class="iwj-le-events-grid">
 
       <!-- EVENT 2: Retreats -->
       <div class="iwj-le-event-card">
