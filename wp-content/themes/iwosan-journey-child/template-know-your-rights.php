@@ -21,7 +21,7 @@ get_header();
 
 	<img src="https://iwosanjourney.com/wp-content/uploads/2026/09/kyr-photo-cropped.jpg" alt="A man in a business suit listening attentively in a meeting" style="float: left; width: 260px; height: 323px; object-fit: cover; border-radius: 8px; margin: 4px 24px 16px 0;">
 
-	<h2 style="margin-top: 0;">What you're entitled to, every visit</h2>
+	<h2 style="margin-top: 0; clear: none;">What you're entitled to, every visit</h2>
 
 	<p><strong>The full picture, in plain language.</strong><br>
 	You have the right to a clear explanation of your diagnosis, your options, and the risks and benefits of each — not a rushed summary. If something doesn't make sense, you're allowed to ask again until it does.</p>
