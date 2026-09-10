@@ -50,10 +50,10 @@ get_header();
   .iwj-ag-hero p { font-size: 1.1rem; color: var(--text-muted); }
 
   .iwj-ag-section { max-width: 1100px; margin: 0 auto; padding: 20px 20px 60px; }
-  .iwj-ag-section-title { font-size: 1.6rem; margin-bottom: 8px; text-align: center; }
-  .iwj-ag-section-note { text-align: center; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 28px; }
-  .iwj-ag-section-photo { width: 100%; max-width: 1100px; height: 240px; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto 36px; }
-  .iwj-ag-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+  .iwj-ag-section-title { font-size: 1.6rem; margin-bottom: 8px; text-align: left; }
+  .iwj-ag-section-note { text-align: left; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 28px; max-width: 640px; }
+  .iwj-ag-section-photo { float: left; width: 260px; height: 347px; object-fit: cover; border-radius: 10px; margin: 0 28px 20px 0; }
+  .iwj-ag-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; clear: both; }
 
   .iwj-ag-card { padding: 24px 22px; border-radius: 10px; background: var(--bg-cream); border-top: 4px solid var(--primary-green); display: flex; flex-direction: column; }
   .iwj-ag-card h3 { font-size: 1rem; margin-bottom: 8px; }
@@ -87,9 +87,9 @@ get_header();
   </section>
 
   <section class="iwj-ag-section iwj-ag-topic">
+    <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/health-topic-section-photo-resized.jpg" alt="By Health Topic section photo">
     <h2 class="iwj-ag-section-title">By Health Topic</h2>
     <p class="iwj-ag-section-note">Scripts and questions built around a specific condition or concern.</p>
-    <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/health-topic-section-photo-resized.jpg" alt="By Health Topic section photo">
     <div class="iwj-ag-grid">
       <div class="iwj-ag-card">
         <h3>Menopause &amp; Perimenopause</h3>
@@ -130,9 +130,9 @@ get_header();
   </section>
 
   <section class="iwj-ag-section iwj-ag-lifestage">
+    <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/life-stage-section-photo-resized.jpg" alt="By Life Stage section photo">
     <h2 class="iwj-ag-section-title">By Life Stage</h2>
     <p class="iwj-ag-section-note">Advocacy looks different at every age &mdash; these are built for exactly where you are.</p>
-    <img class="iwj-ag-section-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/09/life-stage-section-photo-resized.jpg" alt="By Life Stage section photo">
     <div class="iwj-ag-grid">
       <div class="iwj-ag-card">
         <h3>Children's Health</h3>
