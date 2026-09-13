@@ -171,7 +171,7 @@ get_header();
 
 	<div id="checkengine-cta">
 		<p>Two or more checked? Your body is asking for a reset. Our Men's Health &amp; Vitality Baseline (Form 7) — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
-		<script async data-uid="e7ed6e70ca" src="https://menowell.kit.com/e7ed6e70ca/index.js"></script>
+		<script async data-uid="a61f5f40a7" src="https://menowell.kit.com/a61f5f40a7/index.js"></script>
 	</div>
 
 	<h2>The Co-Pilot Assessment</h2>
@@ -186,7 +186,7 @@ get_header();
 
 	<div id="copilot-cta">
 		<p>If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our <a href="/mens-health/the-pit-crew/">Pre-Appointment Planner (Form 3)</a> is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
-		<script async data-uid="e7ed6e70ca" src="https://menowell.kit.com/e7ed6e70ca/index.js"></script>
+		<script async data-uid="a61f5f40a7" src="https://menowell.kit.com/a61f5f40a7/index.js"></script>
 	</div>
 
 	<h2>The Big Four: What's Actually Happening Under the Hood</h2>
