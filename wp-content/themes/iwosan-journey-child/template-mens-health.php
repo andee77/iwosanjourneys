@@ -170,7 +170,7 @@ get_header();
 	</ul>
 
 	<div id="checkengine-cta">
-		<p>Two or more checked? Your body is asking for a reset. Our Men's Health &amp; Vitality Baseline (Form 7) — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
+		<p>Two or more checked? Your body is asking for a reset. Our <a href="https://iwosanjourney.com/wp-content/uploads/2026/09/Mens_Health_Vitality_Baseline_Form7.pdf" target="_blank" rel="noopener">Men's Health &amp; Vitality Baseline (Form 7)</a> — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
 	</div>
 
 	<h2>The Co-Pilot Assessment</h2>
@@ -206,7 +206,7 @@ get_header();
 
 	<div class="ij-download-cta">
 		<p><strong>Take the power back, as a team.</strong><br>The full Patient Power Pack includes the Baseline Trackers, the Partner Companion Guide, and our advocacy scripts — everything above, in your hands.</p>
-		<a href="#" class="ij-btn-gold">Get the Patient Power Pack (coming soon)</a>
+		<a href="/patient-power-pack/" class="ij-btn-gold">Get the Patient Power Pack</a>
 	</div>
 
 	<h2>Keep going</h2>
