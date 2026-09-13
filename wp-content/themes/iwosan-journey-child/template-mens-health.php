@@ -169,7 +169,10 @@ get_header();
 		<li><strong>The Blind Spot</strong> — it's been more than 2 years since a full metabolic, cholesterol, and testosterone panel.</li>
 	</ul>
 
-	<p id="checkengine-cta">Two or more checked? Your body is asking for a reset. Our Men's Health &amp; Vitality Baseline (Form 7) — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
+	<div id="checkengine-cta">
+		<p>Two or more checked? Your body is asking for a reset. Our Men's Health &amp; Vitality Baseline (Form 7) — part of the Patient Power Pack — is built to track these exact symptoms for one week, so you can hand your doctor hard data instead of vague complaints.</p>
+		<script async data-uid="e7ed6e70ca" src="https://menowell.kit.com/e7ed6e70ca/index.js"></script>
+	</div>
 
 	<h2>The Co-Pilot Assessment</h2>
 	<p><em>For the partner.</em> How to support him without nagging or triggering defensiveness.</p>
@@ -181,7 +184,10 @@ get_header();
 		<li><strong>The Support Role</strong> — when he does have an appointment, you're not sure how to help him prepare or advocate for himself in the room.</li>
 	</ul>
 
-	<p id="copilot-cta">If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our <a href="/mens-health/the-pit-crew/">Pre-Appointment Planner (Form 3)</a> is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
+	<div id="copilot-cta">
+		<p>If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our <a href="/mens-health/the-pit-crew/">Pre-Appointment Planner (Form 3)</a> is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
+		<script async data-uid="e7ed6e70ca" src="https://menowell.kit.com/e7ed6e70ca/index.js"></script>
+	</div>
 
 	<h2>The Big Four: What's Actually Happening Under the Hood</h2>
 
