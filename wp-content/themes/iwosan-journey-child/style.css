@@ -320,6 +320,6 @@ Text Domain: iwosan-journey-child
 	display: block;
 }
 
-#primary-menu > li > a {
-	font-size: 14px;
+#menu-item-446 {
+	flex-basis: 100%;
 }
