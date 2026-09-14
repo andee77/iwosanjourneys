@@ -136,3 +136,39 @@ function iwosan_menowell_fonts_enqueue() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'iwosan_menowell_fonts_enqueue' );
+
+/**
+ * Healing Voices — block login for unverified accounts.
+ *
+ * Fires on every login attempt, regardless of which login form is used
+ * (custom Healing Voices login page, once built, or WordPress's own
+ * default /wp-login.php) — so the verification gate can't be bypassed
+ * by going around a specific page.
+ *
+ * Scoped to ONLY affect accounts that actually registered through the
+ * Healing Voices flow: metadata_exists() checks whether the
+ * 'hv_email_verified' key is present at all. Existing site users (the
+ * site owner's own admin account, any other pre-existing WordPress
+ * user) never had this key set, so they are never touched by this
+ * check and can always log in normally.
+ */
+add_filter( 'wp_authenticate_user', function ( $user, $password ) {
+	if ( is_wp_error( $user ) ) {
+		return $user;
+	}
+
+	if ( ! metadata_exists( 'user', $user->ID, 'hv_email_verified' ) ) {
+		return $user;
+	}
+
+	$verified = get_user_meta( $user->ID, 'hv_email_verified', true );
+
+	if ( ! $verified ) {
+		return new WP_Error(
+			'hv_not_verified',
+			__( 'Please verify your email before logging in. Check your inbox for the verification link we sent when you registered.' )
+		);
+	}
+
+	return $user;
+}, 10, 2 );
