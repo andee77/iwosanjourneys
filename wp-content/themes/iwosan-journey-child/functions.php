@@ -174,3 +174,41 @@ add_filter( 'wp_authenticate_user', function ( $user, $password ) {
 
 	return $user;
 }, 10, 2 );
+
+/**
+ * Healing Voices — custom post type for discussion topics, and a
+ * hierarchical taxonomy for the 4 main categories + their subcategories.
+ */
+add_action( 'init', function () {
+
+	register_post_type( 'hv_topic', array(
+		'labels' => array(
+			'name'          => 'Healing Voices Topics',
+			'singular_name' => 'Topic',
+			'add_new_item'  => 'Add New Topic',
+			'edit_item'     => 'Edit Topic',
+			'new_item'      => 'New Topic',
+			'view_item'     => 'View Topic',
+			'search_items'  => 'Search Topics',
+			'not_found'     => 'No topics found',
+		),
+		'public'       => true,
+		'has_archive'  => true,
+		'rewrite'      => array( 'slug' => 'healing-voices/topic' ),
+		'supports'     => array( 'title', 'editor', 'author', 'comments' ),
+		'show_in_menu' => true,
+		'menu_icon'    => 'dashicons-format-chat',
+	) );
+
+	register_taxonomy( 'hv_category', 'hv_topic', array(
+		'labels' => array(
+			'name'          => 'Categories',
+			'singular_name' => 'Category',
+		),
+		'hierarchical'      => true,
+		'public'            => true,
+		'show_admin_column' => true,
+		'rewrite'           => array( 'slug' => 'healing-voices/category' ),
+	) );
+
+} );
