@@ -212,3 +212,22 @@ add_action( 'init', function () {
 	) );
 
 } );
+
+/**
+ * Healing Voices — only logged-in, verified users can actually submit a
+ * reply to a topic. This is enforced here via comments_open (not just in
+ * the template's display logic) so it can't be bypassed by posting
+ * directly to wp-comments-post.php.
+ */
+add_filter( 'comments_open', function ( $open, $post_id ) {
+	if ( get_post_type( $post_id ) !== 'hv_topic' ) {
+		return $open;
+	}
+	if ( ! is_user_logged_in() ) {
+		return false;
+	}
+	$user_id  = get_current_user_id();
+	$verified = ! metadata_exists( 'user', $user_id, 'hv_email_verified' )
+		|| get_user_meta( $user_id, 'hv_email_verified', true );
+	return $verified;
+}, 10, 2 );
