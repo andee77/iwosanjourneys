@@ -319,3 +319,7 @@ Text Domain: iwosan-journey-child
 	border-radius: 8px;
 	display: block;
 }
+
+#primary-menu > li > a {
+	font-size: 14px;
+}
