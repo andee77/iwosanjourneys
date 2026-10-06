@@ -52,7 +52,7 @@ get_header(); iwosan_back_button( 'top' );
   .iwj-gp-btn{width:100%;padding:.9rem 1rem}
 }
 @media print{
-  header,footer,#masthead,#colophon,#mobile-drawer,.site-header,.site-footer,.kadence-sticky-header,#kt-scroll-up,#kt-scroll-up-reader,.ij-page-banner,.ij-path-divider,.ij-back-wrap{display:none!important}
+  header,footer,#masthead,#colophon,#mobile-drawer,.site-header,.site-footer,.site-footer-wrap,.ij-custom-footer,.kadence-sticky-header,#kt-scroll-up,#kt-scroll-up-reader,.ij-page-banner,.ij-path-divider,.ij-back-wrap{display:none!important}
   .ij-section>*:not(.iwj-gp-wrap){display:none!important}
   .ij-section{max-width:100%!important;margin:0!important;padding:0!important}
   .iwj-gp-wrap{max-width:100%;margin:0;padding:0}
