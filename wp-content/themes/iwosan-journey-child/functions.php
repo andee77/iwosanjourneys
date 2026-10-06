@@ -231,3 +231,43 @@ add_filter( 'comments_open', function ( $open, $post_id ) {
 		|| get_user_meta( $user_id, 'hv_email_verified', true );
 	return $verified;
 }, 10, 2 );
+
+/**
+ * "← Back" button for form pages (called at the top and bottom of each template).
+ * Goes to the previous page when the visitor arrived from this site, otherwise to
+ * Resources & Documents. Hidden when printing (see style.css).
+ */
+function iwosan_back_button( $position = 'top' ) {
+	static $script_printed = false;
+
+	$position = ( 'bottom' === $position ) ? 'bottom' : 'top';
+	printf(
+		'<nav class="ij-back-wrap ij-back-%1$s" aria-label="%2$s"><a class="ij-back-btn" href="%3$s">&larr; Back</a></nav>',
+		esc_attr( $position ),
+		esc_attr__( 'Back', 'iwosan-journey-child' ),
+		esc_url( home_url( '/resources-documents/' ) )
+	);
+
+	if ( $script_printed ) {
+		return;
+	}
+	$script_printed = true;
+	?>
+<script>
+document.addEventListener('click', function (e) {
+	var a = e.target.closest ? e.target.closest('a.ij-back-btn') : null;
+	if (!a) { return; }
+	try {
+		var r = document.referrer;
+		if (r && window.history.length > 1) {
+			var u = new URL(r);
+			if (u.origin === window.location.origin && (u.pathname + u.search) !== (window.location.pathname + window.location.search)) {
+				e.preventDefault();
+				window.history.back();
+			}
+		}
+	} catch (err) { /* fall through to the link */ }
+});
+</script>
+	<?php
+}

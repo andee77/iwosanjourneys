@@ -4,7 +4,7 @@
  * Description: Custom coded Patient Power Pack "Clinical Briefing Builder" child page — landing copy + embedded interactive tool, for Iwosan Journeys
  */
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 ?>
 
 <section class="ij-page-banner">
@@ -187,8 +187,6 @@ get_header();
 </style>
 
 <div class="iwj-bb-page">
-
-  <div class="iwj-bb-breadcrumb"><a href="/patient-power-pack/">&larr; Back to the Patient Power Pack</a></div>
 
   <section class="iwj-bb-hero">
     <div>
@@ -719,4 +717,4 @@ get_header();
 })();
 </script>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

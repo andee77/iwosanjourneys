@@ -66,7 +66,7 @@ if ( $is_logged_in && $is_verified && $_SERVER['REQUEST_METHOD'] === 'POST' && i
 	}
 }
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 
 $all_categories  = get_terms( array( 'taxonomy' => 'hv_category', 'parent' => 0, 'hide_empty' => false ) );
 
@@ -172,4 +172,4 @@ $all_categories  = get_terms( array( 'taxonomy' => 'hv_category', 'parent' => 0,
 	</div>
 </div>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

@@ -185,7 +185,7 @@ get_header();
 	</ul>
 
 	<div id="copilot-cta">
-		<p>If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our <a href="/mens-health/the-pit-crew/">Pre-Appointment Planner (Form 3)</a> is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
+		<p>If that sounds familiar, it's time to change the dynamic. Health conversations shouldn't feel like an ambush. Our <a href="/mens-health/making-the-plan/">Pre-Appointment Planner</a> is built for exactly this — sit down together, ask "what are the top 3 things bothering you right now?", and write them down so the doctor has to address them.</p>
 		<script async data-uid="a61f5f40a7" src="https://menowell.kit.com/a61f5f40a7/index.js"></script>
 	</div>
 

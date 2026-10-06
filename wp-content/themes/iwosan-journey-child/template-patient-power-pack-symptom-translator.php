@@ -4,7 +4,7 @@
  * Description: Custom coded Patient Power Pack "Symptom Translator" child page — landing copy + embedded interactive tool, for Iwosan Journeys
  */
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 ?>
 
 <section class="ij-page-banner">
@@ -160,8 +160,6 @@ get_header();
 </style>
 
 <div class="iwj-st-page">
-
-  <div class="iwj-st-breadcrumb"><a href="/patient-power-pack/">&larr; Back to the Patient Power Pack</a></div>
 
   <section class="iwj-st-hero">
     <div class="iwj-st-hero-eyebrow">The Interactive Symptom Translator</div>
@@ -692,4 +690,4 @@ get_header();
 })();
 </script>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

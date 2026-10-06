@@ -115,7 +115,7 @@ if ( $_SERVER['REQUEST_METHOD'] === 'POST' && isset( $_POST['hv_login_nonce'] ) 
 	}
 }
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 
 // ============================================================
 // Mock discussion cards — placeholder content until real threads exist.
@@ -376,4 +376,4 @@ $cat_colors = array(
 
 </div>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

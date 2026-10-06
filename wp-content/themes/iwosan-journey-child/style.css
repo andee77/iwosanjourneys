@@ -344,3 +344,43 @@ a.ij-platform-btn:active { color: #E6C98B; }
 	.ij-mood-photo-small { width: 100%; max-width: 320px; }
 	.ij-section .ij-mood-photo-small img { width: 100% !important; }
 }
+
+/* "← Back" button on form pages (top and bottom) */
+.ij-back-wrap {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+.ij-back-wrap.ij-back-bottom { padding-top: 8px; padding-bottom: 36px; }
+a.ij-back-btn,
+a.ij-back-btn:visited {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	padding: 10px 22px;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	color: #0A1F44;
+	border: 2px solid #0A1F44;
+	border-radius: 6px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 700;
+	line-height: 1.2;
+	text-decoration: none;
+}
+a.ij-back-btn:hover,
+a.ij-back-btn:focus,
+a.ij-back-btn:active {
+	background: #0A1F44;
+	color: #FAF8F4;
+	text-decoration: none;
+}
+a.ij-back-btn:focus-visible { outline: 3px solid #4DAEAF; outline-offset: 2px; }
+@media (max-width: 600px) {
+	.ij-back-wrap { padding-left: 16px; padding-right: 16px; }
+}
+@media print {
+	.ij-back-wrap { display: none !important; }
+}

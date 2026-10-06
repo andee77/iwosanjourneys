@@ -4,7 +4,7 @@
  * Description: Maternal Health Track B pillar subpage for Iwosan Journeys
  */
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 ?>
 
 <section class="ij-page-banner">
@@ -312,4 +312,4 @@ get_header();
 })();
 </script>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

@@ -79,7 +79,7 @@ if ( $_SERVER['REQUEST_METHOD'] === 'POST' && isset( $_POST['hv_register_nonce']
 	}
 }
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 
 ?>
 
@@ -166,4 +166,4 @@ get_header();
 	</div>
 </div>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

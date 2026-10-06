@@ -9,7 +9,7 @@
  * inbox.
  */
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 ?>
 
 <!-- ============================================
@@ -175,8 +175,6 @@ get_header();
 
 <div class="iwj-contact-page">
 
-  <div class="iwj-contact-breadcrumb"><a href="/">&larr; Back to Home</a></div>
-
   <section class="iwj-contact-hero">
     <div class="iwj-contact-accent-bar"></div>
     <h1>We are here for the journey.</h1>
@@ -260,4 +258,4 @@ get_header();
 
 </div>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>

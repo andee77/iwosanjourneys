@@ -4,7 +4,7 @@
  * Description: Custom coded About JWG (JourneyWell Global) page for Iwosan Journeys
  */
 
-get_header();
+get_header(); iwosan_back_button( 'top' );
 ?>
 
 <section class="ij-page-banner">
@@ -159,8 +159,6 @@ get_header();
 </style>
 
 <div class="iwj-ajwg-page">
-
-  <div class="iwj-ajwg-breadcrumb"><a href="/">&larr; Back to Iwosan Journeys</a></div>
 
   <section class="iwj-ajwg-hero">
     <div class="iwj-ajwg-hero-inner">
@@ -402,4 +400,4 @@ get_header();
 })();
 </script>
 
-<?php get_footer(); ?>
+<?php iwosan_back_button( 'bottom' ); get_footer(); ?>
