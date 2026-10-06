@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Getting Prepared
- * Description: Custom coded Getting Prepared sub-page for Iwosan Journey's
+ * Description: Custom coded Getting Prepared sub-page for Iwosan Journeys
  */
 
 get_header();

@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health — Track B Overview
- * Description: Track B ("The WOC Advocacy Sanctuary") overview/navigation page for Iwosan Journey's
+ * Description: Track B ("The WOC Advocacy Sanctuary") overview/navigation page for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MATERNAL HEALTH
+     IWOSAN JOURNEYS — MATERNAL HEALTH
      TRACK B OVERVIEW: The WOC Advocacy Sanctuary
      Vertical journey timeline linking to all 7 pillars
      ============================================ -->

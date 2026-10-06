@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health — Track A Overview
- * Description: Track A ("The Maternal Continuum") overview/navigation page for Iwosan Journey's
+ * Description: Track A ("The Maternal Continuum") overview/navigation page for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MATERNAL HEALTH
+     IWOSAN JOURNEYS — MATERNAL HEALTH
      TRACK A OVERVIEW: The Maternal Continuum
      Lean, navigational page — vertical journey timeline linking to all 7 pillars
      ============================================ -->

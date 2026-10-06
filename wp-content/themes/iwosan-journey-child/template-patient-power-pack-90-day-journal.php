@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Patient Power Pack — 90-Day Journal
- * Description: Custom coded Patient Power Pack "90-Day Lifestyle & Wellness Journal" child page for Iwosan Journey's
+ * Description: Custom coded Patient Power Pack "90-Day Lifestyle & Wellness Journal" child page for Iwosan Journeys
  */
 
 get_header();

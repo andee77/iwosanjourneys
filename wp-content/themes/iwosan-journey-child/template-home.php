@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Home
- * Description: Custom coded home page for Iwosan Journey's
+ * Description: Custom coded home page for Iwosan Journeys
  */
 
 get_header();
@@ -180,10 +180,10 @@ img.ij-story-photo {
 		<div class="ij-story">
 			<div class="ij-story-text">
 				<h2>Our story</h2>
-				<p>It started at two tables — a hospital conference room, and a grandmother's kitchen table. Both led to the same realization: people navigating major health transitions deserve a safety net that didn't exist yet. Iwosan Journey's was born from that gap, and built to close it.</p>
+				<p>It started at two tables — a hospital conference room, and a grandmother's kitchen table. Both led to the same realization: people navigating major health transitions deserve a safety net that didn't exist yet. Iwosan Journeys was born from that gap, and built to close it.</p>
 				<a href="/our-story/">Read our story →</a>
 			</div>
-			<img class="ij-story-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/07/andrea-story-photo-resized.jpg" alt="Andrea Peaten-Headen, Founder of Iwosan Journey's">
+			<img class="ij-story-photo" src="https://iwosanjourney.com/wp-content/uploads/2026/07/andrea-story-photo-resized.jpg" alt="Andrea Peaten-Headen, Founder of Iwosan Journeys">
 		</div>
 	</section>
 
@@ -223,7 +223,7 @@ img.ij-story-photo {
 
 	<section class="ij-final-cta">
 		<h2>Be the first to know</h2>
-		<p>Iwosan Journey's is launching soon. Join the waitlist for early access to Patient Power Packs, our first live events, and updates as each part of this ecosystem goes live.</p>
+		<p>Iwosan Journeys is launching soon. Join the waitlist for early access to Patient Power Packs, our first live events, and updates as each part of this ecosystem goes live.</p>
 		<a href="#" class="ij-btn-gold">Join the waitlist</a>
 	</section>
 

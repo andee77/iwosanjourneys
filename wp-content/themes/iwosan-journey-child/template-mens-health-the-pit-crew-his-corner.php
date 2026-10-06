@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Men's Health — Partners in His Corner
- * Description: Custom coded Men's Health "Partners in His Corner" partner subpage for Iwosan Journey's
+ * Description: Custom coded Men's Health "Partners in His Corner" partner subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — PARTNERS IN HIS CORNER
+     IWOSAN JOURNEYS — PARTNERS IN HIS CORNER
      (Men's Health > The Pit Crew > His Corner)
      ============================================ -->
 <style>

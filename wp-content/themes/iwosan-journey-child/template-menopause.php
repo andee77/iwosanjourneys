@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Menopause (MenoWell Explainer Hub)
- * Description: Custom coded Menopause page for Iwosan Journey's — deliberately uses
+ * Description: Custom coded Menopause page for Iwosan Journeys — deliberately uses
  * MenoWell's own branding (Playfair Display + Lato, charcoal/coral/sand palette)
  * instead of Iwosan's tokens, as a "you're entering MenoWell" visual signal.
  */
@@ -116,7 +116,7 @@ get_header();
 <div class="mw-page">
 
   <div class="mw-masthead">
-    <a href="https://simplymenowell.com/" style="text-decoration: none;">
+    <a href="https://simplymenowell.com/" target="_blank" rel="noopener" style="text-decoration: none;">
       <div class="mw-logo">Meno<span>Well</span></div>
     </a>
     <div class="mw-subsidiary-text">A subsidiary of JourneyWell Global LLC</div>
@@ -132,7 +132,7 @@ get_header();
     <div class="mw-routing-content">
       <h2>Where should you start?</h2>
       <p style="color: var(--mw-text-muted); font-size: 1.1rem; max-width: 600px;">Are you experiencing cycle changes? Are you a partner looking for ways to support her? Take our quick routing quiz to find your dedicated pathway.</p>
-      <a href="https://simplymenowell.com/#quiz" class="mw-btn-quiz">Take the Routing Quiz &rarr;</a>
+      <a href="https://simplymenowell.com/#quiz" target="_blank" rel="noopener" class="mw-btn-quiz">Take the Routing Quiz &rarr;</a>
     </div>
   </section>
 
@@ -199,7 +199,7 @@ get_header();
   </section>
 
   <div class="mw-bottom-action">
-    <a href="https://simplymenowell.com/" class="mw-btn-home">Journey to MenoWell.com</a>
+    <a href="https://simplymenowell.com/" target="_blank" rel="noopener" class="mw-btn-home">Journey to MenoWell.com</a>
   </div>
 
 </div>

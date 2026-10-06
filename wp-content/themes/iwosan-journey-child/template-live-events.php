@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Live Events (Experiences > Live Events)
- * Description: Custom coded Live Events & Experiences page for Iwosan Journey's
+ * Description: Custom coded Live Events & Experiences page for Iwosan Journeys
  */
 
 get_header();

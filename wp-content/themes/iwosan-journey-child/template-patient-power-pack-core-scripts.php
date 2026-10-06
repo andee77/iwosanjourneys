@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Patient Power Pack — Core Scripts
- * Description: Custom coded Patient Power Pack "Self-Advocacy Core Scripts" child page for Iwosan Journey's
+ * Description: Custom coded Patient Power Pack "Self-Advocacy Core Scripts" child page for Iwosan Journeys
  */
 
 get_header();

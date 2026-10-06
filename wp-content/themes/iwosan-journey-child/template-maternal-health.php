@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health
- * Description: Maternal Health chooser/landing page (carousel + dual-track cards) for Iwosan Journey's
+ * Description: Maternal Health chooser/landing page (carousel + dual-track cards) for Iwosan Journeys
  */
 
 get_header();

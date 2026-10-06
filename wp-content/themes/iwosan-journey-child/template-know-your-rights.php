@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Know Your Rights
- * Description: Custom coded Know Your Rights sub-page for Iwosan Journey's
+ * Description: Custom coded Know Your Rights sub-page for Iwosan Journeys
  */
 
 get_header();

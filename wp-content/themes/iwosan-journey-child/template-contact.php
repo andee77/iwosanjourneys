@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Contact Us
- * Description: Custom coded Contact Us page for Iwosan Journey's
+ * Description: Custom coded Contact Us page for Iwosan Journeys
  *
  * Contact form is WPForms form ID 388 (Full Name, Email Address, department
  * dropdown with 5 options matching the cards below, Your Message), with

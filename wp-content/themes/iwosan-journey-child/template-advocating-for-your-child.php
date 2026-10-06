@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Advocating for Your Child
- * Description: Custom coded parent/guardian advocacy sub-page under Advocacy for Iwosan Journey's
+ * Description: Custom coded parent/guardian advocacy sub-page under Advocacy for Iwosan Journeys
  */
 
 get_header();

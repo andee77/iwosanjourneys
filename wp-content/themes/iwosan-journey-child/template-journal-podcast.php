@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Journal Podcast
- * Description: Custom coded Journal & Podcast page for Iwosan Journey's
+ * Description: Custom coded Journal & Podcast page for Iwosan Journeys
  */
 
 $episode_thumb = 'https://iwosanjourney.com/wp-content/uploads/2026/07/Still_That_Woman-Podcast-Icon-scaled.png';
@@ -10,7 +10,7 @@ get_header();
 ?>
 
 <div class="ij-image-banner">
-	<img src="https://iwosanjourney.com/wp-content/uploads/2026/07/IL-Logo-Banner-scaled.png" alt="Iwosan Journey's — Guiding you back to you">
+	<img src="https://iwosanjourney.com/wp-content/uploads/2026/07/IL-Logo-Banner-scaled.png" alt="Iwosan Journeys — Guiding you back to you">
 </div>
 
 <svg class="ij-path-divider" viewBox="0 0 1080 40" preserveAspectRatio="none" aria-hidden="true">
@@ -108,7 +108,7 @@ get_header();
 <div class="ij-newsletter-cta">
 	<h2>Deep dives delivered to your inbox</h2>
 	<p>No fluff, just actionable guidance — join the list for new episodes and journal entries as they drop.</p>
-	<a href="https://menowell.kit.com/17a0e58545" class="ij-btn-gold">Subscribe</a>
+	<a href="https://menowell.kit.com/17a0e58545" target="_blank" rel="noopener" class="ij-btn-gold">Subscribe</a>
 </div>
 
 <?php get_footer(); ?>

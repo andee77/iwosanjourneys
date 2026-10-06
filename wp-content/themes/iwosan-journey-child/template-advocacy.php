@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Advocacy
- * Description: Custom coded Advocacy landing page for Iwosan Journey's
+ * Description: Custom coded Advocacy landing page for Iwosan Journeys
  */
 
 get_header();

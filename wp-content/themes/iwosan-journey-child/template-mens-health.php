@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Men's Health
- * Description: Custom coded Men's Health sub-page for Iwosan Journey's
+ * Description: Custom coded Men's Health sub-page for Iwosan Journeys
  */
 
 get_header();
@@ -155,7 +155,7 @@ get_header();
 
 	<p>But health does not happen in a vacuum. When a man's vitality drops, his partner feels it, too. Whether you are reading this for yourself, or you are a partner looking for ways to support the man you love, welcome.</p>
 
-	<p>At Iwosan Journey's, we view health as high-performance mechanics. You wouldn't drive a vehicle for a decade without checking the oil, yet many men have no idea what their baseline health metrics are until a crisis forces them to find out.</p>
+	<p>At Iwosan Journeys, we view health as high-performance mechanics. You wouldn't drive a vehicle for a decade without checking the oil, yet many men have no idea what their baseline health metrics are until a crisis forces them to find out.</p>
 
 	<p>It's time to stop waiting for the check-engine light to blow out. Let's translate the body's early warning signs into clinical data and build a collaborative care plan.</p>
 

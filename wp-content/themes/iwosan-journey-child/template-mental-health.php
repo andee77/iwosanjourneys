@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Mental Health
- * Description: Custom coded Mental Health sub-page for Iwosan Journey's
+ * Description: Custom coded Mental Health sub-page for Iwosan Journeys
  */
 
 get_header();

@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Experiences
- * Description: Custom coded Experiences landing page for Iwosan Journey's
+ * Description: Custom coded Experiences landing page for Iwosan Journeys
  */
 get_header();
 ?>

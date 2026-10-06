@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health — Track B Pillar 5: WOC The Day 1 to 14 Postpartum Red-Alert Protocol
- * Description: Maternal Health Track B pillar subpage for Iwosan Journey's
+ * Description: Maternal Health Track B pillar subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MATERNAL HEALTH
+     IWOSAN JOURNEYS — MATERNAL HEALTH
      TRACK B, PILLAR 5: WOC The Day 1 to 14 Postpartum Red-Alert Protocol
      ============================================ -->
 <style>

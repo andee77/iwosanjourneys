@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Health
- * Description: Custom coded Health landing page for Iwosan Journey's
+ * Description: Custom coded Health landing page for Iwosan Journeys
  */
 
 get_header();
@@ -19,7 +19,7 @@ get_header();
 
 	<h2 style="margin-top: 0;">Health &amp; Vitality: Reclaiming Your Baseline</h2>
 
-	<p>The traditional healthcare system trains us to wait for a crisis before we take action. At Iwosan Journey's, we believe true healing starts long before the check-engine light comes on.</p>
+	<p>The traditional healthcare system trains us to wait for a crisis before we take action. At Iwosan Journeys, we believe true healing starts long before the check-engine light comes on.</p>
 
 	<p>Your health is not just the absence of illness; it is your energy, your independence, and your quality of life. This space is dedicated to demystifying your biology, translating your symptoms into actionable data, and giving you the tools to partner with your medical team effectively.</p>
 

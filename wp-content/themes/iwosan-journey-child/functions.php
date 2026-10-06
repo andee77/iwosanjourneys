@@ -26,7 +26,7 @@ function iwosan_custom_footer() {
 	<div class="site-footer-wrap">
 		<div class="ij-custom-footer">
 			<div class="ij-footer-brand">
-				<div class="ij-footer-brand-name">Iwosan Journey's</div>
+				<div class="ij-footer-brand-name">Iwosan Journeys</div>
 				<div class="ij-footer-brand-tagline">A JourneyWell Global LLC brand.</div>
 			</div>
 			<nav class="ij-footer-nav">

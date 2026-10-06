@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health — Track B Pillar 2: WOC Prenatal Bias Defense & The Preeclampsia Watch
- * Description: Maternal Health Track B pillar subpage for Iwosan Journey's
+ * Description: Maternal Health Track B pillar subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MATERNAL HEALTH
+     IWOSAN JOURNEYS — MATERNAL HEALTH
      TRACK B, PILLAR 2: WOC Prenatal Bias Defense & The Preeclampsia Watch
      ============================================ -->
 <style>

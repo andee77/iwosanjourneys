@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Medical Travel
- * Description: Custom coded Medical Travel page (Experiences > Medical Travel) for Iwosan Journey's
+ * Description: Custom coded Medical Travel page (Experiences > Medical Travel) for Iwosan Journeys
  */
 
 get_header();

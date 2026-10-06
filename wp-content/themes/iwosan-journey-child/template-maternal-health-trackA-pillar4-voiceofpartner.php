@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health — Track A Pillar 4: The Voice of the Partner
- * Description: Maternal Health Track A pillar subpage for Iwosan Journey's
+ * Description: Maternal Health Track A pillar subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MATERNAL HEALTH
+     IWOSAN JOURNEYS — MATERNAL HEALTH
      TRACK A, PILLAR 4: The Voice of the Partner
      ============================================ -->
 <style>

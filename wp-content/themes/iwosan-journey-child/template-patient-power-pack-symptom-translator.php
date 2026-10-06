@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Patient Power Pack — Symptom Translator
- * Description: Custom coded Patient Power Pack "Symptom Translator" child page — landing copy + embedded interactive tool, for Iwosan Journey's
+ * Description: Custom coded Patient Power Pack "Symptom Translator" child page — landing copy + embedded interactive tool, for Iwosan Journeys
  */
 
 get_header();

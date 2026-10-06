@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Men's Health — Making the Plan
- * Description: Custom coded Men's Health "Making the Plan" subpage for Iwosan Journey's
+ * Description: Custom coded Men's Health "Making the Plan" subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MAKING THE PLAN (Men's Health subpage)
+     IWOSAN JOURNEYS — MAKING THE PLAN (Men's Health subpage)
      Three tools in sequence: Engine & Vitality Check -> Reality & Prevention
      Engine (IFTTT) -> Appointment Agenda Builder
      ============================================ -->

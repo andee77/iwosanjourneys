@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Men's Health — The Pit Crew
- * Description: Custom coded Men's Health "The Pit Crew" partner chooser subpage for Iwosan Journey's
+ * Description: Custom coded Men's Health "The Pit Crew" partner chooser subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — THE PIT CREW (Men's Health > For Partners)
+     IWOSAN JOURNEYS — THE PIT CREW (Men's Health > For Partners)
      Chooser/landing page: routes to one of two partner-facing subpages
      ============================================ -->
 <style>

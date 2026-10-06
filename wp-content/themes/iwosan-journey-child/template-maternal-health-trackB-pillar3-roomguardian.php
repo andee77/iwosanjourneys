@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Maternal Health — Track B Pillar 3: WOC The Unapologetic Room Guardian
- * Description: Maternal Health Track B pillar subpage for Iwosan Journey's
+ * Description: Maternal Health Track B pillar subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — MATERNAL HEALTH
+     IWOSAN JOURNEYS — MATERNAL HEALTH
      TRACK B, PILLAR 3: WOC The Unapologetic Room Guardian
      ============================================ -->
 <style>

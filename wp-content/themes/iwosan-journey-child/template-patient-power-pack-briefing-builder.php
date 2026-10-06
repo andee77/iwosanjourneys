@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Patient Power Pack — Clinical Briefing Builder
- * Description: Custom coded Patient Power Pack "Clinical Briefing Builder" child page — landing copy + embedded interactive tool, for Iwosan Journey's
+ * Description: Custom coded Patient Power Pack "Clinical Briefing Builder" child page — landing copy + embedded interactive tool, for Iwosan Journeys
  */
 
 get_header();

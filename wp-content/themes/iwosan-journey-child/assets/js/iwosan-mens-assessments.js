@@ -1,5 +1,5 @@
 /**
- * Iwosan Journey's — Wellness Self-Assessments
+ * Iwosan Journeys — Wellness Self-Assessments
  * "The Quiet Signals" (PHQ-9 + GAD-7, mood & anxiety) — lives on the Men's Health page,
  *   as a third section alongside the existing physical Check-Engine checklist and the
  *   partner-facing Co-Pilot guide (both untouched, unrelated to this file).

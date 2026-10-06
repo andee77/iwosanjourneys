@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Men's Health — The Two-Man Mirror
- * Description: Custom coded Men's Health "The Two-Man Mirror" partner subpage for Iwosan Journey's
+ * Description: Custom coded Men's Health "The Two-Man Mirror" partner subpage for Iwosan Journeys
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
 </svg>
 
 <!-- ============================================
-     IWOSAN JOURNEY'S — THE TWO-MAN MIRROR
+     IWOSAN JOURNEYS — THE TWO-MAN MIRROR
      (Men's Health > The Pit Crew > Two-Man Mirror)
      ============================================ -->
 <style>

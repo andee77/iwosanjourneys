@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan About JWG
- * Description: Custom coded About JWG (JourneyWell Global) page for Iwosan Journey's
+ * Description: Custom coded About JWG (JourneyWell Global) page for Iwosan Journeys
  */
 
 get_header();

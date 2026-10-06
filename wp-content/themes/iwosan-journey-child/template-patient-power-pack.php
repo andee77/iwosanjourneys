@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Patient Power Pack
- * Description: Custom coded Patient Power Pack hub page for Iwosan Journey's
+ * Description: Custom coded Patient Power Pack hub page for Iwosan Journeys
  */
 
 get_header();

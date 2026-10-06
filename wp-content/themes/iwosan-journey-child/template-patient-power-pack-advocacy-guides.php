@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Patient Power Pack — Advocacy Guides
- * Description: Custom coded Patient Power Pack "Advocacy Guides by Topic & Life Stage" child page for Iwosan Journey's
+ * Description: Custom coded Patient Power Pack "Advocacy Guides by Topic & Life Stage" child page for Iwosan Journeys
  */
 
 get_header();
