@@ -59,7 +59,7 @@ get_header();
 	content:'';
 	position:absolute;
 	inset:0;
-	background:linear-gradient(180deg, rgba(10,31,68,0) 30%, rgba(10,31,68,.88) 100%);
+	background:linear-gradient(180deg, rgba(10,31,68,.25) 0%, rgba(10,31,68,.78) 32%, rgba(10,31,68,.92) 100%);
 	z-index:-1;
 }
 .iwj-mh-card-body{
@@ -73,7 +73,8 @@ get_header();
 	font-size:.68rem;
 	letter-spacing:.14em;
 	text-transform:uppercase;
-	color:#C9A052;
+	color:#E6C98B;
+	text-shadow:0 1px 3px rgba(10,31,68,.7);
 	margin-bottom:.6rem;
 }
 .iwj-mh-card-title{

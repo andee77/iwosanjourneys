@@ -219,25 +219,25 @@ get_header();
         <div class="iwj-gtb-grid">
           <div class="iwj-gtb-card">
             <div class="iwj-gtb-card-title">1. Protecting Against the &ldquo;Strong WOC&rdquo; Trap</div>
-            <label class="iwj-gtb-item"><input type="checkbox" checked> I give myself permission to weep, rest, and be cared for without performing strength for others.</label>
-            <label class="iwj-gtb-item"><input type="checkbox" checked> I refuse to accept statements like &ldquo;at least you can try again&rdquo; or &ldquo;everything happens for a reason.&rdquo;</label>
+            <label class="iwj-gtb-item"><input type="checkbox"> I give myself permission to weep, rest, and be cared for without performing strength for others.</label>
+            <label class="iwj-gtb-item"><input type="checkbox"> I refuse to accept statements like &ldquo;at least you can try again&rdquo; or &ldquo;everything happens for a reason.&rdquo;</label>
             <label class="iwj-gtb-item"><input type="checkbox"> I am designating my partner/advocate to communicate all family and workplace updates on my behalf.</label>
           </div>
           <div class="iwj-gtb-card">
             <div class="iwj-gtb-card-title">2. Clinical Accountability &amp; Follow-Up Demands</div>
-            <label class="iwj-gtb-item"><input type="checkbox" checked> I request a complete, step-by-step review of all pathology and laboratory findings from my loss.</label>
-            <label class="iwj-gtb-item"><input type="checkbox" checked> I request a full copy of my unedited hospital/clinical chart notes for my personal records.</label>
+            <label class="iwj-gtb-item"><input type="checkbox"> I request a complete, step-by-step review of all pathology and laboratory findings from my loss.</label>
+            <label class="iwj-gtb-item"><input type="checkbox"> I request a full copy of my unedited hospital/clinical chart notes for my personal records.</label>
             <label class="iwj-gtb-item"><input type="checkbox"> I request a referral to a Maternal-Fetal Medicine (MFM) specialist for an independent second opinion.</label>
           </div>
           <div class="iwj-gtb-card">
             <div class="iwj-gtb-card-title">3. Culturally Safe Mental Health Support</div>
-            <label class="iwj-gtb-item"><input type="checkbox" checked> I plan to connect with a BIPOC-led perinatal bereavement counselor or WOC trauma therapist.</label>
+            <label class="iwj-gtb-item"><input type="checkbox"> I plan to connect with a BIPOC-led perinatal bereavement counselor or WOC trauma therapist.</label>
             <label class="iwj-gtb-item"><input type="checkbox"> I request a screening for medical PTSD and postpartum anxiety/depression.</label>
             <label class="iwj-gtb-item"><input type="checkbox"> I want my support partner present at all medical visits so I am not navigating clinics alone.</label>
           </div>
           <div class="iwj-gtb-card">
             <div class="iwj-gtb-card-title">4. Partner &amp; Relationship Alignment</div>
-            <label class="iwj-gtb-item"><input type="checkbox" checked> We acknowledge that we may grieve differently and agree not to rush each other's timeline.</label>
+            <label class="iwj-gtb-item"><input type="checkbox"> We acknowledge that we may grieve differently and agree not to rush each other's timeline.</label>
             <label class="iwj-gtb-item"><input type="checkbox"> We agree to hold a 15-minute daily check-in to share our grief without trying to &lsquo;fix&rsquo; it.</label>
           </div>
         </div>

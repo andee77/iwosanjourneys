@@ -201,8 +201,8 @@ get_header();
         <div class="iwj-bpc-grid">
           <div class="iwj-bpc-card">
             <div class="iwj-bpc-card-title">1. Communication &amp; Informed Consent</div>
-            <label class="iwj-bpc-item"><input type="checkbox" checked> I request the B.R.A.I.N. (Benefits, Risks, Alternatives) briefing before any intervention is ordered.</label>
-            <label class="iwj-bpc-item"><input type="checkbox" checked> Please direct all medical questions to both me and my designated support partner.</label>
+            <label class="iwj-bpc-item"><input type="checkbox"> I request the B.R.A.I.N. (Benefits, Risks, Alternatives) briefing before any intervention is ordered.</label>
+            <label class="iwj-bpc-item"><input type="checkbox"> Please direct all medical questions to both me and my designated support partner.</label>
             <label class="iwj-bpc-item"><input type="checkbox"> Unless in an immediate emergency, please allow 10 minutes of privacy before requiring a decision on interventions.</label>
             <label class="iwj-bpc-item"><input type="checkbox"> I prefer minimal cervical exams; please ask verbal permission before every physical check.</label>
           </div>
@@ -215,14 +215,14 @@ get_header();
           </div>
           <div class="iwj-bpc-card">
             <div class="iwj-bpc-card-title">3. Delivery &amp; Birth Preferences</div>
-            <label class="iwj-bpc-item"><input type="checkbox" checked> I prefer spontaneous pushing according to my body's urges rather than directed/coached pushing.</label>
-            <label class="iwj-bpc-item"><input type="checkbox" checked> I do not consent to an episiotomy unless there is an immediate, critical fetal emergency.</label>
+            <label class="iwj-bpc-item"><input type="checkbox"> I prefer spontaneous pushing according to my body's urges rather than directed/coached pushing.</label>
+            <label class="iwj-bpc-item"><input type="checkbox"> I do not consent to an episiotomy unless there is an immediate, critical fetal emergency.</label>
             <label class="iwj-bpc-item"><input type="checkbox"> If a Cesarean birth becomes necessary, I request a &ldquo;gentle/clear-drape&rdquo; Cesarean with immediate skin-to-skin.</label>
           </div>
           <div class="iwj-bpc-card">
             <div class="iwj-bpc-card-title">4. Immediate Newborn Care</div>
-            <label class="iwj-bpc-item"><input type="checkbox" checked> Please delay umbilical cord clamping until the cord has completely stopped pulsing.</label>
-            <label class="iwj-bpc-item"><input type="checkbox" checked> I request immediate, uninterrupted skin-to-skin contact for the first hour after birth.</label>
+            <label class="iwj-bpc-item"><input type="checkbox"> Please delay umbilical cord clamping until the cord has completely stopped pulsing.</label>
+            <label class="iwj-bpc-item"><input type="checkbox"> I request immediate, uninterrupted skin-to-skin contact for the first hour after birth.</label>
             <label class="iwj-bpc-item"><input type="checkbox"> Please perform all routine newborn evaluations (weighing, eye ointment) while baby is on my chest.</label>
           </div>
         </div>

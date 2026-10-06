@@ -206,19 +206,19 @@ get_header();
           </div>
           <div class="iwj-pbd-card">
             <div class="iwj-pbd-card-title">2. Required Clinical Diagnostic Demands</div>
-            <label class="iwj-pbd-item"><input type="checkbox" checked> I request an immediate, manual blood pressure check and a review against my pre-pregnancy baseline.</label>
-            <label class="iwj-pbd-item"><input type="checkbox" checked> I request a complete Preeclampsia Laboratory Panel (CBC, liver enzymes, serum uric acid, and urine protein).</label>
+            <label class="iwj-pbd-item"><input type="checkbox"> I request an immediate, manual blood pressure check and a review against my pre-pregnancy baseline.</label>
+            <label class="iwj-pbd-item"><input type="checkbox"> I request a complete Preeclampsia Laboratory Panel (CBC, liver enzymes, serum uric acid, and urine protein).</label>
             <label class="iwj-pbd-item"><input type="checkbox"> I request a Non-Stress Test (NST) or Biophysical Profile (BPP) to evaluate baby's well-being.</label>
           </div>
           <div class="iwj-pbd-card">
             <div class="iwj-pbd-card-title">3. Bias-Defense &amp; Communication Rules</div>
-            <label class="iwj-pbd-item"><input type="checkbox" checked> Please evaluate my symptoms using objective physiological lab markers, not subjective impressions of anxiety.</label>
-            <label class="iwj-pbd-item"><input type="checkbox" checked> I request verbal explanations of all differential diagnoses being considered for my pain/symptoms.</label>
+            <label class="iwj-pbd-item"><input type="checkbox"> Please evaluate my symptoms using objective physiological lab markers, not subjective impressions of anxiety.</label>
+            <label class="iwj-pbd-item"><input type="checkbox"> I request verbal explanations of all differential diagnoses being considered for my pain/symptoms.</label>
             <label class="iwj-pbd-item"><input type="checkbox"> I designate my accompanying support partner as my authorized verbal advocate in all room discussions.</label>
           </div>
           <div class="iwj-pbd-card">
             <div class="iwj-pbd-card-title">4. Accountability &amp; Escalation Clause</div>
-            <label class="iwj-pbd-item"><input type="checkbox" checked> If a requested diagnostic screening or blood test is declined, I require the provider to formally document the refusal in my medical chart.</label>
+            <label class="iwj-pbd-item"><input type="checkbox"> If a requested diagnostic screening or blood test is declined, I require the provider to formally document the refusal in my medical chart.</label>
             <label class="iwj-pbd-item"><input type="checkbox"> I reserve the right to request the attending physician on call and the Hospital Patient Advocate if my symptoms are dismissed.</label>
           </div>
         </div>

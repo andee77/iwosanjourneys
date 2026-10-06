@@ -228,14 +228,14 @@ get_header();
           </div>
           <div class="iwj-pv-card">
             <div class="iwj-pv-card-title">3. My Clinical Support Plan</div>
-            <label class="iwj-pv-item"><input type="checkbox" checked> I request a screening for Partner Postpartum Depression/Anxiety (PPDA) and chronic stress.</label>
-            <label class="iwj-pv-item"><input type="checkbox" checked> I request a metabolic and blood pressure check to ensure chronic stress isn't harming my baseline.</label>
+            <label class="iwj-pv-item"><input type="checkbox"> I request a screening for Partner Postpartum Depression/Anxiety (PPDA) and chronic stress.</label>
+            <label class="iwj-pv-item"><input type="checkbox"> I request a metabolic and blood pressure check to ensure chronic stress isn't harming my baseline.</label>
             <label class="iwj-pv-item"><input type="checkbox"> I want a referral to a culturally competent therapist or BIPOC parents' support group.</label>
           </div>
           <div class="iwj-pv-card">
             <div class="iwj-pv-card-title">4. My Non-Negotiable Boundaries</div>
-            <label class="iwj-pv-item"><input type="checkbox" checked> I will block out 30 minutes twice a week for physical release (workout, walk, silence) without guilt.</label>
-            <label class="iwj-pv-item"><input type="checkbox" checked> I will speak honestly with my partner about our shared emotional load so we carry it together.</label>
+            <label class="iwj-pv-item"><input type="checkbox"> I will block out 30 minutes twice a week for physical release (workout, walk, silence) without guilt.</label>
+            <label class="iwj-pv-item"><input type="checkbox"> I will speak honestly with my partner about our shared emotional load so we carry it together.</label>
           </div>
         </div>
 

@@ -136,6 +136,8 @@ get_header();
     border: 1px solid var(--earth-brown);
     border-radius: 6px;
   }
+  .iwj-le-community-stats .iwj-le-stamp { color: #E6C98B; border-color: #E6C98B; }
+  .iwj-le-community-stats .iwj-le-stamp::before { border-color: #E6C98B; }
 
   .iwj-le-featured-card {
     background: var(--white); border-radius: 12px; overflow: hidden; box-shadow: 0 15px 35px rgba(10, 31, 68, 0.06);

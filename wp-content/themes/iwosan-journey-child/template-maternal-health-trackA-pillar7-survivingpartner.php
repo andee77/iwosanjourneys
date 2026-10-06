@@ -193,26 +193,26 @@ get_header();
         <div class="iwj-sp-grid">
           <div class="iwj-sp-card">
             <div class="iwj-sp-card-title">1. Protective Social &amp; Family Boundaries</div>
-            <label class="iwj-sp-item"><input type="checkbox" checked> I am not answering phone calls or hosting visitors without prior agreement; text messages only.</label>
-            <label class="iwj-sp-item"><input type="checkbox" checked> I decline to hear platitudes like &ldquo;you have to stay strong&rdquo; or &ldquo;everything happens for a reason.&rdquo;</label>
+            <label class="iwj-sp-item"><input type="checkbox"> I am not answering phone calls or hosting visitors without prior agreement; text messages only.</label>
+            <label class="iwj-sp-item"><input type="checkbox"> I decline to hear platitudes like &ldquo;you have to stay strong&rdquo; or &ldquo;everything happens for a reason.&rdquo;</label>
             <label class="iwj-sp-item"><input type="checkbox"> I am designating my trusted support person to handle all family communication on my behalf.</label>
           </div>
           <div class="iwj-sp-card">
             <div class="iwj-sp-card-title">2. Practical Household Help Needed</div>
-            <label class="iwj-sp-item"><input type="checkbox" checked> I need a coordinated meal train or grocery deliveries so I do not have to think about food.</label>
+            <label class="iwj-sp-item"><input type="checkbox"> I need a coordinated meal train or grocery deliveries so I do not have to think about food.</label>
             <label class="iwj-sp-item"><input type="checkbox"> I need help with basic household chores, laundry, yard work, or pet care.</label>
             <label class="iwj-sp-item"><input type="checkbox"> If raising a surviving child: I need practical help with feeding logistics, formula, and pediatric visits.</label>
           </div>
           <div class="iwj-sp-card">
             <div class="iwj-sp-card-title">3. Clinical &amp; Administrative Advocacy</div>
-            <label class="iwj-sp-item"><input type="checkbox" checked> I am requesting a sit-down clinical conference with the medical team to understand what happened.</label>
+            <label class="iwj-sp-item"><input type="checkbox"> I am requesting a sit-down clinical conference with the medical team to understand what happened.</label>
             <label class="iwj-sp-item"><input type="checkbox"> I am requesting a complete, printed copy of the hospital chart and medical records for our family.</label>
             <label class="iwj-sp-item"><input type="checkbox"> I want my designated support person present at all meetings with hospital staff or insurers.</label>
           </div>
           <div class="iwj-sp-card">
             <div class="iwj-sp-card-title">4. My Own Physical &amp; Trauma Survival</div>
-            <label class="iwj-sp-item"><input type="checkbox" checked> I will schedule a physical checkup with my own physician to monitor my blood pressure and stress baseline.</label>
-            <label class="iwj-sp-item"><input type="checkbox" checked> I request a referral to a perinatal bereavement therapist or a surviving partners' grief support group.</label>
+            <label class="iwj-sp-item"><input type="checkbox"> I will schedule a physical checkup with my own physician to monitor my blood pressure and stress baseline.</label>
+            <label class="iwj-sp-item"><input type="checkbox"> I request a referral to a perinatal bereavement therapist or a surviving partners' grief support group.</label>
           </div>
         </div>
 

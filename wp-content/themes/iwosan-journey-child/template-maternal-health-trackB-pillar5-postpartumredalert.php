@@ -233,14 +233,14 @@ get_header();
           </div>
           <div class="iwj-pra-card">
             <div class="iwj-pra-card-title">3. Required ER Triage Demands</div>
-            <label class="iwj-pra-item"><input type="checkbox" checked> I am a high-risk postpartum patient; I request immediate transfer to OB / Labor &amp; Delivery Triage.</label>
-            <label class="iwj-pra-item"><input type="checkbox" checked> I request a complete Postpartum Preeclampsia Workup (CBC, liver enzymes, uric acid, urine protein).</label>
-            <label class="iwj-pra-item"><input type="checkbox" checked> I request a blood clot/cardiovascular evaluation (D-dimer, CT angiogram, or chest imaging).</label>
+            <label class="iwj-pra-item"><input type="checkbox"> I am a high-risk postpartum patient; I request immediate transfer to OB / Labor &amp; Delivery Triage.</label>
+            <label class="iwj-pra-item"><input type="checkbox"> I request a complete Postpartum Preeclampsia Workup (CBC, liver enzymes, uric acid, urine protein).</label>
+            <label class="iwj-pra-item"><input type="checkbox"> I request a blood clot/cardiovascular evaluation (D-dimer, CT angiogram, or chest imaging).</label>
           </div>
           <div class="iwj-pra-card">
             <div class="iwj-pra-card-title">4. Patient Rights &amp; Accountability</div>
-            <label class="iwj-pra-item"><input type="checkbox" checked> Please evaluate my symptoms using objective diagnostic tests, not subjective impressions of anxiety.</label>
-            <label class="iwj-pra-item"><input type="checkbox" checked> If any requested diagnostic test is refused, I require formal documentation of the refusal in my medical chart today.</label>
+            <label class="iwj-pra-item"><input type="checkbox"> Please evaluate my symptoms using objective diagnostic tests, not subjective impressions of anxiety.</label>
+            <label class="iwj-pra-item"><input type="checkbox"> If any requested diagnostic test is refused, I require formal documentation of the refusal in my medical chart today.</label>
           </div>
         </div>
 

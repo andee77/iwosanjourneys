@@ -57,7 +57,7 @@ get_header();
   .mw-routing-banner { background-color: var(--mw-accent-sand); padding: 40px 20px; text-align: center; border-top: 1px solid var(--mw-border); border-bottom: 1px solid var(--mw-border); }
   .mw-routing-content { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px; }
   .mw-routing-banner h2 { font-size: 2rem; }
-  .mw-btn-quiz {
+  .mw-page .mw-btn-quiz {
     display: inline-block; background-color: var(--mw-primary); color: #fff; padding: 16px 32px;
     font-family: var(--mw-font-heading); font-size: 1.2rem; font-style: italic; border-radius: 4px;
     transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(44, 62, 58, 0.15);

@@ -319,3 +319,28 @@ Text Domain: iwosan-journey-child
 	border-radius: 8px;
 	display: block;
 }
+
+/* Tool-box headings follow the box's own text color (cream on screen, navy in print) instead of Kadence's global heading green. */
+[class^="iwj-"][class$="-header"] h3 { color: inherit; }
+
+/* Kadence's link hover/focus/active color is the same gold as this button's background, so keep the text dark green in every state. */
+a.ij-btn-gold,
+a.ij-btn-gold:visited,
+a.ij-btn-gold:hover,
+a.ij-btn-gold:focus,
+a.ij-btn-gold:active { color: #1C3A2A; }
+
+a.ij-platform-btn,
+a.ij-platform-btn:visited,
+a.ij-platform-btn:hover,
+a.ij-platform-btn:focus,
+a.ij-platform-btn:active { color: #E6C98B; }
+
+@media (max-width: 767px) {
+	.ij-inline-photo.float-left,
+	.ij-inline-photo.float-right,
+	.ij-mood-photo-small.float-left,
+	.ij-mood-photo-small.float-right { float: none; margin: 0 auto 20px; }
+	.ij-mood-photo-small { width: 100%; max-width: 320px; }
+	.ij-section .ij-mood-photo-small img { width: 100% !important; }
+}

@@ -198,26 +198,26 @@ get_header();
         <div class="iwj-sra-grid">
           <div class="iwj-sra-card">
             <div class="iwj-sra-card-title">1. Protective Social &amp; Family Boundaries</div>
-            <label class="iwj-sra-item"><input type="checkbox" checked> I am not accepting phone calls or visitors without prior agreement; all communication must go through my designated support person.</label>
-            <label class="iwj-sra-item"><input type="checkbox" checked> I refuse to accept platitudes like &ldquo;you have to be strong now&rdquo; or &ldquo;she's in a better place.&rdquo;</label>
+            <label class="iwj-sra-item"><input type="checkbox"> I am not accepting phone calls or visitors without prior agreement; all communication must go through my designated support person.</label>
+            <label class="iwj-sra-item"><input type="checkbox"> I refuse to accept platitudes like &ldquo;you have to be strong now&rdquo; or &ldquo;she's in a better place.&rdquo;</label>
             <label class="iwj-sra-item"><input type="checkbox"> I give myself permission to grieve visibly, angrily, or silently without managing other people's discomfort.</label>
           </div>
           <div class="iwj-sra-card">
             <div class="iwj-sra-card-title">2. Solo Parenting &amp; Practical Defense <span style="font-weight:400;font-style:italic;">(If Baby Survived)</span></div>
-            <label class="iwj-sra-item"><input type="checkbox" checked> I am delegating household logistics (meals, laundry, errands) to a specific support circle so I can focus on infant care and grief.</label>
+            <label class="iwj-sra-item"><input type="checkbox"> I am delegating household logistics (meals, laundry, errands) to a specific support circle so I can focus on infant care and grief.</label>
             <label class="iwj-sra-item"><input type="checkbox"> I request a pediatric social worker or postpartum doula to assist with infant feeding/formula navigation and newborn sleep.</label>
             <label class="iwj-sra-item"><input type="checkbox"> I am designating a trusted family member to attend all pediatric visits with me so I am not alone.</label>
           </div>
           <div class="iwj-sra-card">
             <div class="iwj-sra-card-title">3. Clinical &amp; Legal Accountability Steps</div>
-            <label class="iwj-sra-item"><input type="checkbox" checked> I am formally requesting the complete, unedited hospital chart and nursing/physician shift notes.</label>
+            <label class="iwj-sra-item"><input type="checkbox"> I am formally requesting the complete, unedited hospital chart and nursing/physician shift notes.</label>
             <label class="iwj-sra-item"><input type="checkbox"> I plan to request an independent review of the clinical timeline by an outside Maternal-Fetal Medicine expert or legal advocate.</label>
             <label class="iwj-sra-item"><input type="checkbox"> I will not sign hospital release or settlement documents without independent legal counsel.</label>
           </div>
           <div class="iwj-sra-card">
             <div class="iwj-sra-card-title">4. My Own Physical &amp; Trauma Survival</div>
-            <label class="iwj-sra-item"><input type="checkbox" checked> I will schedule a complete medical baseline check (including blood pressure and cardiac stress markers) for myself.</label>
-            <label class="iwj-sra-item"><input type="checkbox" checked> I request a referral to a trauma therapist specializing in BIPOC maternal mortality and medical PTSD.</label>
+            <label class="iwj-sra-item"><input type="checkbox"> I will schedule a complete medical baseline check (including blood pressure and cardiac stress markers) for myself.</label>
+            <label class="iwj-sra-item"><input type="checkbox"> I request a referral to a trauma therapist specializing in BIPOC maternal mortality and medical PTSD.</label>
           </div>
         </div>
 

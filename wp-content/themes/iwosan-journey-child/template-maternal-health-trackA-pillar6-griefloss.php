@@ -227,8 +227,8 @@ get_header();
         <div class="iwj-gb-grid">
           <div class="iwj-gb-card">
             <div class="iwj-gb-card-title">1. Social &amp; Family Boundaries</div>
-            <label class="iwj-gb-item"><input type="checkbox" checked> I am not taking phone calls right now; text messages are preferred.</label>
-            <label class="iwj-gb-item"><input type="checkbox" checked> I am pausing attendance at baby showers, kids' birthdays, or triggering social events.</label>
+            <label class="iwj-gb-item"><input type="checkbox"> I am not taking phone calls right now; text messages are preferred.</label>
+            <label class="iwj-gb-item"><input type="checkbox"> I am pausing attendance at baby showers, kids' birthdays, or triggering social events.</label>
             <label class="iwj-gb-item"><input type="checkbox"> I request that my partner/support person handle all family updates on my behalf.</label>
           </div>
           <div class="iwj-gb-card">
@@ -239,13 +239,13 @@ get_header();
           </div>
           <div class="iwj-gb-card">
             <div class="iwj-gb-card-title">3. Clinical &amp; Emotional Support</div>
-            <label class="iwj-gb-item"><input type="checkbox" checked> I plan to connect with a perinatal bereavement counselor or grief therapist.</label>
+            <label class="iwj-gb-item"><input type="checkbox"> I plan to connect with a perinatal bereavement counselor or grief therapist.</label>
             <label class="iwj-gb-item"><input type="checkbox"> I want my partner/support person present at all medical follow-up visits.</label>
             <label class="iwj-gb-item"><input type="checkbox"> I request a physical follow-up to confirm my recovery without being rushed.</label>
           </div>
           <div class="iwj-gb-card">
             <div class="iwj-gb-card-title">4. Partner Mutual Care</div>
-            <label class="iwj-gb-item"><input type="checkbox" checked> We will set aside 15 minutes each evening to check in on each other's grief without trying to fix it.</label>
+            <label class="iwj-gb-item"><input type="checkbox"> We will set aside 15 minutes each evening to check in on each other's grief without trying to fix it.</label>
             <label class="iwj-gb-item"><input type="checkbox"> We give each other permission to grieve differently and on different days.</label>
           </div>
         </div>

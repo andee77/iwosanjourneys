@@ -188,25 +188,25 @@ get_header();
         <div class="iwj-rgw-grid">
           <div class="iwj-rgw-card">
             <div class="iwj-rgw-card-title">1. Consent &amp; Autonomy Guarding</div>
-            <label class="iwj-rgw-item"><input type="checkbox" checked> I require verbal permission before any provider touches her body or performs a cervical exam.</label>
-            <label class="iwj-rgw-item"><input type="checkbox" checked> I am enforcing the B.R.A.I.N. consent briefing before any induction, membrane sweep, or medication order.</label>
+            <label class="iwj-rgw-item"><input type="checkbox"> I require verbal permission before any provider touches her body or performs a cervical exam.</label>
+            <label class="iwj-rgw-item"><input type="checkbox"> I am enforcing the B.R.A.I.N. consent briefing before any induction, membrane sweep, or medication order.</label>
             <label class="iwj-rgw-item"><input type="checkbox"> I am monitoring and limiting unneeded medical students or residents in the delivery room.</label>
           </div>
           <div class="iwj-rgw-card">
             <div class="iwj-rgw-card-title">2. Immediate Postpartum Hemorrhage Watch</div>
-            <label class="iwj-rgw-item"><input type="checkbox" checked> I am monitoring bleeding pad saturation (alerting staff immediately if a pad is soaked in under 1 hour).</label>
-            <label class="iwj-rgw-item"><input type="checkbox" checked> I am verifying that the nurse checks her fundus (uterine tone) for firmness every 15 to 30 minutes after birth.</label>
+            <label class="iwj-rgw-item"><input type="checkbox"> I am monitoring bleeding pad saturation (alerting staff immediately if a pad is soaked in under 1 hour).</label>
+            <label class="iwj-rgw-item"><input type="checkbox"> I am verifying that the nurse checks her fundus (uterine tone) for firmness every 15 to 30 minutes after birth.</label>
             <label class="iwj-rgw-item"><input type="checkbox"> I am watching her alertness &mdash; alerting staff immediately if she complains of faintness, ringing ears, or severe chills.</label>
           </div>
           <div class="iwj-rgw-card">
             <div class="iwj-rgw-card-title">3. Cardiovascular &amp; Pain Vigilance</div>
-            <label class="iwj-rgw-item"><input type="checkbox" checked> I am watching the blood pressure monitor for sudden spikes (Preeclampsia) or sudden drops (Hemorrhage).</label>
+            <label class="iwj-rgw-item"><input type="checkbox"> I am watching the blood pressure monitor for sudden spikes (Preeclampsia) or sudden drops (Hemorrhage).</label>
             <label class="iwj-rgw-item"><input type="checkbox"> If she reports severe headache, chest pressure, or upper abdominal pain, I demand an immediate physician check.</label>
             <label class="iwj-rgw-item"><input type="checkbox"> I am ensuring her requests for pain management or anesthesia are answered without unreasonable delay.</label>
           </div>
           <div class="iwj-rgw-card">
             <div class="iwj-rgw-card-title">4. Chain of Command Activation</div>
-            <label class="iwj-rgw-item"><input type="checkbox" checked> If our reports of pain or bleeding are dismissed, I will immediately request the Floor Charge Nurse.</label>
+            <label class="iwj-rgw-item"><input type="checkbox"> If our reports of pain or bleeding are dismissed, I will immediately request the Floor Charge Nurse.</label>
             <label class="iwj-rgw-item"><input type="checkbox"> If necessary, I will demand the Attending Physician on call and call the Hospital Patient Advocate.</label>
           </div>
         </div>

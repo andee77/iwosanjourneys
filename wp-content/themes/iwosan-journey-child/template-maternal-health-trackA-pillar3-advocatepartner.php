@@ -173,9 +173,9 @@ get_header();
       </div>
       <div class="iwj-rg-content">
         <div class="iwj-rg-section-title">1. Environment &amp; Consent Guarding</div>
-        <label class="iwj-rg-item"><input type="checkbox" checked> I am monitoring who enters the room and asking non-essential personnel to leave.</label>
-        <label class="iwj-rg-item"><input type="checkbox" checked> I am requesting verbal permission before any cervical check or physical intervention.</label>
-        <label class="iwj-rg-item"><input type="checkbox" checked> I am enforcing our &ldquo;10-Minute Privacy Rule&rdquo; before any non-emergency decision.</label>
+        <label class="iwj-rg-item"><input type="checkbox"> I am monitoring who enters the room and asking non-essential personnel to leave.</label>
+        <label class="iwj-rg-item"><input type="checkbox"> I am requesting verbal permission before any cervical check or physical intervention.</label>
+        <label class="iwj-rg-item"><input type="checkbox"> I am enforcing our &ldquo;10-Minute Privacy Rule&rdquo; before any non-emergency decision.</label>
 
         <div class="iwj-rg-section-title">2. Labor &amp; Comfort Support</div>
         <label class="iwj-rg-item"><input type="checkbox"> I am reminding her to drink water/electrolytes after every contraction series.</label>
@@ -183,8 +183,8 @@ get_header();
         <label class="iwj-rg-item"><input type="checkbox"> I am advocating for her preferred pain management (unmedicated, epidural, etc.).</label>
 
         <div class="iwj-rg-section-title">3. Delivery &amp; Newborn Advocacy</div>
-        <label class="iwj-rg-item"><input type="checkbox" checked> I am verbally reminding the team to delay cord clamping until pulsing stops.</label>
-        <label class="iwj-rg-item"><input type="checkbox" checked> I am ensuring baby is placed immediately skin-to-skin on her chest.</label>
+        <label class="iwj-rg-item"><input type="checkbox"> I am verbally reminding the team to delay cord clamping until pulsing stops.</label>
+        <label class="iwj-rg-item"><input type="checkbox"> I am ensuring baby is placed immediately skin-to-skin on her chest.</label>
 
         <div class="iwj-rg-btn-wrap">
           <button class="iwj-rg-btn" onclick="iwjRgPrint()">Print / Save My Guardian Checklist</button>
