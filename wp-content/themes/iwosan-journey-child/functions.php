@@ -6,7 +6,7 @@ function iwosan_journey_child_enqueue_styles() {
 		'iwosan-journey-child-style',
 		get_stylesheet_directory_uri() . '/style.css',
 		array( 'kadence-parent-style' ),
-		wp_get_theme()->get( 'Version' )
+		filemtime( get_stylesheet_directory() . '/style.css' )
 	);
 	wp_enqueue_style(
 		'iwosan-journey-fonts',
