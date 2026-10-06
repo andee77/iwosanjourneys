@@ -139,7 +139,7 @@ get_header(); iwosan_back_button( 'top' );
     </div>
   </div>
 
-  <img class="iwj-b3-break-img" src="https://iwosanjourney.com/wp-content/uploads/2026/07/couple-scaled.jpg" alt="A partner standing by her side, representing the Room Guardian role">
+  <img class="iwj-b3-break-img iwj-b3-portrait" src="https://iwosanjourney.com/wp-content/uploads/2026/07/couple-scaled.jpg" alt="A partner standing by her side, representing the Room Guardian role">
 
   <!-- SECTION 3: SURVIVAL SCRIPTS -->
   <div class="iwj-b3-section">

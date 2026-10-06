@@ -109,6 +109,10 @@ get_header(); iwosan_back_button( 'top' );
   font-weight:700;
   white-space:nowrap;
 }
+@media(max-width:600px){
+  .iwj-tmm-reason-list li{flex-direction:column;gap:.35rem}
+  .iwj-tmm-reason-list strong{white-space:normal}
+}
 .iwj-tmm-script-card{
   background:#FAF8F4;
   border-left:3px solid #4DAEAF;

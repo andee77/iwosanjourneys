@@ -384,3 +384,43 @@ a.ij-back-btn:focus-visible { outline: 3px solid #4DAEAF; outline-offset: 2px; }
 @media print {
 	.ij-back-wrap { display: none !important; }
 }
+
+/* Maternal Health (Track A and B) photos on phones: show the whole picture instead of
+   cropping the sides out of a fixed-height box. Desktop and tablet are unchanged. */
+@media (max-width: 767px) {
+	body img.iwj-b1-hero-img,
+	body img.iwj-b1-break-img,
+	body img.iwj-p1a-hero-img,
+	body img.iwj-p1a-break-img,
+	body img.iwj-b2-hero-img,
+	body img.iwj-b2-break-img,
+	body img.iwj-p2a-hero-img,
+	body img.iwj-p2a-break-img,
+	body img.iwj-b3-hero-img,
+	body img.iwj-b3-break-img,
+	body img.iwj-p3a-hero-img,
+	body img.iwj-p3a-break-img,
+	body img.iwj-b4-hero-img,
+	body img.iwj-b4-break-img,
+	body img.iwj-p4a-hero-img,
+	body img.iwj-p4a-break-img,
+	body img.iwj-b5-hero-img,
+	body img.iwj-b5-break-img,
+	body img.iwj-p5a-hero-img,
+	body img.iwj-p5a-break-img,
+	body img.iwj-b6-hero-img,
+	body img.iwj-b6-break-img,
+	body img.iwj-p6a-hero-img,
+	body img.iwj-p6a-break-img,
+	body img.iwj-b7-hero-img,
+	body img.iwj-b7-break-img,
+	body img.iwj-p7a-hero-img,
+	body img.iwj-p7a-break-img {
+		height: auto;
+	}
+	body img.iwj-b3-portrait {
+		height: auto;
+		aspect-ratio: 4 / 5;
+		object-position: 50% 62%;
+	}
+}
