@@ -424,3 +424,32 @@ a.ij-back-btn:focus-visible { outline: 3px solid #4DAEAF; outline-offset: 2px; }
 		object-position: 50% 62%;
 	}
 }
+
+/* Footer social icons. To add a network later (e.g. YouTube), add one entry to
+   iwosan_footer_social_links() in functions.php; no CSS change is needed. */
+.ij-footer-links { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
+.ij-footer-social { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.ij-footer-social li { margin: 0; padding: 0; }
+.ij-footer-social a,
+.ij-footer-social a:visited {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	box-sizing: border-box;
+	border: 1.5px solid #C9A052;
+	border-radius: 50%;
+	color: #FAF8F4;
+	background: transparent;
+	text-decoration: none;
+}
+.ij-footer-social a:hover,
+.ij-footer-social a:focus,
+.ij-footer-social a:active {
+	background: #C9A052;
+	color: #0A1F44;
+}
+.ij-footer-social a:focus-visible { outline: 3px solid #FAF8F4; outline-offset: 3px; }
+.ij-footer-social svg { width: 22px; height: 22px; display: block; fill: currentColor; }
+.ij-footer-social svg .ij-ico-stroke { fill: none; stroke: currentColor; stroke-width: 2; }

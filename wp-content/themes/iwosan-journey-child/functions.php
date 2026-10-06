@@ -21,6 +21,31 @@ function iwosan_replace_kadence_footer() {
 	remove_all_actions( 'kadence_footer' );
 	add_action( 'kadence_footer', 'iwosan_custom_footer' );
 }
+/**
+ * Social icons shown in the footer. To add a network later (e.g. TikTok), add one
+ * entry below: 'label' (screen-reader name), 'url', and 'svg' (inner SVG markup drawn
+ * on a 24x24 viewBox, filled with currentColor). No CSS change is needed.
+ */
+function iwosan_footer_social_links() {
+	return array(
+		array(
+			'label' => 'Iwosan Journeys on Facebook',
+			'url'   => 'https://www.facebook.com/Iwosan',
+			'svg'   => '<path d="M13.5 22v-8.2h2.8l.5-3.4h-3.3V8.2c0-1 .4-1.7 1.8-1.7h1.6V3.5c-.3 0-1.3-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.3v2.8H7.4v3.4h2.8V22h3.3z"/>',
+		),
+		array(
+			'label' => 'Iwosan Journeys on Instagram',
+			'url'   => 'https://www.instagram.com/iwosanjourneys/',
+			'svg'   => '<rect class="ij-ico-stroke" x="3.5" y="3.5" width="17" height="17" rx="5"/><circle class="ij-ico-stroke" cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2"/>',
+		),
+		array(
+			'label' => 'Iwosan Journeys on YouTube',
+			'url'   => 'https://www.youtube.com/@IwosanJourneys',
+			'svg'   => '<path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8C22 15.2 22 12 22 12s0-3.2-.4-4.8zM10 15V9l5.2 3z"/>',
+		),
+	);
+}
+
 function iwosan_custom_footer() {
 	?>
 	<div class="site-footer-wrap">
@@ -29,6 +54,7 @@ function iwosan_custom_footer() {
 				<div class="ij-footer-brand-name">Iwosan Journeys</div>
 				<div class="ij-footer-brand-tagline">A JourneyWell Global LLC brand.</div>
 			</div>
+			<div class="ij-footer-links">
 			<nav class="ij-footer-nav">
 				<a href="<?php echo esc_url( home_url( '/terms-of-use/' ) ); ?>">Terms of Use</a>
 				<a href="<?php echo esc_url( home_url( '/privacy-policy/' ) ); ?>">Privacy Policy</a>
@@ -38,6 +64,12 @@ function iwosan_custom_footer() {
 				<a href="<?php echo esc_url( home_url( '/about-jwg/' ) ); ?>">About JWG</a>
 				<a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact</a>
 			</nav>
+			<ul class="ij-footer-social" aria-label="Iwosan Journeys on social media">
+				<?php foreach ( iwosan_footer_social_links() as $ij_social ) : ?>
+				<li><a href="<?php echo esc_url( $ij_social['url'] ); ?>" target="_blank" rel="noopener" aria-label="<?php echo esc_attr( $ij_social['label'] ); ?>"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><?php echo $ij_social['svg']; ?></svg></a></li>
+				<?php endforeach; ?>
+			</ul>
+			</div>
 			<div class="ij-footer-meta">
 				<div class="ij-footer-copyright">&copy; <?php echo esc_html( date( 'Y' ) ); ?> JourneyWell Global LLC. All rights reserved.</div>
 				<div class="ij-footer-domain">IWOSANJOURNEY.COM &middot; EST. 2026</div>
