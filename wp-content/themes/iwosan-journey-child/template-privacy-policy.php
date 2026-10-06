@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Privacy Policy
- * Description: Custom coded Privacy Policy page for Iwosan Journey's
+ * Description: Custom coded Privacy Policy page for Iwosan Journeys
  */
 
 get_header();
@@ -19,7 +19,7 @@ get_header();
 
 	<p><strong>Effective Date:</strong> July 24, 2026</p>
 
-	<p>At Iwosan Journey's, a subsidiary of JourneyWell Global LLC, your privacy is deeply important to us. This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website.</p>
+	<p>At Iwosan Journeys, a subsidiary of JourneyWell Global LLC, your privacy is deeply important to us. This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website.</p>
 
 	<h2>1. Information We Collect</h2>
 	<p>We collect information you voluntarily provide to us, as well as automatic technical data:</p>
@@ -51,7 +51,7 @@ get_header();
 
 	<h2>7. Contact Us</h2>
 	<p>If you have questions about this Privacy Policy or how your data is handled, please contact us at:</p>
-	<p>Iwosan Journey's<br>
+	<p>Iwosan Journeys<br>
 	Email: <a href="mailto:support@journeywellglobal.com">support@journeywellglobal.com</a></p>
 
 </div>

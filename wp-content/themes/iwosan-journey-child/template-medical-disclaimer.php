@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Iwosan Medical Disclaimer
- * Description: Custom coded Medical Disclaimer page for Iwosan Journey's
+ * Description: Custom coded Medical Disclaimer page for Iwosan Journeys
  */
 
 get_header();
@@ -17,20 +17,20 @@ get_header();
 
 <div class="ij-section">
 
-	<p><strong>IMPORTANT:</strong> Iwosan Journey's, a subsidiary of JourneyWell Global LLC, and its team members are not licensed medical professionals, physicians, therapists, or healthcare providers.</p>
+	<p><strong>IMPORTANT:</strong> Iwosan Journeys, a subsidiary of JourneyWell Global LLC, and its team members are not licensed medical professionals, physicians, therapists, or healthcare providers.</p>
 
 	<h2>No Medical Advice Provided</h2>
-	<p>The content, services, programs, and products offered by Iwosan Journey's (including text, graphics, videos, audio, and advice) are for informational, educational, and general wellness purposes only. Nothing contained on this website or provided through our services is intended to be a substitute for professional medical advice, diagnosis, prevention, or treatment.</p>
+	<p>The content, services, programs, and products offered by Iwosan Journeys (including text, graphics, videos, audio, and advice) are for informational, educational, and general wellness purposes only. Nothing contained on this website or provided through our services is intended to be a substitute for professional medical advice, diagnosis, prevention, or treatment.</p>
 
 	<h2>Consult Your Healthcare Team</h2>
 	<ul>
 		<li>Always seek the advice of your physician, psychiatrist, or other qualified healthcare provider with any questions you may have regarding a medical condition, mental health concern, or treatment plan.</li>
-		<li>Never disregard professional medical advice or delay seeking it because of something you have read, heard, or experienced through Iwosan Journey's.</li>
+		<li>Never disregard professional medical advice or delay seeking it because of something you have read, heard, or experienced through Iwosan Journeys.</li>
 		<li>If you think you may have a medical emergency, call your local emergency services (e.g., 911) or go to the nearest emergency room immediately.</li>
 	</ul>
 
 	<h2>Assumption of Risk</h2>
-	<p>By engaging with Iwosan Journey's, you acknowledge that you are voluntarily participating in our wellness offerings and assume all risks — known and unknown — associated with your participation.</p>
+	<p>By engaging with Iwosan Journeys, you acknowledge that you are voluntarily participating in our wellness offerings and assume all risks — known and unknown — associated with your participation.</p>
 
 </div>
 
