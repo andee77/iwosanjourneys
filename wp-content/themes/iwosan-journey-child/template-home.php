@@ -156,6 +156,51 @@ img.ij-story-photo {
 	line-height: 1.7;
 }
 
+.ij-name { background: #FAF8F4; padding: 56px 32px; }
+.ij-name-inner { max-width: 1080px; margin: 0 auto; }
+.ij-name-eyebrow {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #8B5E3C;
+	margin: 0 0 12px;
+}
+.ij-name h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #1C3A2A;
+	margin: 0 0 12px;
+}
+.ij-name p { font-size: 15px; line-height: 1.7; color: #3D3D3A; margin: 0 0 16px; max-width: 680px; }
+.ij-name p.ij-name-def { font-size: 17px; font-style: italic; }
+.ij-name p.ij-name-how {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #1C3A2A;
+	margin: 22px 0 10px;
+}
+.ij-name ul.ij-name-say { list-style: none; margin: 0 0 24px; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.ij-name ul.ij-name-say li {
+	background: #FFFFFF;
+	border: 1px solid #E5E0D5;
+	border-left: 3px solid #C9A052;
+	border-radius: 6px;
+	padding: 10px 16px;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #3D3D3A;
+	margin: 0;
+}
+
+@media (max-width: 640px) {
+	.ij-name { padding: 40px 20px; }
+	.ij-name ul.ij-name-say { flex-direction: column; }
+}
+
 @media (max-width: 640px) {
 	.ij-hero h1 { font-size: 30px; }
 	.ij-story, .ij-menopause { flex-direction: column; align-items: flex-start; }
@@ -175,6 +220,21 @@ img.ij-story-photo {
 	<svg class="ij-path-divider" viewBox="0 0 1080 40" preserveAspectRatio="none" aria-hidden="true">
 		<path d="M0 20 Q 270 0, 540 20 T 1080 20" fill="none" stroke="#C9A052" stroke-width="1.5"/>
 	</svg>
+
+	<section class="ij-name">
+		<div class="ij-name-inner">
+			<div class="ij-name-eyebrow">About the name</div>
+			<h2>Iwosan (ee-woh-sahn)</h2>
+			<p class="ij-name-def">A Yoruba word meaning healing, cure, or restoration to health.</p>
+			<p class="ij-name-how">How to say it:</p>
+			<ul class="ij-name-say">
+				<li>I: "ee," as in see</li>
+				<li>wo: "woh," as in woke</li>
+				<li>san: "sahn," with an open "ah" sound</li>
+			</ul>
+			<p>Healing is the heart of everything we do, and healing is never a single moment. It's a journey. That's why we're Iwosan Journeys: healing journeys that guide you back to you.</p>
+		</div>
+	</section>
 
 	<section class="ij-section">
 		<div class="ij-story">

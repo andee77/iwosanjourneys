@@ -65,6 +65,20 @@ get_header(); iwosan_back_button( 'top' );
   .iwj-ajwg-vision-quote { font-family: var(--font-heading); font-weight: 700; font-size: 1.4rem; color: var(--primary-green); border-left: 4px solid var(--accent-gold); padding-left: 20px; margin: 24px 0; }
   .iwj-ajwg-vision-section p { font-size: 1.08rem; margin-bottom: 18px; }
 
+  .iwj-ajwg-story-section { background: var(--bg-cream); padding: 80px 20px; }
+  .iwj-ajwg-story-inner { max-width: 780px; margin: 0 auto; }
+  .iwj-ajwg-story-section .iwj-ajwg-eyebrow { color: var(--earth-brown); }
+  .iwj-ajwg-story-section h2 { font-size: 2rem; margin-bottom: 22px; }
+  .iwj-ajwg-story-section p { font-size: 1.08rem; margin-bottom: 18px; }
+  .iwj-ajwg-story-section strong { color: var(--primary-navy); }
+  .iwj-ajwg-story-section a,
+  .iwj-ajwg-story-section a:visited { color: var(--earth-brown); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .iwj-ajwg-story-section a:hover,
+  .iwj-ajwg-story-section a:focus,
+  .iwj-ajwg-story-section a:active { color: var(--primary-navy); }
+  .iwj-ajwg-story-section .iwj-ajwg-feature-list { margin: 6px 0 22px; padding: 0; }
+  .iwj-ajwg-story-section .iwj-ajwg-feature-list li { font-size: 1.05rem; line-height: 1.65; }
+
   .iwj-ajwg-pillars-section { background: var(--primary-navy); padding: 90px 20px; }
   .iwj-ajwg-pillars-inner { max-width: 1150px; margin: 0 auto; }
   .iwj-ajwg-pillars-inner > h2 { color: var(--bg-cream); font-size: 2rem; text-align: center; margin-bottom: 50px; }
@@ -165,6 +179,25 @@ get_header(); iwosan_back_button( 'top' );
       <div class="iwj-ajwg-eyebrow" style="display:flex;justify-content:center;align-items:center;gap:10px;">About JWG &middot; The Journey</div>
       <h1>Your Roadmap to Wellness, Connection, &amp; Care</h1>
       <p>A comprehensive, three-tiered ecosystem: Education, Advocacy, and Experiences. Whether navigating daily life transitions or planning a major medical journey, supporting a family member or friend, our platform supports you every step of the way.</p>
+    </div>
+  </section>
+
+  <section class="iwj-ajwg-story-section">
+    <div class="iwj-ajwg-story-inner">
+      <div class="iwj-ajwg-eyebrow">The JourneyWell Story</div>
+      <h2>Two Gaps, One Answer</h2>
+      <p>JourneyWell Global began in October 2025 with two realizations that wouldn't let go.</p>
+      <p><strong>The first came from the work.</strong> After nearly 20 years in public health, Andrea learned that new mothers in many other countries have access to dedicated postpartum care centers, a level of support that barely exists in the United States. That gap led her into the world of medical travel, where she found another one: people who want safe, affordable care abroad, but have no one to help them plan it, vet it, or feel confident doing it.</p>
+      <p><strong>The second came from home.</strong> When menopause arrived suddenly, a year before Andrea and LaDon's wedding, it reshaped their relationship, and they found almost no support built for both of them. Sitting at her grandmother's kitchen table, Andrea saw it clearly: big health transitions never happen to just one person. <a href="/our-story/">Read the full story</a></p>
+      <p><strong>Two gaps, one answer.</strong> Andrea and LaDon set out to build the safety net they couldn't find: a place that helps people understand their health, speak up for themselves, and find care and healing wherever it lives, at home or around the world.</p>
+      <p><strong>Why "JourneyWell"?</strong> As the vision took shape, one phrase kept coming back: the journey to wellness. Healing isn't a single appointment or a finish line. It's a road, and no one should have to walk it alone or unprepared.</p>
+      <p><strong>One family, three paths.</strong> JourneyWell Global is the parent company, and its work lives in three brands:</p>
+      <ul class="iwj-ajwg-feature-list">
+        <li><span><strong>Iwosan Journeys.</strong> Iwosan (ee-woh-sahn) is a Yoruba word meaning healing, cure, or restoration to health. This brand is for advocacy, health education, and healing experiences.</span></li>
+        <li><span><strong>MenoWell</strong>, for menopause education and support, for women and everyone who walks beside them.</span></li>
+        <li><span><strong>Checked Bags &amp; Good Vibes</strong>, for group travel that brings people together to rest and reconnect.</span></li>
+      </ul>
+      <p>Each brand serves a different part of the journey. Together, they share one belief: health is a right, not a privilege, and everyone deserves to navigate it with dignity and a clear plan.</p>
     </div>
   </section>
 
