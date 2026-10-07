@@ -492,7 +492,7 @@ get_header(); iwosan_back_button( 'top' );
           <div class="iwj-dash-toggles">
             <label class="iwj-dash-toggle-label"><input type="checkbox" class="iwj-dash-warning-toggle" value="the afternoon energy crash"> Afternoon Energy Crash (2&ndash;3 PM)</label>
             <label class="iwj-dash-toggle-label"><input type="checkbox" class="iwj-dash-warning-toggle" value="a shorter fuse and irritability"> Short Fuse / Irritability</label>
-            <label class="iwj-dash-toggle-label"><input type="checkbox" class="iwj-dash-warning-toggle" value="waking up at 3:00 AM restless"> Sleep Struggle (3 AM wakeups)</label>
+            <label class="iwj-dash-toggle-label"><input type="checkbox" class="iwj-dash-warning-toggle" value="waking up at 3:00 AM restless"> Sleep Struggle (3 AM wake-ups)</label>
             <label class="iwj-dash-toggle-label"><input type="checkbox" class="iwj-dash-warning-toggle" value="slow physical recovery and aches"> Recovery Lag / Persistent Aches</label>
           </div>
         </div>

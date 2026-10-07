@@ -122,7 +122,7 @@ get_header(); iwosan_back_button( 'top' );
           <tr>
             <td>1. Enforce Explicit Verbal Consent</td>
             <td class="what">Standing between the bed and any provider attempting a cervical check or intervention until they explain why and receive her verbal &ldquo;yes.&rdquo;</td>
-            <td class="why">WOC experience significantly higher rates of unconsented vaginal exams and sweeps. No hand touches her body without her explicit permission.</td>
+            <td class="why">WOC experience significantly higher rates of vaginal exams and sweeps performed without consent. No hand touches her body without her explicit permission.</td>
           </tr>
           <tr>
             <td>2. Watch the Blood Loss &amp; Vitals</td>

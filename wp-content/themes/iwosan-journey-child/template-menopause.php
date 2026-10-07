@@ -158,7 +158,7 @@ get_header();
           <a href="https://simplymenowell.com/perimenopause/" class="mw-pillar-title-link" target="_blank" rel="noopener">
             <h3>Women in Perimenopause</h3>
           </a>
-          <p>Navigating the shift. Decode the chaos of the estrogen and progesterone rollercoaster, track your data, and build your medical self-advocacy playbook.</p>
+          <p>Navigating the shift. Decode the chaos of the estrogen and progesterone roller coaster, track your data, and build your medical self-advocacy playbook.</p>
         </div>
       </div>
 
