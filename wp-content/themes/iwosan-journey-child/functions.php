@@ -125,7 +125,7 @@ function iwosan_wellness_assessments_enqueue() {
         'iwosan-wellness-assessments',
         get_stylesheet_directory_uri() . '/assets/js/iwosan-mens-assessments.js',
         array(),
-        '1.1.0',
+        filemtime( get_stylesheet_directory() . '/assets/js/iwosan-mens-assessments.js' ),
         true // load in footer
     );
 }
