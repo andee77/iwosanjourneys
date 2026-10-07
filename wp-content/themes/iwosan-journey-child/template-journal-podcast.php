@@ -108,7 +108,7 @@ get_header();
 <div class="ij-newsletter-cta">
 	<h2>Deep dives delivered to your inbox</h2>
 	<p>No fluff, just actionable guidance — join the list for new episodes and journal entries as they drop.</p>
-	<a href="https://menowell.kit.com/17a0e58545" target="_blank" rel="noopener" class="ij-btn-gold">Subscribe</a>
+	<a href="https://iwosan-journey.kit.com/c0a09bbd8a" target="_blank" rel="noopener" class="ij-btn-gold">Subscribe</a>
 </div>
 
 <?php get_footer(); ?>

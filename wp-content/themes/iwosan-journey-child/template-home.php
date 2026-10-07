@@ -213,7 +213,7 @@ img.ij-story-photo {
 		<div class="ij-hero-inner">
 			<h1>Guiding you back<br>to you.</h1>
 			<p>A non-clinical safety net for advocacy, healing, and global wellness experiences — built from lived experience, not theory.</p>
-			<a href="#" class="ij-btn-gold">Join the waitlist</a>
+			<a href="https://iwosan-journey.kit.com/c0a09bbd8a" target="_blank" rel="noopener" class="ij-btn-gold">Join the waitlist</a>
 		</div>
 	</section>
 
@@ -284,7 +284,7 @@ img.ij-story-photo {
 	<section class="ij-final-cta">
 		<h2>Be the first to know</h2>
 		<p>Iwosan Journeys is launching soon. Join the waitlist for early access to Patient Power Packs, our first live events, and updates as each part of this ecosystem goes live.</p>
-		<a href="#" class="ij-btn-gold">Join the waitlist</a>
+		<a href="https://iwosan-journey.kit.com/c0a09bbd8a" target="_blank" rel="noopener" class="ij-btn-gold">Join the waitlist</a>
 	</section>
 
 </div>
