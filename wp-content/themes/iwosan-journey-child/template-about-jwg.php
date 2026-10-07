@@ -397,38 +397,106 @@ get_header(); iwosan_back_button( 'top' );
 <script>
 (function () {
   var form = document.getElementById('jwg-newsletter-form');
+  if (!form) { return; }
   var statusEl = document.getElementById('jwg-newsletter-status');
-  var FORM_ID = '9372376'; // Shared MenoWell Kit form — confirmed decision, not a placeholder
+  var emailEl = document.getElementById('jwg-newsletter-email');
+  var btn = form.querySelector('button[type="submit"]');
+  var ENDPOINT = 'https://app.kit.com/forms/9372376/subscriptions'; // Shared MenoWell Kit form (confirmed decision, not a placeholder)
+  var COLOR = { info: '#4A5568', ok: '#1C3A2A', err: '#B91C1C' };
+  var busyNow = false;
+
+  // Posts the way Kit's own embed does (Accept: application/json), shows Kit's security check
+  // (the "guard") when Kit asks for it, and reports success ONLY when Kit confirms.
+  function say(kind, text) {
+    statusEl.style.color = COLOR[kind];
+    statusEl.textContent = text;
+  }
+  function sayError() {
+    statusEl.style.color = COLOR.err;
+    statusEl.textContent = 'Something went wrong. Please try again, or email ';
+    var a = document.createElement('a');
+    a.href = 'mailto:info@journeywellglobal.com';
+    a.textContent = 'info@journeywellglobal.com';
+    a.style.cssText = 'color:#8B5E3C;font-weight:700;text-decoration:underline;';
+    statusEl.appendChild(a);
+    statusEl.appendChild(document.createTextNode('.'));
+  }
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var email = document.getElementById('jwg-newsletter-email').value.trim();
-    if (!email) return;
+    var email = emailEl.value.trim();
+    if (!email || busyNow) { return; }
+    var btnText = btn ? btn.textContent : '';
+    var overlay = null, frame = null, onMsg = null;
 
-    statusEl.textContent = 'Submitting…';
-
-    var controller = new AbortController();
-    var timeout = setTimeout(function () { controller.abort(); }, 8000);
-
-    // Kit/ConvertKit's browser endpoint responds via opaque no-cors — it will
-    // never report a real HTTP failure back to JS. We therefore treat "the
-    // request didn't throw or time out" as success, and only surface a real
-    // failure on network error or timeout. This mirrors the same workaround
-    // already used on the Mental Health / MenoWell email captures.
-    fetch('https://app.kit.com/forms/' + FORM_ID + '/subscriptions', {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: 'email_address=' + encodeURIComponent(email),
-      signal: controller.signal
-    }).then(function () {
-      clearTimeout(timeout);
-      statusEl.textContent = "You're in — check your inbox to confirm.";
+    function busy(on) {
+      busyNow = on;
+      emailEl.disabled = on;
+      if (btn) { btn.disabled = on; btn.textContent = on ? 'Sending…' : btnText; }
+    }
+    function closeGuard() {
+      if (onMsg) { window.removeEventListener('message', onMsg); onMsg = null; }
+      if (overlay && overlay.parentNode) { overlay.parentNode.removeChild(overlay); }
+      overlay = null;
+      frame = null;
+    }
+    function fail() { closeGuard(); busy(false); sayError(); }
+    function done() {
+      closeGuard();
+      busy(false);
+      say('ok', "You're in — check your inbox to confirm.");
       form.reset();
-    }).catch(function () {
-      clearTimeout(timeout);
-      statusEl.textContent = 'Something went wrong — please try again in a moment.';
-    });
+    }
+    function openGuard(url) {
+      overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;z-index:99999;background:rgba(10,31,68,0.6);display:flex;align-items:center;justify-content:center;padding:16px;';
+      var box = document.createElement('div');
+      box.setAttribute('role', 'dialog');
+      box.setAttribute('aria-modal', 'true');
+      box.setAttribute('aria-label', 'Security check');
+      box.style.cssText = 'position:relative;background:#fff;border-radius:10px;max-width:100%;max-height:100%;overflow:auto;box-shadow:0 10px 40px rgba(0,0,0,0.3);';
+      var close = document.createElement('button');
+      close.type = 'button';
+      close.setAttribute('aria-label', 'Close');
+      close.textContent = '×';
+      close.style.cssText = 'position:absolute;right:6px;top:4px;z-index:2;width:44px;height:44px;border:none;background:transparent;font-size:28px;line-height:1;cursor:pointer;color:#0A1F44;';
+      close.onclick = function () { fail(); };
+      frame = document.createElement('iframe');
+      frame.src = url;
+      frame.title = 'Security check';
+      frame.style.cssText = 'display:block;border:0;width:min(420px,92vw);height:300px;max-width:100%;';
+      box.appendChild(close);
+      box.appendChild(frame);
+      overlay.appendChild(box);
+      document.body.appendChild(overlay);
+      onMsg = function (ev) {
+        if (!frame || ev.source !== frame.contentWindow || !ev.data) { return; }
+        if (ev.data.name === 'ckjs:guard:size' && ev.data.height) {
+          frame.style.height = Math.min(ev.data.height, window.innerHeight - 40) + 'px';
+          if (ev.data.width) { frame.style.width = Math.min(ev.data.width, window.innerWidth - 32) + 'px'; }
+        }
+        if (ev.data.name === 'ckjs:guard:confirmed') { done(); }
+      };
+      window.addEventListener('message', onMsg);
+      close.focus();
+    }
+
+    busy(true);
+    say('info', 'Submitting…');
+    var fd = new FormData();
+    fd.append('email_address', email);
+    fd.append('referrer', document.referrer || '');
+    fd.append('host', window.location.href);
+    fd.append('search', window.location.search);
+    fd.append('ckjs_version', '6');
+    fetch(ENDPOINT, { method: 'POST', body: fd, headers: { 'Accept': 'application/json' } })
+      .then(function (r) { if (!r.ok) { throw new Error('HTTP ' + r.status); } return r.json(); })
+      .then(function (d) {
+        if (d && d.status === 'success') { done(); }
+        else if (d && d.status === 'quarantined' && typeof d.url === 'string' && /^https:\/\/([a-z0-9-]+\.)?kit\.com\//.test(d.url)) { openGuard(d.url); }
+        else { fail(); }
+      })
+      .catch(function () { fail(); });
   });
 })();
 </script>

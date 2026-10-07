@@ -21,7 +21,7 @@
   // Confirmed from the live MenoWell embed (simplymenowell.com): a classic Kit HTML form post,
   // not the newer JS-embed/data-uid pattern. Same form ID used across the JourneyWell brand family.
   const CONVERTKIT_FORM_ID = '9372376';
-  const CONVERTKIT_ENDPOINT = `https://app.convertkit.com/forms/${CONVERTKIT_FORM_ID}/subscriptions`;
+  const CONVERTKIT_ENDPOINT = `https://app.kit.com/forms/${CONVERTKIT_FORM_ID}/subscriptions`;
 
   const scale4 = ["Not at all", "Several days", "More than half the days", "Nearly every day"];
 
@@ -103,40 +103,92 @@
   }
 
   /**
-   * Submits an email (plus optional assessment scores) to the shared Kit form,
-   * matching the classic form-post pattern live on simplymenowell.com (form ID 9372376).
+   * Submits an email (plus optional assessment scores) to the shared Kit form (ID 9372376).
    * Custom fields confirmed in the Kit dashboard: gad7_score, phq9_score, ptsd_score.
    *
-   * Note on reliability: mode:'no-cors' means the browser cannot read Kit's actual response,
-   * so a wrong form ID or a Kit-side validation error will look identical to success from here.
-   * What THIS function can catch: network failures and requests that hang. A request timeout
-   * (8s) is used so a dead connection doesn't leave the person staring at a spinner forever.
-   * If you want true delivery confirmation, that requires either dropping no-cors (which means
-   * solving Kit's CORS restriction some other way) or checking subscriber counts in Kit directly.
+   * Posts the way Kit's own embed does (Accept: application/json) so Kit's answer can be read:
+   *  - "success"     -> resolves { ok: true }
+   *  - "quarantined" -> Kit's spam protection holds the signup until the person completes a quick
+   *                     security check; it is shown in a pop-up and we resolve { ok: true } ONLY
+   *                     after Kit confirms it (resolves { ok: false } if the pop-up is closed)
+   *  - anything else (HTTP error, network error, timeout, rejected) -> { ok: false, reason }
    */
+  function showKitGuard(url) {
+    return new Promise(resolve => {
+      const overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;z-index:99999;background:rgba(10,31,68,0.6);display:flex;align-items:center;justify-content:center;padding:16px;';
+      const box = document.createElement('div');
+      box.setAttribute('role', 'dialog');
+      box.setAttribute('aria-modal', 'true');
+      box.setAttribute('aria-label', 'Security check');
+      box.style.cssText = 'position:relative;background:#fff;border-radius:10px;max-width:100%;max-height:100%;overflow:auto;box-shadow:0 10px 40px rgba(0,0,0,0.3);';
+      const close = document.createElement('button');
+      close.type = 'button';
+      close.setAttribute('aria-label', 'Close');
+      close.textContent = '×';
+      close.style.cssText = 'position:absolute;right:6px;top:4px;z-index:2;width:44px;height:44px;border:none;background:transparent;font-size:28px;line-height:1;cursor:pointer;color:#0A1F44;';
+      const frame = document.createElement('iframe');
+      frame.src = url;
+      frame.title = 'Security check';
+      frame.style.cssText = 'display:block;border:0;width:min(420px,92vw);height:300px;max-width:100%;';
+      box.appendChild(close);
+      box.appendChild(frame);
+      overlay.appendChild(box);
+      document.body.appendChild(overlay);
+
+      function finish(result) {
+        window.removeEventListener('message', onMsg);
+        if (overlay.parentNode) { overlay.parentNode.removeChild(overlay); }
+        resolve(result);
+      }
+      function onMsg(ev) {
+        if (ev.source !== frame.contentWindow || !ev.data) { return; }
+        if (ev.data.name === 'ckjs:guard:size' && ev.data.height) {
+          frame.style.height = Math.min(ev.data.height, window.innerHeight - 40) + 'px';
+          if (ev.data.width) { frame.style.width = Math.min(ev.data.width, window.innerWidth - 32) + 'px'; }
+        }
+        if (ev.data.name === 'ckjs:guard:confirmed') { finish({ ok: true }); }
+      }
+      window.addEventListener('message', onMsg);
+      close.onclick = () => finish({ ok: false, reason: 'guard_closed' });
+      close.focus();
+    });
+  }
+
   function submitToConvertKit(email, fields) {
-    const body = new URLSearchParams();
+    const body = new FormData();
     body.append('email_address', email);
     Object.keys(fields || {}).forEach(key => {
       body.append(`fields[${key}]`, fields[key]);
     });
+    body.append('referrer', document.referrer || '');
+    body.append('host', window.location.href);
+    body.append('search', window.location.search);
+    body.append('ckjs_version', '6');
 
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
+    const timeout = setTimeout(() => controller.abort(), 15000);
 
     return fetch(CONVERTKIT_ENDPOINT, {
       method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      headers: { 'Accept': 'application/json' },
       body,
       signal: controller.signal
-    }).then(() => {
+    }).then(response => {
       clearTimeout(timeout);
-      return { ok: true };
+      if (!response.ok) { throw new Error('HTTP ' + response.status); }
+      return response.json();
+    }).then(data => {
+      if (data && data.status === 'success') { return { ok: true }; }
+      if (data && data.status === 'quarantined' && typeof data.url === 'string' && /^https:\/\/([a-z0-9-]+\.)?kit\.com\//.test(data.url)) {
+        return showKitGuard(data.url);
+      }
+      console.error('Kit did not accept the signup:', data);
+      return { ok: false, reason: 'kit_rejected' };
     }).catch(err => {
       clearTimeout(timeout);
       const reason = err.name === 'AbortError' ? 'timeout' : 'network_error';
-      console.error('ConvertKit submission failed:', reason, err);
+      console.error('Kit submission failed:', reason, err);
       return { ok: false, reason };
     });
   }
@@ -276,7 +328,7 @@
             if (result.ok) {
               window.alert('Thanks — check your inbox shortly.');
             } else {
-              window.alert("We couldn't confirm that went through. Please try again, or email us directly if it keeps happening.");
+              window.alert('Something went wrong. Please try again, or email info@journeywellglobal.com.');
             }
           });
         });
@@ -407,7 +459,7 @@
             if (result.ok) {
               window.alert('Thanks — check your inbox shortly.');
             } else {
-              window.alert("We couldn't confirm that went through. Please try again, or email us directly if it keeps happening.");
+              window.alert('Something went wrong. Please try again, or email info@journeywellglobal.com.');
             }
           });
         });
