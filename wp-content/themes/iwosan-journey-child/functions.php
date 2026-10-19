@@ -57,7 +57,7 @@ function iwosan_custom_footer() {
 		<div class="ij-custom-footer">
 			<div class="ij-footer-brand">
 				<div class="ij-footer-brand-name">Iwosan Journeys</div>
-				<div class="ij-footer-brand-tagline">A <a href="/about-jwg/">JourneyWell Global LLC</a> brand.</div>
+				<div class="ij-footer-brand-tagline">A <a href="/about-jwg/">JourneyWell Global LLC</a> brand. Sister brands: <a href="https://simplymenowell.com" target="_blank" rel="noopener">MenoWell</a> &middot; <a href="https://bagsandvibes.com" target="_blank" rel="noopener">Checked Bags &amp; Good Vibes</a></div>
 			</div>
 			<div class="ij-footer-links">
 			<nav class="ij-footer-nav">
