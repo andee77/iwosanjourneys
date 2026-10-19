@@ -39,6 +39,11 @@ function iwosan_footer_social_links() {
 			'svg'   => '<rect class="ij-ico-stroke" x="3.5" y="3.5" width="17" height="17" rx="5"/><circle class="ij-ico-stroke" cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2"/>',
 		),
 		array(
+			'label' => 'Iwosan Journeys on TikTok',
+			'url'   => 'https://www.tiktok.com/@iwosan.journey',
+			'svg'   => '<path d="M16.6 2h-3.3v13.2a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9a6.3 6.3 0 1 0 5.3 6.2V8.6a8 8 0 0 0 4.4 1.3V6.6a4.5 4.5 0 0 1-4.4-4.6z"/>',
+		),
+		array(
 			'label' => 'Iwosan Journeys on YouTube',
 			'url'   => 'https://www.youtube.com/@IwosanJourneys',
 			'svg'   => '<path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8C22 15.2 22 12 22 12s0-3.2-.4-4.8zM10 15V9l5.2 3z"/>',
