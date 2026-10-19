@@ -27,7 +27,7 @@ get_header();
 	<p>For nearly 20 years, I've worked in public health — training immunization ambassadors, coordinating national health conferences, sitting inside the systems that are supposed to catch people when they're most vulnerable. Somewhere along the way, I noticed something the U.S. healthcare system quietly leaves out: the kind of dedicated, high-quality postpartum care centers that new mothers in other countries take for granted simply don't exist here.</p>
 	<p>That observation sent me down a rabbit hole into medical tourism — and what I found was a massive, overlooked gap. Countless people want to travel abroad for premium, more affordable care. What they don't have is the knowledge, the logistics, or the safety net to do it with confidence.</p>
 
-	<h2>The kitchen table moment</h2>
+	<h2 style="clear: none;">The kitchen table moment</h2>
 	<p>The second realization was personal, not professional.</p>
 	<p>About a year before our wedding, I began experiencing the sudden onset of menopausal symptoms — and it opened a chasm between my now-husband LaDon and me that neither of us expected. We were navigating confusion, systemic medical silence, and a near-total absence of non-clinical support, together but not really together, because no one had given us the language for what was happening.</p>
 	<p>Sitting at my grandmother's kitchen table one day, it clicked: menopause was never just a woman's experience. It reaches into a partner's life, a family's rhythm, a career, a sense of self — for everyone involved.</p>
