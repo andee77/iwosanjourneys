@@ -57,7 +57,7 @@ function iwosan_custom_footer() {
 		<div class="ij-custom-footer">
 			<div class="ij-footer-brand">
 				<div class="ij-footer-brand-name">Iwosan Journeys</div>
-				<div class="ij-footer-brand-tagline">A JourneyWell Global LLC brand.</div>
+				<div class="ij-footer-brand-tagline">A <a href="<?php echo esc_url( home_url( '/about-jwg/' ) ); ?>">JourneyWell Global LLC</a> brand.</div>
 			</div>
 			<div class="ij-footer-links">
 			<nav class="ij-footer-nav">

@@ -223,6 +223,13 @@ Text Domain: iwosan-journey-child
 	color: #D9CDBB;
 	margin-top: 4px;
 }
+.ij-footer-brand-tagline a {
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+.ij-footer-brand-tagline a:hover,
+.ij-footer-brand-tagline a:focus-visible { color: #C9A052; }
 .ij-footer-nav { display: flex; gap: 20px; flex-wrap: wrap; }
 .ij-footer-nav a {
 	font-family: 'Lato', sans-serif;
