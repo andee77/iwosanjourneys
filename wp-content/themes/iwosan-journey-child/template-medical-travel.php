@@ -124,7 +124,7 @@ get_header();
       <div class="iwj-mt-split-content">
         <h2>What is Medical Tourism?</h2>
         <p>Medical tourism is no longer a luxury reserved for a few; it is a vital pathway to health sovereignty. It means traveling outside of your local healthcare system to access high-quality, specialized care on your own timeline.</p>
-        <p>From routine preventative procedures to complex health issues, world-class, JCI-accredited facilities are ready to serve you. And you don't always have to cross an ocean&mdash;excellent options are as close as <strong>Mexico and Canada</strong>.</p>
+        <p>From routine preventative procedures to complex health issues, world-class facilities are ready to serve you. And you don't always have to cross an ocean&mdash;excellent options are as close as <strong>Mexico and Canada</strong>.</p>
 
         <div class="iwj-mt-services-grid">
           <div class="iwj-mt-service-card">

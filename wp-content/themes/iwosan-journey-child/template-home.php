@@ -263,7 +263,7 @@ img.ij-story-photo {
 				</div>
 				<div class="ij-pillar-card">
 					<h3>Experiences</h3>
-					<p>Vetted global medical travel through our JCI-accredited hospital network, plus live retreats, conferences, and gatherings.</p>
+					<p>Supported global medical travel, plus live retreats, conferences, and gatherings.</p>
 					<a href="/experiences/">Explore Experiences →</a>
 				</div>
 			</div>
@@ -272,8 +272,8 @@ img.ij-story-photo {
 
 	<section class="ij-credibility">
 		<div><strong>20+ years</strong><br>public health expertise</div>
-		<div><strong>JCI-accredited</strong><br>hospital network</div>
-		<div><strong>InteleTravel</strong><br>credentialed</div>
+		<div><strong>Built from</strong><br>lived experience</div>
+		<div><strong>Advocacy · Health · Experiences</strong></div>
 	</section>
 
 	<div class="ij-menopause">

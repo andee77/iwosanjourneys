@@ -28,13 +28,14 @@ get_header();
 	<p>When you experience chronic stress, anxiety, or burnout, your body is continuously flooded with cortisol and adrenaline. Over time, this "fight or flight" loop stops being a mindset and becomes a highly destructive physiological state. You cannot simply "think" your way out of a taxed nervous system.</p>
 
 	<h2 style="clear: both;">The Physical Signs of Chronic Burnout</h2>
-	<p>Mental exhaustion rarely stays in the mind. It manifests physically, often mimicking other illnesses.</p>
 
 	<div class="ij-mood-photo-small float-right">
 		<img src="https://iwosanjourney.com/wp-content/uploads/2026/05/man_sitting_against_wall_patterned_shirt-scaled-resized.jpg" alt="Man sitting against a wall, reflecting on burnout and mental exhaustion">
 	</div>
 
-	<ul>
+	<p>Mental exhaustion rarely stays in the mind. It manifests physically, often mimicking other illnesses.</p>
+
+	<ul style="clear: none;">
 		<li><strong>Sleep Disruption</strong> — an inability to fall asleep, or waking up at 3:00 AM with a racing heart and unable to settle back down.</li>
 		<li><strong>Digestive Distress</strong> — chronic stomach pain, acid reflux, or irritable bowel symptoms triggered by high cortisol levels.</li>
 		<li><strong>Systemic Inflammation</strong> — unexplained joint aches, muscle tension (especially in the jaw and neck), and a weakened immune system.</li>

@@ -278,7 +278,7 @@ get_header(); iwosan_back_button( 'top' );
       <p class="iwj-ajwg-lead">Intentional getaways designed for rest, recovery, and cultural immersion. We go wherever you need to go to heal.</p>
       <ul class="iwj-ajwg-feature-list">
         <li><strong>Curated Wellness Retreats:</strong>&nbsp;Intimate, culturally immersive getaways designed for profound rest and burnout recovery.</li>
-        <li><strong>Supported Medical Tourism:</strong>&nbsp;Trusted intermediary services offering logistics, hospitality, and advocacy at JCI-accredited facilities worldwide.</li>
+        <li><strong>Supported Medical Tourism:</strong>&nbsp;Trusted intermediary services offering logistics, hospitality, and advocacy at trusted facilities worldwide.</li>
         <li><strong>1-on-1 Coordination:</strong>&nbsp;Private medical travel planning for those ready to pursue care on their own timeline.</li>
         <li><strong>Holistic Recovery:</strong>&nbsp;We support your complete recovery journey, ensuring a seamless transition back home.</li>
       </ul>

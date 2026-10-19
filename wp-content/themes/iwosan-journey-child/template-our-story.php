@@ -45,7 +45,7 @@ get_header();
 	<ul>
 		<li><strong>Advocacy</strong> — <a href="/advocacy/">Patient Power Packs</a> that equip you to walk into any clinical space ready to be heard.</li>
 		<li><strong>Health</strong> — grounded, accessible <a href="/health/">education on men's health and mental wellness</a>, meeting people exactly where they are.</li>
-		<li><strong>Experiences</strong> — <a href="/experiences/">Global Sanctuaries</a>, our vetted network of JCI-accredited medical travel partners, plus live Mini-Conferences and Immersion Retreats.</li>
+		<li><strong>Experiences</strong> — <a href="/experiences/">Global Sanctuaries</a> for supported medical travel, plus live Mini-Conferences and Immersion Retreats.</li>
 	</ul>
 	<p><em>For dedicated menopause education and community, visit our sister platform, <a href="/menopause/">MenoWell</a>.</em></p>
 

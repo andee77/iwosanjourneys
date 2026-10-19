@@ -223,12 +223,36 @@ $cat_colors = array(
 	.hv-submit-btn { width: 100%; padding: 11px; font-size: 0.9rem; }
 	.hv-reset-link { text-align: center; margin-top: 10px; font-size: 0.78rem; }
 
+	/* Intro above the discussion cards: site section style, narrower for reading. */
+	.hv-intro { max-width: 820px; padding-bottom: 32px; }
+	.hv-intro h3 { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 1.05rem; color: #1C3A2A; margin: 28px 0 10px; }
+	.hv-intro .hv-intro-note { background: #F3E9DA; border-left: 3px solid #C9A052; border-radius: 6px; padding: 14px 18px; margin-top: 24px; }
+
 	@media (max-width: 720px) {
+		.hv-intro { padding: 36px 20px 24px; }
 		.hv-auth-grid { grid-template-columns: 1fr; }
 		.hv-auth-divider { display: none; }
 		.hv-mock-card { display: none; }
 	}
 </style>
+
+<div class="ij-section hv-intro">
+	<h2>What is Healing Voices?</h2>
+	<p>Healing Voices is our community space: a place to share your story, ask questions, and hear from people walking a similar health journey, whether that’s menopause, maternal health, men’s health, mental health or life after a diagnosis.</p>
+
+	<h3>Why talking with others helps</h3>
+	<ul>
+		<li><strong>You feel less alone.</strong> Hearing “me too” from someone who’s been there can ease the isolation that often comes with a health change.</li>
+		<li><strong>You learn what helped others:</strong> practical tips, questions to ask and what to expect, from people who have lived it.</li>
+		<li><strong>You find your words.</strong> Sharing your story can make it easier to describe what you’re feeling to your doctor and the people you love.</li>
+		<li><strong>You give back.</strong> Your experience may be exactly what someone else needs to hear today.</li>
+	</ul>
+
+	<h3>A safe, respectful space</h3>
+	<p>Be kind. Share your experience, not medical advice. Protect your privacy: use a first name or nickname, and don’t post personal details.</p>
+
+	<p class="hv-intro-note">Healing Voices is peer support, not medical care. Always talk with your healthcare provider about your health. If you’re in crisis, call or text <a href="tel:988">988</a> (U.S.), or call <a href="tel:911">911</a> in an emergency.</p>
+</div>
 
 <div class="hv-landing-wrap">
 
