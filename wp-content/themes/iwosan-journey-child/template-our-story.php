@@ -34,7 +34,7 @@ get_header();
 
 	<h2>From crisis to calling</h2>
 	<figure class="ij-inline-photo float-right size-small">
-		<img src="http://iwosanjourney.com/wp-content/uploads/2026/07/Co-Founder-LAH.png" alt="LaDon A. Headen Jr., Co-Founder of Iwosan Journeys">
+		<img src="https://iwosanjourney.com/wp-content/uploads/2026/07/Co-Founder-LAH.png" alt="LaDon A. Headen Jr., Co-Founder of Iwosan Journeys">
 		<figcaption>LaDon A. Headen Jr., Co-Founder</figcaption>
 	</figure>
 	<p>That shared struggle didn't just change our relationship. It became the foundation of a business partnership.</p>
